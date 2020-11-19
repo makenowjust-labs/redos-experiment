@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/79?type=npm",
+  "fetched": "2020-11-20 03:39:32",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:httpsync:20170101",
+      "affectsPackage": "httpsync",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:bionode-sra:20170101",
+      "affectsPackage": "bionode-sra",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:dalek-browser-ie-canary:20170101",
+      "affectsPackage": "dalek-browser-ie-canary",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:strider-sauce:20161130",
+      "affectsPackage": "strider-sauce",
+      "affectsVersion": "<=0.6.3",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:unicode-json:20170101",
+      "affectsPackage": "unicode-json",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:chromedriver126:20170101",
+      "affectsPackage": "chromedriver126",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:robot-js:20170101",
+      "affectsPackage": "robot-js",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:openframe-glslviewer:20170101",
+      "affectsPackage": "openframe-glslviewer",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:grunt-webdriver-qunit:20170101",
+      "affectsPackage": "grunt-webdriver-qunit",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:dalek-browser-ie:20170101",
+      "affectsPackage": "dalek-browser-ie",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:dalek-browser-chrome:20170101",
+      "affectsPackage": "dalek-browser-chrome",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:air-sdk:20170101",
+      "affectsPackage": "air-sdk",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:haxe-dev:20170101",
+      "affectsPackage": "haxe-dev",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:haxe:20170101",
+      "affectsPackage": "haxe",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:webdrvr:20170101",
+      "affectsPackage": "webdrvr",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:webrtc-native:20170101",
+      "affectsPackage": "webrtc-native",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:sauce-connect:20170101",
+      "affectsPackage": "sauce-connect",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:arrayfire-js:20170101",
+      "affectsPackage": "arrayfire-js",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:cobalt-cli:20170101",
+      "affectsPackage": "cobalt-cli",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:imageoptim:20170101",
+      "affectsPackage": "imageoptim",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:jdf-sass:20170101",
+      "affectsPackage": "jdf-sass",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:fuseki:20161113",
+      "affectsPackage": "fuseki",
+      "affectsVersion": "<1.0.1",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:mongodb-instance:20161102",
+      "affectsPackage": "mongodb-instance",
+      "affectsVersion": "<0.0.3",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:geoip-lite-country:20161116",
+      "affectsPackage": "geoip-lite-country",
+      "affectsVersion": "<1.1.4",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:install-nw:20161104",
+      "affectsPackage": "install-nw",
+      "affectsVersion": "<1.1.5",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:iedriver:20161111",
+      "affectsPackage": "iedriver",
+      "affectsVersion": "<3.0.0",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:jquery:20160529",
+      "affectsPackage": "jquery",
+      "affectsVersion": ">=3.0.0-rc1 <3.0.0",
+      "published": "26 Dec, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery-ui:20121127",
+      "affectsPackage": "jquery-ui",
+      "affectsVersion": "<1.10.0",
+      "published": "26 Dec, 2016"
+    },
+    {
+      "vulnerability": "Timing Attack",
+      "link": "https://snyk.io/vuln/npm:node-forge:20150626",
+      "affectsPackage": "node-forge",
+      "affectsVersion": "<0.6.33",
+      "published": "26 Dec, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery-mobile:20120802",
+      "affectsPackage": "jquery-mobile",
+      "affectsVersion": "<1.2.0",
+      "published": "26 Dec, 2016"
+    }
+  ]
+}

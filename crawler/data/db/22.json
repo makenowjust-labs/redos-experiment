@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/22?type=npm",
+  "fetched": "2020-11-20 03:10:03",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TRIX-536207",
+      "affectsPackage": "trix",
+      "affectsVersion": "<1.2.2",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-RENOVATE-536203",
+      "affectsPackage": "renovate",
+      "affectsVersion": ">=13.87.0 <19.38.7",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-WEB3EHT-536127",
+      "affectsPackage": "web3-eht",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-WE3B-536128",
+      "affectsPackage": "we3b",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-WBE3-536129",
+      "affectsPackage": "wbe3",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-WALLETADDRESSVALIDTAOR-536130",
+      "affectsPackage": "wallet-address-validtaor",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-WALLETADDRESSVAILDATOR-536131",
+      "affectsPackage": "wallet-address-vaildator",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SINGALE-536132",
+      "affectsPackage": "singale",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIGNQLE-536133",
+      "affectsPackage": "signqle",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIGANLE-536134",
+      "affectsPackage": "siganle",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCRYTSY-536135",
+      "affectsPackage": "scrytsy",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCRYPTYS-536136",
+      "affectsPackage": "scryptys",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SB58-536137",
+      "affectsPackage": "sb58",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RIPMED160-536138",
+      "affectsPackage": "ripmed160",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RIPEDM160-536139",
+      "affectsPackage": "ripedm160",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RIPED160-536140",
+      "affectsPackage": "riped160",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RCEAT-536141",
+      "affectsPackage": "rceat",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-PATHTOREGXEP-536142",
+      "affectsPackage": "path-to-regxep",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODAHS-536126",
+      "affectsPackage": "lodahs",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-HWTRNASPORTU2F-536143",
+      "affectsPackage": "hw-trnasport-u2f",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-HDKYE-536144",
+      "affectsPackage": "hdkye",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-HDEKY-536145",
+      "affectsPackage": "hdeky",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-FSEXTAR-536146",
+      "affectsPackage": "fs-extar",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ECUVRE-536147",
+      "affectsPackage": "ecuvre",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ECRUVE-536148",
+      "affectsPackage": "ecruve",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DHKEY-536149",
+      "affectsPackage": "dhkey",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEGBU-536150",
+      "affectsPackage": "degbu",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CXT-536151",
+      "affectsPackage": "cxt",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CRYTPOJS-536152",
+      "affectsPackage": "crytpo-js",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CRPYTOJS-536153",
+      "affectsPackage": "crpyto-js",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    }
+  ]
+}

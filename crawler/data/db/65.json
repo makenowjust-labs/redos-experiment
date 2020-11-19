@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/65?type=npm",
+  "fetched": "2020-11-20 03:32:23",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:ffmepg:20170802",
+      "affectsPackage": "ffmepg",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:fabric-js:20170802",
+      "affectsPackage": "fabric-js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:d3.js:20170802",
+      "affectsPackage": "d3.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:cxy:20170730",
+      "affectsPackage": "cxy",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:crossenv:20170802",
+      "affectsPackage": "crossenv",
+      "affectsVersion": "<= 1.0.1",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:cross-env.js:20170802",
+      "affectsPackage": "cross-env.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:babelcli:20170802",
+      "affectsPackage": "babelcli",
+      "affectsVersion": "<= 1.0.0",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:openwhisk:20170302",
+      "affectsPackage": "openwhisk",
+      "affectsVersion": "<3.3.1",
+      "published": "18 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:yjmyjmyjm:20170617",
+      "affectsPackage": "yjmyjmyjm",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:welcomyzt:20170617",
+      "affectsPackage": "welcomyzt",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:susu-sum:20170617",
+      "affectsPackage": "susu-sum",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:simple-npm-registry:20170612",
+      "affectsPackage": "simple-npm-registry",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:shenliru:20170612",
+      "affectsPackage": "shenliru",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serverxxx:20170612",
+      "affectsPackage": "serverxxx",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serve46:20170612",
+      "affectsPackage": "serve46",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:section2.madisonjbrooks12:20170617",
+      "affectsPackage": "section2.madisonjbrooks12",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lab6drewfusbyu:20170612",
+      "affectsPackage": "lab6drewfusbyu",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:http_static_simple:20170612",
+      "affectsPackage": "http_static_simple",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:goserv:20170612",
+      "affectsPackage": "goserv",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:dcdcdcdcdc:20170617",
+      "affectsPackage": "dcdcdcdcdc",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:cypserver:20170617",
+      "affectsPackage": "cypserver",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:commentapp.stetsonwood:20170617",
+      "affectsPackage": "commentapp.stetsonwood",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:chatbyvista:20170612",
+      "affectsPackage": "chatbyvista",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:caolilinode:20170617",
+      "affectsPackage": "caolilinode",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:360class.jansenhm:20170617",
+      "affectsPackage": "360class.jansenhm",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:gfe-sass:20170706",
+      "affectsPackage": "gfe-sass",
+      "affectsVersion": "*",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:ikst:20170706",
+      "affectsPackage": "ikst",
+      "affectsVersion": "<1.1.2",
+      "published": "11 Jul, 2017"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:tunnel-agent:20170305",
+      "affectsPackage": "tunnel-agent",
+      "affectsVersion": "<0.6.0",
+      "published": "05 Jul, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:koa-static-cache:20170613",
+      "affectsPackage": "koa-static-cache",
+      "affectsVersion": "<4.1.1,>=5.0.0 <5.1.1",
+      "published": "28 Jun, 2017"
+    },
+    {
+      "vulnerability": "Insecure Hashing Algorithm",
+      "link": "https://snyk.io/vuln/npm:contwidgetor:20170303",
+      "affectsPackage": "contwidgetor",
+      "affectsVersion": "*",
+      "published": "28 Jun, 2017"
+    }
+  ]
+}

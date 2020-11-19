@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/59?type=npm",
+  "fetched": "2020-11-20 03:29:12",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:lodash:20180130",
+      "affectsPackage": "lodash",
+      "affectsVersion": "<4.17.5",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:hoek:20180212",
+      "affectsPackage": "hoek",
+      "affectsVersion": "<4.2.1,>=5.0.0 <5.0.3",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:dijit:20180205",
+      "affectsPackage": "dijit",
+      "affectsVersion": "*",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAILSHQLODASH-460130",
+      "affectsPackage": "@sailshq/lodash",
+      "affectsVersion": "<3.10.4",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Insecure Credential Comparison",
+      "link": "https://snyk.io/vuln/npm:safe-compare:20180210",
+      "affectsPackage": "safe-compare",
+      "affectsVersion": "<1.1.1",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:html-janitor:20180123-1",
+      "affectsPackage": "html-janitor",
+      "affectsVersion": "*",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:cordova-android:20170127",
+      "affectsPackage": "cordova-android",
+      "affectsVersion": "<6.1.2",
+      "published": "12 Feb, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:html-janitor:20180123",
+      "affectsPackage": "html-janitor",
+      "affectsVersion": "<2.0.4",
+      "published": "11 Feb, 2018"
+    },
+    {
+      "vulnerability": "URL Spoofing",
+      "link": "https://snyk.io/vuln/npm:electron:20180102",
+      "affectsPackage": "electron",
+      "affectsVersion": "<1.7.6",
+      "published": "06 Feb, 2018"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:keycloak-auth-utils:20170425",
+      "affectsPackage": "keycloak-auth-utils",
+      "affectsVersion": ">=2.5.0 <3.1.0",
+      "published": "31 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:next:20180124",
+      "affectsPackage": "next",
+      "affectsVersion": "<4.2.3",
+      "published": "31 Jan, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:mathjs:20170402",
+      "affectsPackage": "mathjs",
+      "affectsVersion": "<3.11.5",
+      "published": "28 Jan, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:mathjs:20170331",
+      "affectsPackage": "mathjs",
+      "affectsVersion": "<3.10.3",
+      "published": "28 Jan, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:mathjs:20170527",
+      "affectsPackage": "mathjs",
+      "affectsVersion": "<3.13.3",
+      "published": "28 Jan, 2018"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:fastify:20180107",
+      "affectsPackage": "fastify",
+      "affectsVersion": "<0.38.0",
+      "published": "25 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:redis-commander:20180109",
+      "affectsPackage": "redis-commander",
+      "affectsVersion": "<0.5.0",
+      "published": "25 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:augustine:20180123",
+      "affectsPackage": "augustine",
+      "affectsVersion": "*",
+      "published": "25 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lactate:20180123",
+      "affectsPackage": "lactate",
+      "affectsVersion": "*",
+      "published": "25 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:electron:20180123",
+      "affectsPackage": "electron",
+      "affectsVersion": "<1.6.16,>=1.7 <1.7.11,>=1.8 <1.8.2-beta.4",
+      "published": "25 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serve:20180123",
+      "affectsPackage": "serve",
+      "affectsVersion": "<6.4.9",
+      "published": "25 Jan, 2018"
+    },
+    {
+      "vulnerability": "Shell Command Injection",
+      "link": "https://snyk.io/vuln/npm:traceroute:20160311",
+      "affectsPackage": "traceroute",
+      "affectsVersion": "<=1.0.0",
+      "published": "23 Jan, 2018"
+    },
+    {
+      "vulnerability": "XML External Entity (XXE) Injection",
+      "link": "https://snyk.io/vuln/npm:samlify:20171002",
+      "affectsPackage": "samlify",
+      "affectsVersion": "<2.3.0",
+      "published": "22 Jan, 2018"
+    },
+    {
+      "vulnerability": "XML External Entity (XXE) Injection",
+      "link": "https://snyk.io/vuln/npm:express-saml2:20171002",
+      "affectsPackage": "express-saml2",
+      "affectsVersion": "*",
+      "published": "22 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:shiba:20171125",
+      "affectsPackage": "shiba",
+      "affectsVersion": "<1.1.1",
+      "published": "22 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20171206",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.6.5,>=6 <6.0.1",
+      "published": "22 Jan, 2018"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/npm:kibana:20171206-1",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.6.5,>=6 <6.0.1",
+      "published": "22 Jan, 2018"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/npm:kibana:20170616",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.3.1",
+      "published": "22 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSASS-598787",
+      "affectsPackage": "bootstrap-sass",
+      "affectsVersion": "<3.4.0",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:bootstrap:20160627",
+      "affectsPackage": "bootstrap",
+      "affectsVersion": "<3.4.0,>=4.0.0-alpha <4.0.0-beta.2",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:featurebook:20180115",
+      "affectsPackage": "featurebook",
+      "affectsVersion": "*",
+      "published": "19 Jan, 2018"
+    }
+  ]
+}

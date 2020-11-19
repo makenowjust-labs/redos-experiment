@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/26?type=npm",
+  "fetched": "2020-11-20 03:12:05",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-THRIFT-474613",
+      "affectsPackage": "thrift",
+      "affectsVersion": "<0.13.0",
+      "published": "29 Oct, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-VUETIFY-474604",
+      "affectsPackage": "vuetify",
+      "affectsVersion": "<2.1.9",
+      "published": "29 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ZSSHA3-474417",
+      "affectsPackage": "zs-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RUFFERXOR-474516",
+      "affectsPackage": "ruffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NSSHA3-474491",
+      "affectsPackage": "ns-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-KSSHA3-474492",
+      "affectsPackage": "ks-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JWSHA3-474493",
+      "affectsPackage": "jw-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JUFFERXOR-474517",
+      "affectsPackage": "juffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSMSHA3-474494",
+      "affectsPackage": "jsmsha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSWHA3-474495",
+      "affectsPackage": "js-wha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSXA3-474496",
+      "affectsPackage": "js-sxa3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSLA3-474497",
+      "affectsPackage": "js-sla3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSJA3-474498",
+      "affectsPackage": "js-sja3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSIA3-474499",
+      "affectsPackage": "js-sia3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSHQ3-474500",
+      "affectsPackage": "js-shq3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSHI3-474501",
+      "affectsPackage": "js-shi3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSHE3-474502",
+      "affectsPackage": "js-she3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSHC3-474503",
+      "affectsPackage": "js-shc3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSHAS-474504",
+      "affectsPackage": "js-shas",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSSHA7-474505",
+      "affectsPackage": "js-sha7",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSRHA3-474506",
+      "affectsPackage": "js-rha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSQHA3-474507",
+      "affectsPackage": "js-qha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSCHA3-474508",
+      "affectsPackage": "js-cha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JS3HA3-474509",
+      "affectsPackage": "js-3ha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JRSHA3-474510",
+      "affectsPackage": "jr-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JQSHA3-474511",
+      "affectsPackage": "jq-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JCSHA3-474512",
+      "affectsPackage": "jc-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-J3SHA3-474513",
+      "affectsPackage": "j3-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-HSSHA3-474514",
+      "affectsPackage": "hs-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-FUFFERXOR-474518",
+      "affectsPackage": "fuffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/83?type=npm",
+  "fetched": "2020-11-20 03:41:36",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Insecure Defaults Allow MitM",
+      "link": "https://snyk.io/vuln/npm:ezseed-transmission:20160729",
+      "affectsPackage": "ezseed-transmission",
+      "affectsVersion": ">=0.0.10 <0.0.15",
+      "published": "29 Jul, 2016"
+    },
+    {
+      "vulnerability": "Forgeable Public/Private Tokens",
+      "link": "https://snyk.io/vuln/npm:jws:20160726",
+      "affectsPackage": "jws",
+      "affectsVersion": "<3.0.0",
+      "published": "26 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:fuelux:20160725",
+      "affectsPackage": "fuelux",
+      "affectsVersion": "<3.15.7",
+      "published": "25 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jqtree:20160725",
+      "affectsPackage": "jqtree",
+      "affectsVersion": "<1.3.4",
+      "published": "25 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:swagger-ui:20160725",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<2.2.1",
+      "published": "25 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:emojione:20160725",
+      "affectsPackage": "emojione",
+      "affectsVersion": "<1.3.1",
+      "published": "25 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:rendr:20160725",
+      "affectsPackage": "rendr",
+      "affectsVersion": "<1.1.4",
+      "published": "25 Jul, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:tough-cookie:20160722",
+      "affectsPackage": "tough-cookie",
+      "affectsVersion": ">=0.9.7 <2.3.0",
+      "published": "22 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery-ui:20160721",
+      "affectsPackage": "jquery-ui",
+      "affectsVersion": "<1.12.0",
+      "published": "21 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:swagger-ui:20160721",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<2.2.1",
+      "published": "21 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:gmail-js:20160721",
+      "affectsPackage": "gmail-js",
+      "affectsVersion": "<0.6.5",
+      "published": "21 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:bootstrap-tagsinput:20160720",
+      "affectsPackage": "bootstrap-tagsinput",
+      "affectsVersion": "*",
+      "published": "20 Jul, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:swagger-ui:20160720",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<2.2.1",
+      "published": "20 Jul, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sequelize:20160718",
+      "affectsPackage": "sequelize",
+      "affectsVersion": ">=3.4.0 <3.23.6",
+      "published": "18 Jul, 2016"
+    },
+    {
+      "vulnerability": "Improper input validation",
+      "link": "https://snyk.io/vuln/npm:call:20160705",
+      "affectsPackage": "call",
+      "affectsVersion": ">=2.0.1 <3.0.2",
+      "published": "05 Jul, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ws:20160624",
+      "affectsPackage": "ws",
+      "affectsVersion": "<1.1.1",
+      "published": "26 Jun, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:backbone:20160523",
+      "affectsPackage": "backbone",
+      "affectsVersion": "<0.1.2",
+      "published": "22 Jun, 2016"
+    },
+    {
+      "vulnerability": "Private Data Disclosure",
+      "link": "https://snyk.io/vuln/npm:express-restify-mongoose:20160419",
+      "affectsPackage": "express-restify-mongoose",
+      "affectsVersion": "< 2.5.0,>= 3.0.0 <3.1.0",
+      "published": "22 Jun, 2016"
+    },
+    {
+      "vulnerability": "Non-Constant Time String Comparison",
+      "link": "https://snyk.io/vuln/npm:csrf-lite:20160423",
+      "affectsPackage": "csrf-lite",
+      "affectsVersion": "<=0.1.1",
+      "published": "22 Jun, 2016"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/npm:shell-quote:20160621",
+      "affectsPackage": "shell-quote",
+      "affectsVersion": "<1.6.1",
+      "published": "21 Jun, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MINIMATCH-1019388",
+      "affectsPackage": "minimatch",
+      "affectsVersion": "<3.0.2",
+      "published": "20 Jun, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:minimatch:20160620",
+      "affectsPackage": "minimatch",
+      "affectsVersion": "<3.0.2",
+      "published": "20 Jun, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:negotiator:20160616",
+      "affectsPackage": "negotiator",
+      "affectsVersion": "<0.6.1",
+      "published": "16 Jun, 2016"
+    },
+    {
+      "vulnerability": "Insecure Defaults",
+      "link": "https://snyk.io/vuln/npm:engine.io-client:20160426",
+      "affectsPackage": "engine.io-client",
+      "affectsVersion": "<1.6.9",
+      "published": "31 May, 2016"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:console-io:20160418",
+      "affectsPackage": "console-io",
+      "affectsVersion": "<2.3.0",
+      "published": "17 May, 2016"
+    },
+    {
+      "vulnerability": "SSL Validation disabled by default",
+      "link": "https://snyk.io/vuln/npm:electron-packager:20160422",
+      "affectsPackage": "electron-packager",
+      "affectsVersion": ">= 5.2.1 <= 6.0.2",
+      "published": "17 May, 2016"
+    },
+    {
+      "vulnerability": "npm Token Leak",
+      "link": "https://snyk.io/vuln/npm:npm:20160418",
+      "affectsPackage": "npm",
+      "affectsVersion": "<2.15.1,>=3.0.0 <3.8.4",
+      "published": "20 Apr, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:marked:20150520",
+      "affectsPackage": "marked",
+      "affectsVersion": ">=0.3.1 <0.3.6",
+      "published": "20 Apr, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sequelize:20130614",
+      "affectsPackage": "sequelize",
+      "affectsVersion": ">=0.2.2 <1.7.0-alpha3",
+      "published": "01 Apr, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sequelize:20150517",
+      "affectsPackage": "sequelize",
+      "affectsVersion": "<2.1.4",
+      "published": "01 Apr, 2016"
+    }
+  ]
+}

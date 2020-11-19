@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/45?type=npm",
+  "fetched": "2020-11-20 03:21:54",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RRGOD-73507",
+      "affectsPackage": "rrgod",
+      "affectsVersion": "*",
+      "published": "15 Jan, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-TEXTQRCODE-73501",
+      "affectsPackage": "text-qrcode",
+      "affectsVersion": "*",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-RAILSSESSIONDECODER-73497",
+      "affectsPackage": "rails-session-decoder",
+      "affectsVersion": "*",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWNITTOCANDANCHOR-73500",
+      "affectsPackage": "markdown-it-toc-and-anchor",
+      "affectsVersion": "<4.2.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JINGO-73499",
+      "affectsPackage": "jingo",
+      "affectsVersion": "<1.9.2",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cryptographic Backdoor",
+      "link": "https://snyk.io/vuln/SNYK-JS-GENERATEPASSWORD-73498",
+      "affectsPackage": "generate-password",
+      "affectsVersion": "<1.4.1",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-CORDOVAPLUGINIONICWEBVIEW-72900",
+      "affectsPackage": "cordova-plugin-ionic-webview",
+      "affectsVersion": "<2.2.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-AUTOLINKER-73494",
+      "affectsPackage": "autolinker",
+      "affectsVersion": "<3.0.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Remote Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-XTERM-73496",
+      "affectsPackage": "xterm",
+      "affectsVersion": ">=3.8.0 <3.8.1,>=3.9.0 <3.9.2,>=3.10.0 <3.10.1",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSASS-598777",
+      "affectsPackage": "bootstrap-sass",
+      "affectsVersion": "<3.4.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSASS-598782",
+      "affectsPackage": "bootstrap-sass",
+      "affectsVersion": "<3.4.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAP-72889",
+      "affectsPackage": "bootstrap",
+      "affectsVersion": "<3.4.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAP-72890",
+      "affectsPackage": "bootstrap",
+      "affectsVersion": "<3.4.0",
+      "published": "10 Jan, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COMMANDERJS-73506",
+      "affectsPackage": "commander-js",
+      "affectsVersion": "*",
+      "published": "09 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-QUNIT-72879",
+      "affectsPackage": "qunit",
+      "affectsVersion": "<2.9.0",
+      "published": "03 Jan, 2019"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ESM-72880",
+      "affectsPackage": "esm",
+      "affectsVersion": "<3.1.0",
+      "published": "03 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-IDSENTERPRISE-73628",
+      "affectsPackage": "ids-enterprise",
+      "affectsVersion": "<4.15.0",
+      "published": "03 Jan, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTDEVUTILS-72875",
+      "affectsPackage": "react-dev-utils",
+      "affectsVersion": ">=1.0.0 <1.0.4,>=2.0.0 <2.0.2,>=3.0.0 <3.1.2,>=4.0.0 <4.2.2,>=5.0.0 <5.0.2",
+      "published": "02 Jan, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NUCLIDE-72876",
+      "affectsPackage": "nuclide",
+      "affectsVersion": "<0.290.0",
+      "published": "02 Jan, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUEFY-72871",
+      "affectsPackage": "buefy",
+      "affectsVersion": "<0.7.2",
+      "published": "31 Dec, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-UAPCORE-72743",
+      "affectsPackage": "uap-core",
+      "affectsVersion": "<0.6.0",
+      "published": "30 Dec, 2018"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-POMELOMONITOR-173695",
+      "affectsPackage": "pomelo-monitor",
+      "affectsVersion": "*",
+      "published": "28 Dec, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-RENDERTRONMIDDLEWARE-72700",
+      "affectsPackage": "rendertron-middleware",
+      "affectsVersion": "<0.1.3",
+      "published": "18 Dec, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-RENDERTRONMIDDLEWARE-72701",
+      "affectsPackage": "rendertron-middleware",
+      "affectsVersion": "<0.1.3",
+      "published": "18 Dec, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-RENDERTRONMIDDLEWARE-72698",
+      "affectsPackage": "rendertron-middleware",
+      "affectsVersion": "<0.1.3",
+      "published": "18 Dec, 2018"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-RENDERTRONMIDDLEWARE-72699",
+      "affectsPackage": "rendertron-middleware",
+      "affectsVersion": "<0.1.3",
+      "published": "18 Dec, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-MPATH-72672",
+      "affectsPackage": "mpath",
+      "affectsVersion": ">=0.3.0 <0.5.1",
+      "published": "12 Dec, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-MERGIFY-72673",
+      "affectsPackage": "mergify",
+      "affectsVersion": "*",
+      "published": "12 Dec, 2018"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JUSTEXTEND-72674",
+      "affectsPackage": "just-extend",
+      "affectsVersion": "<4.0.0",
+      "published": "12 Dec, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEHTTPSERVER-72649",
+      "affectsPackage": "simplehttpserver",
+      "affectsVersion": "*",
+      "published": "29 Nov, 2018"
+    }
+  ]
+}

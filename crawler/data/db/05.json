@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/5?type=npm",
+  "fetched": "2020-11-20 03:01:03",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONLOGICJS-674308",
+      "affectsPackage": "json-logic-js",
+      "affectsVersion": "<2.0.0",
+      "published": "11 Sep, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BCOIN-674318",
+      "affectsPackage": "bcoin",
+      "affectsVersion": ">=1.0.0-pre <1.0.2",
+      "published": "11 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ZULIP-674319",
+      "affectsPackage": "zulip",
+      "affectsVersion": "<5.4.3",
+      "published": "11 Sep, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-PERSONNUMMER-674153",
+      "affectsPackage": "personnummer",
+      "affectsVersion": "<3.1.0",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HERMESENGINE-629268",
+      "affectsPackage": "hermes-engine",
+      "affectsVersion": "<0.7.0",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Out-of-Bounds",
+      "link": "https://snyk.io/vuln/SNYK-JS-HERMESENGINE-629748",
+      "affectsPackage": "hermes-engine",
+      "affectsVersion": "<0.7.0",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HERMESENGINE-629766",
+      "affectsPackage": "hermes-engine",
+      "affectsVersion": "<0.7.0",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODELEMONLDAPNGHANDLER-655999",
+      "affectsPackage": "node-lemonldap-ng-handler",
+      "affectsVersion": "<0.5.2",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCORENODE-589925",
+      "affectsPackage": "bitcore-node",
+      "affectsVersion": "<8.22.2",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Improper Authorization",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSESERVER-590116",
+      "affectsPackage": "parse-server",
+      "affectsVersion": "*",
+      "published": "10 Sep, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SANITIZEHTML-585892",
+      "affectsPackage": "sanitize-html",
+      "affectsVersion": "<2.0.0-beta",
+      "published": "07 Sep, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-UPPYCOMPANION-609858",
+      "affectsPackage": "@uppy/companion",
+      "affectsVersion": "<1.9.3",
+      "published": "06 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXTENDMERGE-609868",
+      "affectsPackage": "extend-merge",
+      "affectsVersion": "<1.0.6",
+      "published": "06 Sep, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-STATICSERVERGX-609517",
+      "affectsPackage": "static-server-gx",
+      "affectsVersion": "*",
+      "published": "03 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITBOOK-609389",
+      "affectsPackage": "gitbook",
+      "affectsVersion": "<3.2.2",
+      "published": "02 Sep, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-BESTZIP-609371",
+      "affectsPackage": "bestzip",
+      "affectsVersion": "<2.1.7",
+      "published": "02 Sep, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-INFRASERVER-595968",
+      "affectsPackage": "infraserver",
+      "affectsVersion": "*",
+      "published": "02 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAFEOBJECT2-598801",
+      "affectsPackage": "safe-object2",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GEDI-598803",
+      "affectsPackage": "gedi",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-WORKSMITH-598798",
+      "affectsPackage": "worksmith",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-TINYCONF-598792",
+      "affectsPackage": "tiny-conf",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-PROMISEHELPERS-598686",
+      "affectsPackage": "promisehelpers",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEEUTILS-598679",
+      "affectsPackage": "nodee-utils",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEOOJS-598678",
+      "affectsPackage": "node-oojs",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOTNOTES-598668",
+      "affectsPackage": "dot-notes",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEEPS-598667",
+      "affectsPackage": "deeps",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEEPGETSET-598666",
+      "affectsPackage": "deep-get-set",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-CONFUCIOUS-598665",
+      "affectsPackage": "confucious",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEFORGE-598677",
+      "affectsPackage": "node-forge",
+      "affectsVersion": "<0.10.0",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOCUTUS-598675",
+      "affectsPackage": "locutus",
+      "affectsVersion": "<2.0.12",
+      "published": "01 Sep, 2020"
+    }
+  ]
+}

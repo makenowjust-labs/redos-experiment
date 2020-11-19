@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/25?type=npm",
+  "fetched": "2020-11-20 03:11:35",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-IOBROKERJSCONTROLLER-534881",
+      "affectsPackage": "iobroker.js-controller",
+      "affectsVersion": "<2.0.25",
+      "published": "21 Nov, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-534988",
+      "affectsPackage": "handlebars",
+      "affectsVersion": ">=4.0.0 <4.5.3,<3.0.8",
+      "published": "20 Nov, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-IOBROKERADMIN-534634",
+      "affectsPackage": "iobroker.admin",
+      "affectsVersion": "<3.6.12",
+      "published": "19 Nov, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANGULAR-534884",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.4.0-beta.6 <1.7.9",
+      "published": "19 Nov, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-IOBROKERWEB-534971",
+      "affectsPackage": "iobroker.web",
+      "affectsVersion": "<2.4.10",
+      "published": "19 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MALICIOUSNPMPACKAGE-534578",
+      "affectsPackage": "malicious-npm-package",
+      "affectsVersion": "*",
+      "published": "17 Nov, 2019"
+    },
+    {
+      "vulnerability": "Inadequate Encryption Strength",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLPJS-534575",
+      "affectsPackage": "slpjs",
+      "affectsVersion": "<0.21.4",
+      "published": "16 Nov, 2019"
+    },
+    {
+      "vulnerability": "Inadequate Encryption Strength",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLPVALIDATE-534572",
+      "affectsPackage": "slp-validate",
+      "affectsVersion": "<1.0.1",
+      "published": "16 Nov, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-534478",
+      "affectsPackage": "handlebars",
+      "affectsVersion": ">=4.0.0 <4.5.3,<3.0.8",
+      "published": "15 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SUPERHAPPYFUNTIME-514530",
+      "affectsPackage": "superhappyfuntime",
+      "affectsVersion": "*",
+      "published": "14 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SJLABC-514529",
+      "affectsPackage": "sj-labc",
+      "affectsVersion": "*",
+      "published": "14 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ARSENICTABASCOCYBORGPEANUTBUTTER-514531",
+      "affectsPackage": "arsenic-tabasco-cyborg-peanut-butter",
+      "affectsVersion": "*",
+      "published": "14 Nov, 2019"
+    },
+    {
+      "vulnerability": "Improper Access Control",
+      "link": "https://snyk.io/vuln/SNYK-JS-POMELO-515804",
+      "affectsPackage": "pomelo",
+      "affectsVersion": "<2.2.7",
+      "published": "14 Nov, 2019"
+    },
+    {
+      "vulnerability": "Timing Attack",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELLIPTIC-511941",
+      "affectsPackage": "elliptic",
+      "affectsVersion": "<6.5.2",
+      "published": "13 Nov, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PHPUNSERIALIZE-483165",
+      "affectsPackage": "php-unserialize",
+      "affectsVersion": "*",
+      "published": "13 Nov, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-483056",
+      "affectsPackage": "electron",
+      "affectsVersion": "<5.0.0-beta.1",
+      "published": "11 Nov, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-483050",
+      "affectsPackage": "electron",
+      "affectsVersion": "<2.0.17,>=3.0.0 <3.0.15,>=3.1.0 <3.1.3,>=4.0.0 <4.0.4,>=5.0.0-beta.1 <5.0.0-beta.2",
+      "published": "11 Nov, 2019"
+    },
+    {
+      "vulnerability": "Improper Access Control",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPI-480418",
+      "affectsPackage": "strapi",
+      "affectsVersion": "<3.0.0-beta.17.5",
+      "published": "10 Nov, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-CHARTKICK-480562",
+      "affectsPackage": "chartkick",
+      "affectsVersion": ">=3.1.0 <3.2.0",
+      "published": "10 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SJTWTESTSECURITY-480452",
+      "affectsPackage": "sj-tw-test-security",
+      "affectsVersion": "*",
+      "published": "07 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SJTWSEC-480451",
+      "affectsPackage": "sj-tw-sec",
+      "affectsVersion": "*",
+      "published": "07 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SJTWABC-480457",
+      "affectsPackage": "sj-tw-abc",
+      "affectsVersion": "*",
+      "published": "07 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-OWLORCHARDAPPLESUNSHINE-480442",
+      "affectsPackage": "owl-orchard-apple-sunshine",
+      "affectsVersion": "*",
+      "published": "07 Nov, 2019"
+    },
+    {
+      "vulnerability": "Machine-In-The-Middle",
+      "link": "https://snyk.io/vuln/SNYK-JS-AIRTABLE-480404",
+      "affectsPackage": "airtable",
+      "affectsVersion": ">=0.1.19 <0.7.2",
+      "published": "06 Nov, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARSDB-480405",
+      "affectsPackage": "marsdb",
+      "affectsVersion": "*",
+      "published": "06 Nov, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-FSERV-480393",
+      "affectsPackage": "f-serv",
+      "affectsVersion": "*",
+      "published": "06 Nov, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-480388",
+      "affectsPackage": "handlebars",
+      "affectsVersion": ">=4.0.0 <4.4.5",
+      "published": "05 Nov, 2019"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAML2JS-474637",
+      "affectsPackage": "saml2-js",
+      "affectsVersion": "<2.0.5",
+      "published": "01 Nov, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-IDSENTERPRISE-474628",
+      "affectsPackage": "ids-enterprise",
+      "affectsVersion": "<4.23.0-dev.20191105",
+      "published": "31 Oct, 2019"
+    },
+    {
+      "vulnerability": "Improper Access Control",
+      "link": "https://snyk.io/vuln/SNYK-JS-CEZERIN-474608",
+      "affectsPackage": "cezerin",
+      "affectsVersion": "*",
+      "published": "29 Oct, 2019"
+    }
+  ]
+}

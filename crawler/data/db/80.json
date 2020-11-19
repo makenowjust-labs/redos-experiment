@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/80?type=npm",
+  "fetched": "2020-11-20 03:40:04",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery-migrate:20130419",
+      "affectsPackage": "jquery-migrate",
+      "affectsVersion": "<1.2.1",
+      "published": "26 Dec, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:clusterize.js:20150429",
+      "affectsPackage": "clusterize.js",
+      "affectsVersion": "<0.3.1",
+      "published": "26 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:prince:20161201",
+      "affectsPackage": "prince",
+      "affectsVersion": "<1.4.5",
+      "published": "25 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:jser-stat:20161201",
+      "affectsPackage": "jser-stat",
+      "affectsVersion": "*",
+      "published": "25 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:ipip:20161130",
+      "affectsPackage": "ipip",
+      "affectsVersion": "*",
+      "published": "25 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:ibapi:20161130",
+      "affectsPackage": "ibapi",
+      "affectsVersion": "<2.5.6",
+      "published": "25 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:cue-sdk-node:20161201",
+      "affectsPackage": "cue-sdk-node",
+      "affectsVersion": "*",
+      "published": "25 Dec, 2016"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hostr:20161211",
+      "affectsPackage": "hostr",
+      "affectsVersion": "<2.3.6",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:apk-parser:20161219",
+      "affectsPackage": "apk-parser",
+      "affectsVersion": "<0.1.6",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:knex:20150413",
+      "affectsPackage": "knex",
+      "affectsVersion": "<0.6.23,>=0.7.0 <0.7.6",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:podium:20160913",
+      "affectsPackage": "podium",
+      "affectsVersion": "<1.2.5 >=1.2.2",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:steroids:20161219",
+      "affectsPackage": "steroids",
+      "affectsVersion": "*",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:wasdk:20161219",
+      "affectsPackage": "wasdk",
+      "affectsVersion": "<1.0.42",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:unicode:20161219",
+      "affectsPackage": "unicode",
+      "affectsVersion": "<9.0.0",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:selenium-binaries:20161219",
+      "affectsPackage": "selenium-binaries",
+      "affectsVersion": "*",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:product-monitor:20161104",
+      "affectsPackage": "product-monitor",
+      "affectsVersion": "<2.2.5",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:pngcrush-installer:20161104",
+      "affectsPackage": "pngcrush-installer",
+      "affectsVersion": "<1.8.10",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:nw:20161219",
+      "affectsPackage": "nw",
+      "affectsVersion": "<0.23.7",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:nodewebkit:20161219",
+      "affectsPackage": "nodewebkit",
+      "affectsVersion": "*",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:macaca-chromedriver:20161102",
+      "affectsPackage": "macaca-chromedriver",
+      "affectsVersion": "<1.0.27",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:libxl:20161219",
+      "affectsPackage": "libxl",
+      "affectsVersion": "<0.2.21,>=0.3.1 <0.3.4,>=0.4.0 <0.4.4",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:kindlegen:20161103",
+      "affectsPackage": "kindlegen",
+      "affectsVersion": "<1.1.0",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:ibm_db:20161219",
+      "affectsPackage": "ibm_db",
+      "affectsVersion": "<1.0.2",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:embedza:20161102",
+      "affectsPackage": "embedza",
+      "affectsVersion": "<1.2.4",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:dalek-browser-chrome-canary:20161219",
+      "affectsPackage": "dalek-browser-chrome-canary",
+      "affectsVersion": "*",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:closurecompiler:20160831",
+      "affectsPackage": "closurecompiler",
+      "affectsVersion": "<1.6.1",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:closure-util:20161219",
+      "affectsPackage": "closure-util",
+      "affectsVersion": "<1.19.0",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:chromedriver:20161208",
+      "affectsPackage": "chromedriver",
+      "affectsVersion": "<2.25.2",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:bkjs-wand:20161101",
+      "affectsPackage": "bkjs-wand",
+      "affectsVersion": "<0.3.2",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:baryton-saxophone:20161104",
+      "affectsPackage": "baryton-saxophone",
+      "affectsVersion": "<3.0.1",
+      "published": "20 Dec, 2016"
+    }
+  ]
+}

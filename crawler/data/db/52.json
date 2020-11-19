@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/52?type=npm",
+  "fetched": "2020-11-20 03:25:27",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:simple-server:20180126",
+      "affectsPackage": "simple-server",
+      "affectsVersion": "<1.1.0",
+      "published": "18 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:general-file-server:20180131",
+      "affectsPackage": "general-file-server",
+      "affectsVersion": "<=1.1.8",
+      "published": "18 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:zs123:20180315",
+      "affectsPackage": "zs123",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:zhaolei1111:20180315",
+      "affectsPackage": "zhaolei1111",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:webrepl:20180315",
+      "affectsPackage": "webrepl",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:tmadserver:20180315",
+      "affectsPackage": "tmadserver",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:stevenc4.server:20180315",
+      "affectsPackage": "stevenc4.server",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:starfruit:20180315",
+      "affectsPackage": "starfruit",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serverzyqzyq:20180315",
+      "affectsPackage": "serverzyqzyq",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serversyysyy:20180315",
+      "affectsPackage": "serversyysyy",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serverlyj333:20180315",
+      "affectsPackage": "serverlyj333",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:rjpserver:20180315",
+      "affectsPackage": "rjpserver",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:paopao613:20180315",
+      "affectsPackage": "paopao613",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nodejsccc:20180315",
+      "affectsPackage": "nodejsccc",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nodejs_liamgb:20180315",
+      "affectsPackage": "nodejs_liamgb",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:meryl:20180315",
+      "affectsPackage": "meryl",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:terminal-share:20170510",
+      "affectsPackage": "terminal-share",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lab6_agolotin:20180315",
+      "affectsPackage": "lab6_agolotin",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:jiazhipeng:20180315",
+      "affectsPackage": "jiazhipeng",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:jacobj66-weather:20180315",
+      "affectsPackage": "jacobj66-weather",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hdsdhhksjd:20180315",
+      "affectsPackage": "hdsdhhksjd",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:gyfserver:20180315",
+      "affectsPackage": "gyfserver",
+      "affectsVersion": "*",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:zeroclipboard:20130104",
+      "affectsPackage": "zeroclipboard",
+      "affectsVersion": "<1.0.8",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Man-in-the-Middle (MitM)",
+      "link": "https://snyk.io/vuln/npm:tiny-json-http:20180214",
+      "affectsPackage": "tiny-json-http",
+      "affectsVersion": "<7.0.0",
+      "published": "15 Mar, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:electron:20180307",
+      "affectsPackage": "electron",
+      "affectsVersion": "<1.8.2-beta.5",
+      "published": "12 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:path-complete-extname:20180307",
+      "affectsPackage": "path-complete-extname",
+      "affectsVersion": "<1.0.0",
+      "published": "08 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:node-srv:20180125",
+      "affectsPackage": "node-srv",
+      "affectsVersion": "<2.1.1",
+      "published": "08 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:glance:20180129",
+      "affectsPackage": "glance",
+      "affectsVersion": "<3.0.4",
+      "published": "08 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:stattic:20180307",
+      "affectsPackage": "stattic",
+      "affectsVersion": "<0.3.0",
+      "published": "08 Mar, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/npm:auth0-js:20180226",
+      "affectsPackage": "auth0-js",
+      "affectsVersion": "<9.3",
+      "published": "08 Mar, 2018"
+    }
+  ]
+}

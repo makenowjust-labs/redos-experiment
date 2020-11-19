@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/84?type=npm",
+  "fetched": "2020-11-20 03:42:07",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Remote Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:sequelize:20160115",
+      "affectsPackage": "sequelize",
+      "affectsVersion": "<3.17.2",
+      "published": "01 Apr, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sequelize:20160106",
+      "affectsPackage": "sequelize",
+      "affectsVersion": ">=0.2.2 <3.13.17",
+      "published": "01 Apr, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sequelize:20160329",
+      "affectsPackage": "sequelize",
+      "affectsVersion": "<3.20.0",
+      "published": "01 Apr, 2016"
+    },
+    {
+      "vulnerability": "Template Injection",
+      "link": "https://snyk.io/vuln/npm:jsrender:20160330",
+      "affectsPackage": "jsrender",
+      "affectsVersion": "<=0.9.73",
+      "published": "31 Mar, 2016"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:restafary:20160328",
+      "affectsPackage": "restafary",
+      "affectsVersion": "<1.6.1",
+      "published": "29 Mar, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/npm:droppy:20160328",
+      "affectsPackage": "droppy",
+      "affectsVersion": "<3.5.0",
+      "published": "29 Mar, 2016"
+    },
+    {
+      "vulnerability": "Insecure Default Configuration",
+      "link": "https://snyk.io/vuln/npm:airbrake:20160328",
+      "affectsPackage": "airbrake",
+      "affectsVersion": "<=0.3.8",
+      "published": "29 Mar, 2016"
+    },
+    {
+      "vulnerability": "Insecure Randomness",
+      "link": "https://snyk.io/vuln/npm:node-uuid:20160328",
+      "affectsPackage": "node-uuid",
+      "affectsVersion": "<1.4.4",
+      "published": "28 Mar, 2016"
+    },
+    {
+      "vulnerability": "Remote Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:request:20160119",
+      "affectsPackage": "request",
+      "affectsVersion": ">2.2.5 <2.68.0",
+      "published": "22 Mar, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:riot-compiler:20160321",
+      "affectsPackage": "riot-compiler",
+      "affectsVersion": "<=2.3.21",
+      "published": "21 Mar, 2016"
+    },
+    {
+      "vulnerability": "Credentials saved as clear-text in log",
+      "link": "https://snyk.io/vuln/npm:grunt-gh-pages:20160316",
+      "affectsPackage": "grunt-gh-pages",
+      "affectsVersion": "<=0.9.1",
+      "published": "17 Mar, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:moment:20160126",
+      "affectsPackage": "moment",
+      "affectsVersion": "<2.11.2",
+      "published": "01 Feb, 2016"
+    },
+    {
+      "vulnerability": "Authentication Bypass in Try Mode",
+      "link": "https://snyk.io/vuln/npm:hapi-auth-jwt2:20160128",
+      "affectsPackage": "hapi-auth-jwt2",
+      "affectsVersion": "<5.1.2",
+      "published": "28 Jan, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:i18n-node-angular:20160125",
+      "affectsPackage": "i18n-node-angular",
+      "affectsVersion": "<1.4.0",
+      "published": "25 Jan, 2016"
+    },
+    {
+      "vulnerability": "Remote Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:mongoose:20160116",
+      "affectsPackage": "mongoose",
+      "affectsVersion": ">=3.5.5 <3.8.39,>=4.0.0 <4.3.6",
+      "published": "23 Jan, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:hawk:20160119",
+      "affectsPackage": "hawk",
+      "affectsVersion": "<3.1.3,>=4.0.0 <4.1.1",
+      "published": "19 Jan, 2016"
+    },
+    {
+      "vulnerability": "Sensitive Information Exposure",
+      "link": "https://snyk.io/vuln/npm:libxmljs:20151214",
+      "affectsPackage": "libxmljs",
+      "affectsVersion": "<0.17.0",
+      "published": "18 Jan, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:is-my-json-valid:20160118",
+      "affectsPackage": "is-my-json-valid",
+      "affectsVersion": "<2.12.4",
+      "published": "18 Jan, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:mqtt-packet:20160115",
+      "affectsPackage": "mqtt-packet",
+      "affectsVersion": "<3.4.6,>4.0.0 <4.0.5",
+      "published": "17 Jan, 2016"
+    },
+    {
+      "vulnerability": "Content Injection via TileJSON Name",
+      "link": "https://snyk.io/vuln/npm:mapbox.js:20160112",
+      "affectsPackage": "mapbox.js",
+      "affectsVersion": "<1.6.6,>2.0.0 <2.2.4",
+      "published": "14 Jan, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:jadedown:20160105",
+      "affectsPackage": "jadedown",
+      "affectsVersion": "*",
+      "published": "06 Jan, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:jshamcrest:20160105",
+      "affectsPackage": "jshamcrest",
+      "affectsVersion": "*",
+      "published": "06 Jan, 2016"
+    },
+    {
+      "vulnerability": "Potentially loose security restrictions",
+      "link": "https://snyk.io/vuln/npm:hapi:20151228",
+      "affectsPackage": "hapi",
+      "affectsVersion": "<11.1.4",
+      "published": "05 Jan, 2016"
+    },
+    {
+      "vulnerability": "Remote Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:ws:20160104",
+      "affectsPackage": "ws",
+      "affectsVersion": "< 1.0.1",
+      "published": "05 Jan, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:mysql:20151228",
+      "affectsPackage": "mysql",
+      "affectsVersion": ">=2.0.0-alpha <2.0.0-alpha8",
+      "published": "05 Jan, 2016"
+    },
+    {
+      "vulnerability": "Remote Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:bittorrent-dht:20160104",
+      "affectsPackage": "bittorrent-dht",
+      "affectsVersion": "<5.1.3",
+      "published": "05 Jan, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ecstatic:20151223",
+      "affectsPackage": "ecstatic",
+      "affectsVersion": "<1.4.0",
+      "published": "24 Dec, 2015"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:hapi:20151223",
+      "affectsPackage": "hapi",
+      "affectsVersion": "<11.1.3",
+      "published": "24 Dec, 2015"
+    },
+    {
+      "vulnerability": "Content Injection due to quoteless attributes",
+      "link": "https://snyk.io/vuln/npm:mustache:20151207",
+      "affectsPackage": "mustache",
+      "affectsVersion": "<2.2.1",
+      "published": "14 Dec, 2015"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:handlebars:20151207",
+      "affectsPackage": "handlebars",
+      "affectsVersion": "<4.0.0",
+      "published": "14 Dec, 2015"
+    }
+  ]
+}

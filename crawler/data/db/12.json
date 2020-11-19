@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/12?type=npm",
+  "fetched": "2020-11-20 03:04:40",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-SNYKBROKER-570607",
+      "affectsPackage": "snyk-broker",
+      "affectsVersion": "<4.72.2",
+      "published": "29 May, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-APPIUM-570540",
+      "affectsPackage": "appium",
+      "affectsVersion": "<1.18.0-beta.0",
+      "published": "28 May, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CODEMIRROR-569611",
+      "affectsPackage": "codemirror",
+      "affectsVersion": "<5.54.0",
+      "published": "28 May, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-JISON-570539",
+      "affectsPackage": "jison",
+      "affectsVersion": "*",
+      "published": "28 May, 2020"
+    },
+    {
+      "vulnerability": "Credential Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-AEGIR-570512",
+      "affectsPackage": "aegir",
+      "affectsVersion": ">=21.7.0 <21.10.1",
+      "published": "28 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSELECT-570457",
+      "affectsPackage": "bootstrap-select",
+      "affectsVersion": "<1.13.6",
+      "published": "27 May, 2020"
+    },
+    {
+      "vulnerability": "Signature Validation Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRONUPDATER-567704",
+      "affectsPackage": "electron-updater",
+      "affectsVersion": "<22.6.0",
+      "published": "21 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWNTOJSX-570059",
+      "affectsPackage": "markdown-to-jsx",
+      "affectsVersion": "<6.11.4",
+      "published": "21 May, 2020"
+    },
+    {
+      "vulnerability": "Insecure Configuration",
+      "link": "https://snyk.io/vuln/SNYK-JS-VEGAEMBED-567898",
+      "affectsPackage": "vega-embed",
+      "affectsVersion": "<6.7.0",
+      "published": "21 May, 2020"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-570624",
+      "affectsPackage": "electron",
+      "affectsVersion": "<8.3.1",
+      "published": "20 May, 2020"
+    },
+    {
+      "vulnerability": "Type Confusion",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-570833",
+      "affectsPackage": "electron",
+      "affectsVersion": "<7.3.1",
+      "published": "20 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JQUERY-569619",
+      "affectsPackage": "jquery",
+      "affectsVersion": "<1.9.0",
+      "published": "19 May, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-FRONTMATTER-569103",
+      "affectsPackage": "front-matter",
+      "affectsVersion": "<4.0.1",
+      "published": "19 May, 2020"
+    },
+    {
+      "vulnerability": "Improper Output Neutralization for Logs",
+      "link": "https://snyk.io/vuln/SNYK-JS-GENERATORJHIPSTER-568301",
+      "affectsPackage": "generator-jhipster",
+      "affectsVersion": "<6.9.0",
+      "published": "18 May, 2020"
+    },
+    {
+      "vulnerability": "Cryptographic Issues",
+      "link": "https://snyk.io/vuln/SNYK-JS-OPENPGP-569476",
+      "affectsPackage": "openpgp",
+      "affectsVersion": "<0.10.0",
+      "published": "18 May, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTTPPROXY-569139",
+      "affectsPackage": "http-proxy",
+      "affectsVersion": "<1.18.1",
+      "published": "16 May, 2020"
+    },
+    {
+      "vulnerability": "Buffer Overflow",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-569122",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=6.0.0 <6.1.12,>=7.0.0 <7.3.0,>=8.0.0 <8.3.0",
+      "published": "15 May, 2020"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-569120",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=6.0.0 <6.1.12,>=7.0.0 <7.3.0,>=8.0.0 <8.3.0",
+      "published": "15 May, 2020"
+    },
+    {
+      "vulnerability": "Improper Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-569117",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=6.0.0 <6.1.12,>=7.0.0 <7.3.0,>=8.0.0 <8.3.0",
+      "published": "15 May, 2020"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-569114",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=6.0.0 <6.1.12,>=7.0.0 <7.3.0,>=8.0.0 <8.3.0",
+      "published": "15 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SUMMERNOTE-568471",
+      "affectsPackage": "summernote",
+      "affectsVersion": "*",
+      "published": "14 May, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-OBJUTIL-559496",
+      "affectsPackage": "objutil",
+      "affectsVersion": "*",
+      "published": "14 May, 2020"
+    },
+    {
+      "vulnerability": "DLL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-KERBEROS-568900",
+      "affectsPackage": "kerberos",
+      "affectsVersion": "<1.0.0",
+      "published": "12 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TINYMCE-568922",
+      "affectsPackage": "tinymce",
+      "affectsVersion": "<4.9.10,>=5.0.0 <5.2.2",
+      "published": "12 May, 2020"
+    },
+    {
+      "vulnerability": "Improper Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLPJS-568899",
+      "affectsPackage": "slpjs",
+      "affectsVersion": "<0.27.2",
+      "published": "12 May, 2020"
+    },
+    {
+      "vulnerability": "Improper Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLPVALIDATE-568898",
+      "affectsPackage": "slp-validate",
+      "affectsVersion": "<1.2.1",
+      "published": "12 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUEFY-567814",
+      "affectsPackage": "buefy",
+      "affectsVersion": "<0.8.18",
+      "published": "11 May, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOGKITTY-568763",
+      "affectsPackage": "logkitty",
+      "affectsVersion": "<0.7.1",
+      "published": "10 May, 2020"
+    },
+    {
+      "vulnerability": "Type Confusion",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-569113",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=6.0.0 <6.1.12,>=7.0.0 <7.3.0,>=8.0.0 <8.3.0",
+      "published": "07 May, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-INSTANTSEARCHJS-568472",
+      "affectsPackage": "instantsearch.js",
+      "affectsVersion": "<4.3.1",
+      "published": "07 May, 2020"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/86?type=npm",
+  "fetched": "2020-11-20 03:43:08",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/npm:ungit:20150122",
+      "affectsPackage": "ungit",
+      "affectsVersion": "<=0.8.4",
+      "published": "22 Jan, 2015"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sequelize:20150118",
+      "affectsPackage": "sequelize",
+      "affectsVersion": "<2.0.0-rc8",
+      "published": "18 Jan, 2015"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/npm:serve-static:20150113",
+      "affectsPackage": "serve-static",
+      "affectsVersion": "<1.6.5,>=1.7.0 <1.7.2",
+      "published": "13 Jan, 2015"
+    },
+    {
+      "vulnerability": "Hidden Directories Leakage",
+      "link": "https://snyk.io/vuln/npm:inert:20141215",
+      "affectsPackage": "inert",
+      "affectsVersion": "<1.1.1",
+      "published": "15 Dec, 2014"
+    },
+    {
+      "vulnerability": "Validation Bypass",
+      "link": "https://snyk.io/vuln/npm:paypal-ipn:20141203",
+      "affectsPackage": "paypal-ipn",
+      "affectsVersion": "<3.0.0",
+      "published": "03 Dec, 2014"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:fancy-server:20141114",
+      "affectsPackage": "fancy-server",
+      "affectsVersion": "<0.1.4",
+      "published": "14 Nov, 2014"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nhouston:20141114",
+      "affectsPackage": "nhouston",
+      "affectsVersion": "*",
+      "published": "13 Nov, 2014"
+    },
+    {
+      "vulnerability": "Content Injection",
+      "link": "https://snyk.io/vuln/npm:remarkable:20141113",
+      "affectsPackage": "remarkable",
+      "affectsVersion": "<1.4.1",
+      "published": "13 Nov, 2014"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:validator:20130705",
+      "affectsPackage": "validator",
+      "affectsVersion": ">=0.1.0 <3.22.1",
+      "published": "12 Nov, 2014"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:dns-sync:20141111",
+      "affectsPackage": "dns-sync",
+      "affectsVersion": "<0.1.3",
+      "published": "11 Nov, 2014"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:validator:20130705-1",
+      "affectsPackage": "validator",
+      "affectsVersion": "<2.0.0",
+      "published": "27 Oct, 2014"
+    },
+    {
+      "vulnerability": "Arbitrary JavaScript Code Injection",
+      "link": "https://snyk.io/vuln/npm:bassmaster:20140927",
+      "affectsPackage": "bassmaster",
+      "affectsVersion": "<=1.5.1",
+      "published": "27 Sep, 2014"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:send:20140912",
+      "affectsPackage": "send",
+      "affectsVersion": "< 0.8.4",
+      "published": "12 Sep, 2014"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:express:20140912",
+      "affectsPackage": "express",
+      "affectsVersion": "<3.11.0,>=4.0.0 <4.5.0",
+      "published": "12 Sep, 2014"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:qs:20140806-1",
+      "affectsPackage": "qs",
+      "affectsVersion": "<1.0.0",
+      "published": "06 Aug, 2014"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:qs:20140806",
+      "affectsPackage": "qs",
+      "affectsVersion": "<1.0.0",
+      "published": "06 Aug, 2014"
+    },
+    {
+      "vulnerability": "CORS Token Disclosure",
+      "link": "https://snyk.io/vuln/npm:crumb:20140801",
+      "affectsPackage": "crumb",
+      "affectsVersion": "<3.0.0",
+      "published": "01 Aug, 2014"
+    },
+    {
+      "vulnerability": "Potential Script Injection",
+      "link": "https://snyk.io/vuln/npm:syntax-error:20140715",
+      "affectsPackage": "syntax-error",
+      "affectsVersion": "< 1.1.1",
+      "published": "15 Jul, 2014"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:hapi:20140708",
+      "affectsPackage": "hapi",
+      "affectsVersion": ">=2.0.0 <2.2.0",
+      "published": "08 Jul, 2014"
+    },
+    {
+      "vulnerability": "Rosetta-flash jsonp vulnerability",
+      "link": "https://snyk.io/vuln/npm:hapi:20140708-1",
+      "affectsPackage": "hapi",
+      "affectsVersion": "< 6.1.0",
+      "published": "08 Jul, 2014"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:yar:20140616",
+      "affectsPackage": "yar",
+      "affectsVersion": "<2.2.0",
+      "published": "16 Jun, 2014"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:printer:20140306",
+      "affectsPackage": "printer",
+      "affectsVersion": "<= 0.0.1",
+      "published": "06 Mar, 2014"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:st:20140206",
+      "affectsPackage": "st",
+      "affectsVersion": "<0.2.5",
+      "published": "06 Feb, 2014"
+    },
+    {
+      "vulnerability": "Heap-based Buffer Overflow",
+      "link": "https://snyk.io/vuln/npm:libyaml:20140204",
+      "affectsPackage": "libyaml",
+      "affectsVersion": "<0.2.3",
+      "published": "04 Feb, 2014"
+    },
+    {
+      "vulnerability": "VBScript Content Injection",
+      "link": "https://snyk.io/vuln/npm:marked:20140131-2",
+      "affectsPackage": "marked",
+      "affectsVersion": "<0.3.3",
+      "published": "30 Jan, 2014"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:marked:20140131-1",
+      "affectsPackage": "marked",
+      "affectsVersion": "<0.3.4",
+      "published": "30 Jan, 2014"
+    },
+    {
+      "vulnerability": "Multiple Content Injection Vulnerabilities",
+      "link": "https://snyk.io/vuln/npm:marked:20140131",
+      "affectsPackage": "marked",
+      "affectsVersion": "<=0.3.0",
+      "published": "30 Jan, 2014"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:codem-transcode:20130707",
+      "affectsPackage": "codem-transcode",
+      "affectsVersion": "<0.5.0",
+      "published": "07 Jul, 2013"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:validator:20130705-2",
+      "affectsPackage": "validator",
+      "affectsVersion": "<1.1.1",
+      "published": "05 Jul, 2013"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:connect:20130701",
+      "affectsPackage": "connect",
+      "affectsVersion": "<2.8.2",
+      "published": "30 Jun, 2013"
+    }
+  ]
+}

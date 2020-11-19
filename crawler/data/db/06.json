@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/6?type=npm",
+  "fetched": "2020-11-20 03:01:34",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GAMMAUTILS-598670",
+      "affectsPackage": "gammautils",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-ARRFLATTENUNFLATTEN-598396",
+      "affectsPackage": "arr-flatten-unflatten",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-HANGERSTEAK-608973",
+      "affectsPackage": "hangersteak",
+      "affectsVersion": "<0.2.5",
+      "published": "31 Aug, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSON-597481",
+      "affectsPackage": "json",
+      "affectsVersion": "<10.0.0",
+      "published": "30 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-HERMESENGINE-608850",
+      "affectsPackage": "hermes-engine",
+      "affectsVersion": "<0.7.0",
+      "published": "28 Aug, 2020"
+    },
+    {
+      "vulnerability": "Remote Memory Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-BL-608877",
+      "affectsPackage": "bl",
+      "affectsVersion": ">=2.2.0 <2.2.1,>=3.0.0 <3.0.1,>=4.0.0 <4.0.3,<1.2.3",
+      "published": "28 Aug, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-AEDES-608837",
+      "affectsPackage": "aedes",
+      "affectsVersion": "<0.42.1",
+      "published": "27 Aug, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-FALLGUYS-608657",
+      "affectsPackage": "fallguys",
+      "affectsVersion": "*",
+      "published": "26 Aug, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-MINHTTPSERVER-608658",
+      "affectsPackage": "min-http-server",
+      "affectsVersion": "*",
+      "published": "26 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONBIGINT-608659",
+      "affectsPackage": "json-bigint",
+      "affectsVersion": "<1.0.0",
+      "published": "26 Aug, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-WINDOWSEDGE-608480",
+      "affectsPackage": "windows-edge",
+      "affectsVersion": "<1.1.0",
+      "published": "25 Aug, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MEEMOAPP-608290",
+      "affectsPackage": "meemo-app",
+      "affectsVersion": "<1.13.1",
+      "published": "23 Aug, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXTRAASCIINEMA-608292",
+      "affectsPackage": "extra-asciinema",
+      "affectsVersion": "<1.0.23",
+      "published": "23 Aug, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CLOUDRONSURFER-608291",
+      "affectsPackage": "cloudron-surfer",
+      "affectsVersion": "<5.10.3",
+      "published": "23 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASH-608086",
+      "affectsPackage": "lodash",
+      "affectsVersion": "<4.17.17",
+      "published": "21 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JQUERYCONFIRM-608085",
+      "affectsPackage": "jquery-confirm",
+      "affectsVersion": "*",
+      "published": "21 Aug, 2020"
+    },
+    {
+      "vulnerability": "Sandbox Escape",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAFEEVAL-608076",
+      "affectsPackage": "safe-eval",
+      "affectsVersion": "*",
+      "published": "21 Aug, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRUNT-597546",
+      "affectsPackage": "grunt",
+      "affectsVersion": "<1.3.0",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Improper Authorization",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEBB-607916",
+      "affectsPackage": "nodebb",
+      "affectsVersion": ">=1.12.2 <1.14.3",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-OBJECTPATHSET-607908",
+      "affectsPackage": "object-path-set",
+      "affectsVersion": "<1.0.1",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-OBJECTPATH-1017036",
+      "affectsPackage": "object-path",
+      "affectsVersion": "<0.11.5",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SUPERMIXER-607909",
+      "affectsPackage": "supermixer",
+      "affectsVersion": "<1.0.5",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXTRAFFMPEG-607911",
+      "affectsPackage": "extra-ffmpeg",
+      "affectsVersion": "*",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-VBOXMANAGEJS-607910",
+      "affectsPackage": "vboxmanage.js",
+      "affectsVersion": "<1.0.9",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-AUTH0LOCK-607904",
+      "affectsPackage": "auth0-lock",
+      "affectsVersion": "<11.26.3",
+      "published": "20 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LINUXCMDLINE-598674",
+      "affectsPackage": "linux-cmdline",
+      "affectsVersion": "<1.0.1",
+      "published": "19 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-CONNIELANG-598853",
+      "affectsPackage": "connie-lang",
+      "affectsVersion": "<0.1.1",
+      "published": "19 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-PROPERTYEXPR-598800",
+      "affectsPackage": "property-expr",
+      "affectsVersion": "<2.0.3",
+      "published": "19 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-IRRELONPATH-598672",
+      "affectsPackage": "irrelon-path",
+      "affectsVersion": "<4.7.0",
+      "published": "19 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-IRRELONPATH-598673",
+      "affectsPackage": "@irrelon/path",
+      "affectsVersion": "<4.7.0",
+      "published": "19 Aug, 2020"
+    }
+  ]
+}

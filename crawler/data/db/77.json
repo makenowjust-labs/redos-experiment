@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/77?type=npm",
+  "fetched": "2020-11-20 03:38:31",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:libsbmlsim:20170102",
+      "affectsPackage": "libsbmlsim",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:limbus-buildgen:20161202",
+      "affectsPackage": "limbus-buildgen",
+      "affectsVersion": "<0.1.1",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:ipip-coffee:20170102",
+      "affectsPackage": "ipip-coffee",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:cloudpub-redis:20170102",
+      "affectsPackage": "cloudpub-redis",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:mystem-wrapper:20170102",
+      "affectsPackage": "mystem-wrapper",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:windows-seleniumjar-mirror:20170102",
+      "affectsPackage": "windows-seleniumjar-mirror",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:soci:20170102",
+      "affectsPackage": "soci",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:libsbml:20170102",
+      "affectsPackage": "libsbml",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:selenium-portal:20170101",
+      "affectsPackage": "selenium-portal",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:tomita-parser:20170101",
+      "affectsPackage": "tomita-parser",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:herbivore:20161102",
+      "affectsPackage": "herbivore",
+      "affectsVersion": "<=0.0.3",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:mystem:20170101",
+      "affectsPackage": "mystem",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:wixtoolset:20170102",
+      "affectsPackage": "wixtoolset",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:tomita:20170102",
+      "affectsPackage": "tomita",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:phantomjs-cheniu:20170101",
+      "affectsPackage": "phantomjs-cheniu",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:fis-parser-sass-bin:20170102",
+      "affectsPackage": "fis-parser-sass-bin",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:poco:20170102",
+      "affectsPackage": "poco",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:native-opencv:20170101",
+      "affectsPackage": "native-opencv",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:co-cli-installer:20170102",
+      "affectsPackage": "co-cli-installer",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:qbs:20170102",
+      "affectsPackage": "qbs",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:clang-extra:20170102",
+      "affectsPackage": "clang-extra",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:sfml:20170101",
+      "affectsPackage": "sfml",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:xd-testing:20170101",
+      "affectsPackage": "xd-testing",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:prebuild-lwip:20170101",
+      "affectsPackage": "prebuild-lwip",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:webdriver-launcher:20170101",
+      "affectsPackage": "webdriver-launcher",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:ntfserver:20170101",
+      "affectsPackage": "ntfserver",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:frames-compiler:20170101",
+      "affectsPackage": "frames-compiler",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:marionette-socket-host:20170101",
+      "affectsPackage": "marionette-socket-host",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:node-air-sdk:20170101",
+      "affectsPackage": "node-air-sdk",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:resourcehacker:20170101",
+      "affectsPackage": "resourcehacker",
+      "affectsVersion": "*",
+      "published": "04 Jan, 2017"
+    }
+  ]
+}

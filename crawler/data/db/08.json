@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/8?type=npm",
+  "fetched": "2020-11-20 03:02:35",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Type Confusion",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-598949",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=9.0.0 <9.2.1",
+      "published": "29 Jul, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FASTIFY-595959",
+      "affectsPackage": "fastify",
+      "affectsVersion": ">=2.0.0 <2.15.1,>=3.0.0-alpha.1 <3.0.0-rc.5",
+      "published": "29 Jul, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JINGO-595966",
+      "affectsPackage": "jingo",
+      "affectsVersion": "<1.9.6",
+      "published": "29 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-FASTJSONPATCH-595663",
+      "affectsPackage": "fast-json-patch",
+      "affectsVersion": "<2.2.1",
+      "published": "27 Jul, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS  )",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKED-584281",
+      "affectsPackage": "marked",
+      "affectsVersion": "<1.1.1",
+      "published": "27 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-TYPEORM-590152",
+      "affectsPackage": "typeorm",
+      "affectsVersion": "<0.2.25",
+      "published": "26 Jul, 2020"
+    },
+    {
+      "vulnerability": "Insufficiently Protected Credentials",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSE-590110",
+      "affectsPackage": "parse",
+      "affectsVersion": "<2.10.0",
+      "published": "24 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-DISKSTATS-590099",
+      "affectsPackage": "diskstats",
+      "affectsVersion": "<0.1.0",
+      "published": "24 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-XPS-590098",
+      "affectsPackage": "xps",
+      "affectsVersion": "<1.0.3",
+      "published": "24 Jul, 2020"
+    },
+    {
+      "vulnerability": "Access Restriction Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSESERVER-590063",
+      "affectsPackage": "parse-server",
+      "affectsVersion": ">=3.5.0 <4.3.0",
+      "published": "23 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOCK2EASY-572312",
+      "affectsPackage": "mock2easy",
+      "affectsVersion": "*",
+      "published": "23 Jul, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAILSHOOKSOCKETS-589929",
+      "affectsPackage": "sails-hook-sockets",
+      "affectsVersion": "<1.5.5",
+      "published": "22 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-CODECOV-585979",
+      "affectsPackage": "codecov",
+      "affectsVersion": "<3.7.1",
+      "published": "21 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSCART-585983",
+      "affectsPackage": "express-cart",
+      "affectsVersion": "*",
+      "published": "21 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-I18NEXT-585930",
+      "affectsPackage": "i18next",
+      "affectsVersion": "<19.8.3",
+      "published": "19 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-FINEUPLOADER-585902",
+      "affectsPackage": "fine-uploader",
+      "affectsVersion": "*",
+      "published": "19 Jul, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-XLSX-585898",
+      "affectsPackage": "xlsx",
+      "affectsVersion": "<0.16.0",
+      "published": "17 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JQUERYFORM-574783",
+      "affectsPackage": "jquery-form",
+      "affectsVersion": "*",
+      "published": "16 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-AJV-584908",
+      "affectsPackage": "ajv",
+      "affectsVersion": "<6.12.3",
+      "published": "16 Jul, 2020"
+    },
+    {
+      "vulnerability": "Insecure Defaults",
+      "link": "https://snyk.io/vuln/SNYK-JS-TMIJS-584986",
+      "affectsPackage": "tmi.js",
+      "affectsVersion": "*",
+      "published": "16 Jul, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCRATCHVM-584565",
+      "affectsPackage": "scratch-vm",
+      "affectsVersion": ">=0.1.0-prerelease.1524239808 <0.2.0-prerelease.20200714185213",
+      "published": "15 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ADMINLTE-584564",
+      "affectsPackage": "admin-lte",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-WINDOWSSHORTCUTS-584567",
+      "affectsPackage": "windows-shortcuts",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTNATIVEFASTIMAGE-572228",
+      "affectsPackage": "react-native-fast-image",
+      "affectsVersion": "<8.3.0",
+      "published": "13 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-STANDARDVERSION-575708",
+      "affectsPackage": "standard-version",
+      "affectsVersion": "<8.0.1",
+      "published": "12 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KNIGHTLABTIMELINEJS-575559",
+      "affectsPackage": "@knight-lab/timelinejs",
+      "affectsVersion": "<3.7.0",
+      "published": "10 Jul, 2020"
+    },
+    {
+      "vulnerability": "Buffer Overflow",
+      "link": "https://snyk.io/vuln/SNYK-JS-I18NEXT-575536",
+      "affectsPackage": "i18next",
+      "affectsVersion": "<19.5.5",
+      "published": "09 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TIPTAP-575143",
+      "affectsPackage": "tiptap",
+      "affectsVersion": "<1.29.0",
+      "published": "08 Jul, 2020"
+    },
+    {
+      "vulnerability": "Insertion of Sensitive Information into Log File",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPMREGISTRYFETCH-575432",
+      "affectsPackage": "npm-registry-fetch",
+      "affectsVersion": "<4.0.5,>=5.0.0 <8.1.1",
+      "published": "08 Jul, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-SOCKETIOFILE-575434",
+      "affectsPackage": "socket.io-file",
+      "affectsVersion": "*",
+      "published": "08 Jul, 2020"
+    }
+  ]
+}

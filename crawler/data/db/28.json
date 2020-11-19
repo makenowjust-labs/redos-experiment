@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/28?type=npm",
+  "fetched": "2020-11-20 03:13:08",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFEPXOR-474549",
+      "affectsPackage": "buffep-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFEBXOR-474550",
+      "affectsPackage": "buffeb-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFE2XOR-474551",
+      "affectsPackage": "buffe2-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFDRXOR-474552",
+      "affectsPackage": "buffdr-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFARXOR-474553",
+      "affectsPackage": "buffar-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFDERXOR-474554",
+      "affectsPackage": "bufder-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFBERXOR-474555",
+      "affectsPackage": "bufber-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUDFERXOR-474556",
+      "affectsPackage": "budfer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUBFERXOR-474557",
+      "affectsPackage": "bubfer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BTFFERXOR-474558",
+      "affectsPackage": "btffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BSSHA3-474515",
+      "affectsPackage": "bs-sha3",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BQFFERXOR-474559",
+      "affectsPackage": "bqffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BEFFERXOR-474560",
+      "affectsPackage": "beffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-B5FFERXOR-474561",
+      "affectsPackage": "b5ffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-PM2-474345",
+      "affectsPackage": "pm2",
+      "affectsVersion": "<4.3.0",
+      "published": "25 Oct, 2019"
+    },
+    {
+      "vulnerability": "Unauthorized File Access",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEGITSERVER-474343",
+      "affectsPackage": "node-git-server",
+      "affectsVersion": "<0.6.1",
+      "published": "25 Oct, 2019"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-PM2-474304",
+      "affectsPackage": "pm2",
+      "affectsVersion": "<4.3.0",
+      "published": "25 Oct, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSFILEUPLOAD-473997",
+      "affectsPackage": "express-fileupload",
+      "affectsVersion": "<1.1.6-alpha.6",
+      "published": "22 Oct, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-VUEAPOLLO-474013",
+      "affectsPackage": "vue-apollo",
+      "affectsVersion": ">=3.0.0-alpha.1 <3.0.0",
+      "published": "22 Oct, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EASYAUTOCOMPLETE-473996",
+      "affectsPackage": "easy-autocomplete",
+      "affectsVersion": "*",
+      "published": "22 Oct, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANTDESIGNPRO-473995",
+      "affectsPackage": "ant-design-pro",
+      "affectsVersion": "*",
+      "published": "22 Oct, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HEXOADMIN-473901",
+      "affectsPackage": "hexo-admin",
+      "affectsVersion": "*",
+      "published": "20 Oct, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MONGODB-473855",
+      "affectsPackage": "mongodb",
+      "affectsVersion": "<3.1.13",
+      "published": "18 Oct, 2019"
+    },
+    {
+      "vulnerability": "Sandbox Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-VM2-473188",
+      "affectsPackage": "vm2",
+      "affectsVersion": "<3.6.11",
+      "published": "16 Oct, 2019"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MONGOEXPRESS-473215",
+      "affectsPackage": "mongo-express",
+      "affectsVersion": "<0.54.0",
+      "published": "16 Oct, 2019"
+    },
+    {
+      "vulnerability": "Relative Path Overwrite (RPO)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-472935",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<3.23.11",
+      "published": "11 Oct, 2019"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-MONGOOSE-472486",
+      "affectsPackage": "mongoose",
+      "affectsVersion": "<4.13.21,>=5.0.0 <5.7.5",
+      "published": "10 Oct, 2019"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEMARKDOWN-469242",
+      "affectsPackage": "simple-markdown",
+      "affectsVersion": "<0.6.1",
+      "published": "09 Oct, 2019"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWNIT-459438",
+      "affectsPackage": "markdown-it",
+      "affectsVersion": "<10.0.0",
+      "published": "09 Oct, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-STATICSSERVER-472065",
+      "affectsPackage": "statics-server",
+      "affectsVersion": "*",
+      "published": "08 Oct, 2019"
+    }
+  ]
+}

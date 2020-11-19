@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/4?type=npm",
+  "fetched": "2020-11-20 03:00:32",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Resource Exhaustion",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOUNTEBANK-1014529",
+      "affectsPackage": "mountebank",
+      "affectsVersion": "<2.3.1",
+      "published": "30 Sep, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOUNTEBANK-1014526",
+      "affectsPackage": "mountebank",
+      "affectsVersion": "<2.3.2",
+      "published": "30 Sep, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-GENERATORJHIPSTER-608849",
+      "affectsPackage": "generator-jhipster",
+      "affectsVersion": "<6.10.2",
+      "published": "29 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MSERVER-1013436",
+      "affectsPackage": "m-server",
+      "affectsVersion": "*",
+      "published": "28 Sep, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-NGPACKAGR-1012427",
+      "affectsPackage": "ng-packagr",
+      "affectsVersion": "<10.1.1",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITY-1012730",
+      "affectsPackage": "gity",
+      "affectsVersion": "*",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SNEKSERVE-1012731",
+      "affectsPackage": "snekserve",
+      "affectsVersion": "*",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITLIB-1012734",
+      "affectsPackage": "git-lib",
+      "affectsVersion": "*",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-HNZSERVER-1012733",
+      "affectsPackage": "hnzserver",
+      "affectsVersion": "*",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTTPSERVER-1012732",
+      "affectsPackage": "http_server",
+      "affectsVersion": "*",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JOPLIN-1012726",
+      "affectsPackage": "joplin",
+      "affectsVersion": "<1.1.4",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-COMMITMSG-1012729",
+      "affectsPackage": "commit-msg",
+      "affectsVersion": "*",
+      "published": "25 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTNATIVEWEBVIEW-1011954",
+      "affectsPackage": "react-native-webview",
+      "affectsVersion": "*",
+      "published": "23 Sep, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SHIBA-596466",
+      "affectsPackage": "shiba",
+      "affectsVersion": "*",
+      "published": "22 Sep, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Command Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-KNUTKIRKHORNFREESPACE-1009833",
+      "affectsPackage": "@knutkirkhorn/free-space",
+      "affectsVersion": "<1.3.0",
+      "published": "18 Sep, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEIDEVICE-609343",
+      "affectsPackage": "node-idevice",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HEROKUEXECUTIL-674661",
+      "affectsPackage": "heroku-exec-util",
+      "affectsVersion": "*",
+      "published": "16 Sep, 2020"
+    },
+    {
+      "vulnerability": "Improper Authentication",
+      "link": "https://snyk.io/vuln/SNYK-JS-AUTHMAGICTIMERANGESTATELESSCORE-674658",
+      "affectsPackage": "authmagic-timerange-stateless-core",
+      "affectsVersion": "*",
+      "published": "16 Sep, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-UAPARSERJS-610226",
+      "affectsPackage": "ua-parser-js",
+      "affectsVersion": "<0.7.22",
+      "published": "16 Sep, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-ALFREDWORKFLOWNODEJS-608975",
+      "affectsPackage": "alfred-workflow-nodejs",
+      "affectsVersion": "*",
+      "published": "15 Sep, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NAGIBABEL-674575",
+      "affectsPackage": "nagibabel",
+      "affectsVersion": "*",
+      "published": "15 Sep, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-RENOVATE-674573",
+      "affectsPackage": "renovate",
+      "affectsVersion": ">=19.180.0 <23.25.1",
+      "published": "15 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FLSABA-674473",
+      "affectsPackage": "flsaba",
+      "affectsVersion": "*",
+      "published": "14 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-KEYD-674472",
+      "affectsPackage": "keyd",
+      "affectsVersion": "*",
+      "published": "14 Sep, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-OBJTOOLS-674471",
+      "affectsPackage": "objtools",
+      "affectsVersion": "*",
+      "published": "14 Sep, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NOTEVIL-608878",
+      "affectsPackage": "notevil",
+      "affectsVersion": "*",
+      "published": "14 Sep, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PASSPORTAZUREAD-608126",
+      "affectsPackage": "passport-azure-ad",
+      "affectsVersion": "<4.3.0",
+      "published": "14 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TREZORCONNECT-598796",
+      "affectsPackage": "trezor-connect",
+      "affectsVersion": "<8.1.12",
+      "published": "13 Sep, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JOPLIN-674433",
+      "affectsPackage": "joplin",
+      "affectsVersion": "<1.1.1",
+      "published": "13 Sep, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEFETCH-674311",
+      "affectsPackage": "node-fetch",
+      "affectsVersion": "<2.6.1,>=3.0.0-beta.1 <3.0.0-beta.9",
+      "published": "11 Sep, 2020"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/81?type=npm",
+  "fetched": "2020-11-20 03:40:35",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:apk-parser3:20161106",
+      "affectsPackage": "apk-parser3",
+      "affectsVersion": "<0.1.3",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:operadriver:20161104",
+      "affectsPackage": "operadriver",
+      "affectsVersion": "<0.2.3",
+      "published": "20 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:go-ipfs-dep:20161219",
+      "affectsPackage": "go-ipfs-dep",
+      "affectsVersion": "<0.4.4",
+      "published": "19 Dec, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:mongoose:20150925",
+      "affectsPackage": "mongoose",
+      "affectsVersion": ">=4.0.0 <4.1.10",
+      "published": "13 Dec, 2016"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:bitty:20161014",
+      "affectsPackage": "bitty",
+      "affectsVersion": "*",
+      "published": "13 Dec, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:ejs:20161130",
+      "affectsPackage": "ejs",
+      "affectsVersion": "<2.5.5",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ejs:20161130-1",
+      "affectsPackage": "ejs",
+      "affectsVersion": "<2.5.5",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:appium-chromedriver:20161103",
+      "affectsPackage": "appium-chromedriver",
+      "affectsVersion": "<2.9.4",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:aerospike:20161101",
+      "affectsPackage": "aerospike",
+      "affectsVersion": "<2.4.2",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:selenium-download:20161102",
+      "affectsPackage": "selenium-download",
+      "affectsVersion": "<2.0.7",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:galenframework-cli:20161101",
+      "affectsPackage": "galenframework-cli",
+      "affectsVersion": "<2.3.1",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:passport-azure-ad:20160824",
+      "affectsPackage": "passport-azure-ad",
+      "affectsVersion": ">=1.0.0 <1.4.6,>=2.0.0 <2.0.1",
+      "published": "06 Dec, 2016"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:ejs:20161128",
+      "affectsPackage": "ejs",
+      "affectsVersion": "<2.5.3",
+      "published": "28 Nov, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery:20150627",
+      "affectsPackage": "jquery",
+      "affectsVersion": "<1.12.2,>=1.12.3 <2.2.2,>=2.2.3 <3.0.0",
+      "published": "27 Nov, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:node-uuid:20111130",
+      "affectsPackage": "node-uuid",
+      "affectsVersion": "<1.3.1",
+      "published": "23 Nov, 2016"
+    },
+    {
+      "vulnerability": "Timing Attack",
+      "link": "https://snyk.io/vuln/npm:fernet:20140306",
+      "affectsPackage": "fernet",
+      "affectsVersion": "<0.1.0 >=0.0.1",
+      "published": "22 Nov, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:rendr:20130709",
+      "affectsPackage": "rendr",
+      "affectsVersion": "<0.4.8-2",
+      "published": "22 Nov, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:hapi:20130320",
+      "affectsPackage": "hapi",
+      "affectsVersion": "<0.16.0",
+      "published": "22 Nov, 2016"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:engine.io:20140212",
+      "affectsPackage": "engine.io",
+      "affectsVersion": "<1.0.0",
+      "published": "15 Nov, 2016"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:life_star:20160212",
+      "affectsPackage": "life_star",
+      "affectsVersion": "<=0.8.4",
+      "published": "10 Nov, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:hoek:20130326",
+      "affectsPackage": "hoek",
+      "affectsVersion": "<0.7.3",
+      "published": "10 Nov, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:shout:20160913",
+      "affectsPackage": "shout",
+      "affectsVersion": "<0.51.2 >=0.38.0",
+      "published": "31 Oct, 2016"
+    },
+    {
+      "vulnerability": "Forgeable public/private tokens",
+      "link": "https://snyk.io/vuln/npm:jwt-simple:20160804",
+      "affectsPackage": "jwt-simple",
+      "affectsVersion": "<0.3.0",
+      "published": "31 Oct, 2016"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:waterline-sequel:20160804",
+      "affectsPackage": "waterline-sequel",
+      "affectsVersion": "<0.5.1",
+      "published": "31 Oct, 2016"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:igniteui:20160804",
+      "affectsPackage": "igniteui",
+      "affectsVersion": "<=0.0.5",
+      "published": "31 Oct, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:tinymce:20150813",
+      "affectsPackage": "tinymce",
+      "affectsVersion": "<4.2.4",
+      "published": "27 Oct, 2016"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:moment:20161019",
+      "affectsPackage": "moment",
+      "affectsVersion": "<2.15.2",
+      "published": "24 Oct, 2016"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:jsjws:20150531",
+      "affectsPackage": "jsjws",
+      "affectsVersion": "<2.0.0",
+      "published": "20 Oct, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:cheerio:20120311",
+      "affectsPackage": "cheerio",
+      "affectsVersion": "<=0.8.3",
+      "published": "20 Oct, 2016"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery:20110606",
+      "affectsPackage": "jquery",
+      "affectsVersion": "<1.6.3",
+      "published": "20 Oct, 2016"
+    }
+  ]
+}

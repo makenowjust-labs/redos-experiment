@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/67?type=npm",
+  "fetched": "2020-11-20 03:33:25",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:innomon:20170518",
+      "affectsPackage": "innomon",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:connect-parse-php:20170511",
+      "affectsPackage": "connect-parse-php",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hftp:20170422",
+      "affectsPackage": "hftp",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:mysql2csv:20170510",
+      "affectsPackage": "mysql2csv",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:zjjserver:20170509",
+      "affectsPackage": "zjjserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:yzt:20170509",
+      "affectsPackage": "yzt",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:yyooopack:20170516",
+      "affectsPackage": "yyooopack",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:yttivy:20170521",
+      "affectsPackage": "yttivy",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:mfrs:20170427",
+      "affectsPackage": "mfrs",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:xtalk:20170418",
+      "affectsPackage": "xtalk",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wenluhong1:20170509",
+      "affectsPackage": "wenluhong1",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ltt:20170503",
+      "affectsPackage": "ltt",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:xiongrui-httpserver:20170504",
+      "affectsPackage": "xiongrui-httpserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ltt.js:20170503",
+      "affectsPackage": "ltt.js",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:wisper:20170509",
+      "affectsPackage": "wisper",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:thrushs:20170509",
+      "affectsPackage": "thrushs",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wintiwebdev:20170521",
+      "affectsPackage": "wintiwebdev",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:thrushs:20170427",
+      "affectsPackage": "thrushs",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wind-mvc:20170503",
+      "affectsPackage": "wind-mvc",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:whispercast:20170511",
+      "affectsPackage": "whispercast",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:rtcmulticonnection-client:20170425",
+      "affectsPackage": "rtcmulticonnection-client",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:weather.swlyons:20170427",
+      "affectsPackage": "weather.swlyons",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:lam:20170510",
+      "affectsPackage": "lam",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:given-html-report:20170514",
+      "affectsPackage": "given-html-report",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wangguojing123:20170518",
+      "affectsPackage": "wangguojing123",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:uv-tj-demo:20170509",
+      "affectsPackage": "uv-tj-demo",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/npm:parse-ssi:20170518",
+      "affectsPackage": "parse-ssi",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:utahcityfinder:20170510",
+      "affectsPackage": "utahcityfinder",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:unicorn-list:20170510",
+      "affectsPackage": "unicorn-list",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:uekw1511server:20170509",
+      "affectsPackage": "uekw1511server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    }
+  ]
+}

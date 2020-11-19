@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/53?type=npm",
+  "fetched": "2020-11-20 03:25:57",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:angular-http-server:20180302",
+      "affectsPackage": "angular-http-server",
+      "affectsVersion": "<1.4.3",
+      "published": "08 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:clean-css:20180306",
+      "affectsPackage": "clean-css",
+      "affectsVersion": "<4.1.11",
+      "published": "07 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:diff:20180305",
+      "affectsPackage": "diff",
+      "affectsVersion": ">=3.0.0 <3.5.0",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:mrk.js:20180303",
+      "affectsPackage": "mrk.js",
+      "affectsVersion": "<2.0.1",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:simplehttpserver:20180226",
+      "affectsPackage": "simplehttpserver",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:anywhere:20180226",
+      "affectsPackage": "anywhere",
+      "affectsVersion": "<1.5.0",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:ua-parser-js:20171012",
+      "affectsPackage": "ua-parser-js",
+      "affectsVersion": "<0.7.16",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:loopback:20171027",
+      "affectsPackage": "loopback",
+      "affectsVersion": "<3.16.2",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:useragent:20170308",
+      "affectsPackage": "useragent",
+      "affectsVersion": "<2.1.13",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hekto:20180215",
+      "affectsPackage": "hekto",
+      "affectsVersion": "<0.2.3",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:aws-lambda-multipart-parser:20180303",
+      "affectsPackage": "aws-lambda-multipart-parser",
+      "affectsVersion": "<0.1.2",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:626:20180226",
+      "affectsPackage": "626",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:zxyserver:20180306",
+      "affectsPackage": "zxyserver",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:yypsulie11:20180306",
+      "affectsPackage": "yypsulie11",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:yxxserver:20180306",
+      "affectsPackage": "yxxserver",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:web-node-server:20180306",
+      "affectsPackage": "web-node-server",
+      "affectsVersion": "<0.0.11",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wuzhuangserver:20180306",
+      "affectsPackage": "wuzhuangserver",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wrlc:20180306",
+      "affectsPackage": "wrlc",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wenluhong111:20180306",
+      "affectsPackage": "wenluhong111",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:web-server-mock:20180306",
+      "affectsPackage": "web-server-mock",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:weathertest.bryceperkins:20180306",
+      "affectsPackage": "weathertest.bryceperkins",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:songcaihong:20180306",
+      "affectsPackage": "songcaihong",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:shenliru3:20180306",
+      "affectsPackage": "shenliru3",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:servewuqianqianqian:20180306",
+      "affectsPackage": "servewuqianqianqian",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serveryyl:20180306",
+      "affectsPackage": "serveryyl",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serverfff:20180306",
+      "affectsPackage": "serverfff",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:rapid-httpserver:20180306",
+      "affectsPackage": "rapid-httpserver",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:proxey:20180306",
+      "affectsPackage": "proxey",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nodeload:20180306",
+      "affectsPackage": "nodeload",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:myserve111:20180306",
+      "affectsPackage": "myserve111",
+      "affectsVersion": "*",
+      "published": "06 Mar, 2018"
+    }
+  ]
+}

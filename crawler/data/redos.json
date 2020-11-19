@@ -1,0 +1,1108 @@
+[
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSVALIDATORS-1017404",
+    "affectsPackage": "express-validators",
+    "affectsVersion": "*",
+    "published": "11 Nov, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-ABSOLUNETKAFE-1017403",
+    "affectsPackage": "@absolunet/kafe",
+    "affectsVersion": "<3.2.10",
+    "published": "05 Nov, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-CODEMIRROR-1016937",
+    "affectsPackage": "codemirror",
+    "affectsVersion": "<5.58.2",
+    "published": "30 Oct, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-DATGUI-1016275",
+    "affectsPackage": "dat.gui",
+    "affectsVersion": "*",
+    "published": "27 Oct, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-TRIM-1017038",
+    "affectsPackage": "trim",
+    "affectsVersion": "<0.0.3",
+    "published": "27 Oct, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-LOCUTUS-1009836",
+    "affectsPackage": "locutus",
+    "affectsVersion": "*",
+    "published": "23 Oct, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-NPMUSERVALIDATE-1019352",
+    "affectsPackage": "npm-user-validate",
+    "affectsVersion": "<1.0.1",
+    "published": "18 Oct, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-UAPARSERJS-610226",
+    "affectsPackage": "ua-parser-js",
+    "affectsVersion": "<0.7.22",
+    "published": "16 Sep, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-WAPPALYZER-597530",
+    "affectsPackage": "wappalyzer",
+    "affectsVersion": "<6.0.6",
+    "published": "07 Aug, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWN-597156",
+    "affectsPackage": "markdown",
+    "affectsVersion": "*",
+    "published": "02 Aug, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597165",
+    "affectsPackage": "is-my-json-valid",
+    "affectsVersion": "<2.20.2",
+    "published": "02 Aug, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-XLSX-585898",
+    "affectsPackage": "xlsx",
+    "affectsVersion": "<0.16.0",
+    "published": "17 Jul, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-WAPPALYZER-572854",
+    "affectsPackage": "wappalyzer",
+    "affectsVersion": "<6.0.3",
+    "published": "19 Jun, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-WEBSOCKETEXTENSIONS-570623",
+    "affectsPackage": "websocket-extensions",
+    "affectsVersion": "<0.1.4",
+    "published": "02 Jun, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-URLREGEX-569472",
+    "affectsPackage": "url-regex",
+    "affectsVersion": "*",
+    "published": "02 Jun, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-CODEMIRROR-569611",
+    "affectsPackage": "codemirror",
+    "affectsVersion": "<5.54.0",
+    "published": "28 May, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWN-560793",
+    "affectsPackage": "markdown",
+    "affectsVersion": "*",
+    "published": "01 May, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-PAPAPARSE-564258",
+    "affectsPackage": "papaparse",
+    "affectsVersion": "<5.2.0",
+    "published": "02 Apr, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MOCHA-561476",
+    "affectsPackage": "mocha",
+    "affectsVersion": "<6.0.0",
+    "published": "29 Mar, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-PRISMJS-561410",
+    "affectsPackage": "prismjs",
+    "affectsVersion": "<1.5.0",
+    "published": "27 Mar, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-ACORN-559469",
+    "affectsPackage": "acorn",
+    "affectsVersion": ">=5.5.0 <5.7.4,>=6.0.0 <6.4.1,>=7.0.0 <7.1.1",
+    "published": "07 Mar, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-UAPCORE-551924",
+    "affectsPackage": "uap-core",
+    "affectsVersion": "<0.7.3",
+    "published": "21 Feb, 2020"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEMARKDOWN-469242",
+    "affectsPackage": "simple-markdown",
+    "affectsVersion": "<0.6.1",
+    "published": "09 Oct, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWNIT-459438",
+    "affectsPackage": "markdown-it",
+    "affectsVersion": "<10.0.0",
+    "published": "09 Oct, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-CSVPARSE-467403",
+    "affectsPackage": "csv-parse",
+    "affectsVersion": "<4.4.6",
+    "published": "20 Sep, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEMARKDOWN-460540",
+    "affectsPackage": "simple-markdown",
+    "affectsVersion": "<0.5.2",
+    "published": "01 Sep, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-STYLELINT-460283",
+    "affectsPackage": "stylelint",
+    "affectsVersion": "<11.0.0",
+    "published": "25 Aug, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKED-451540",
+    "affectsPackage": "marked",
+    "affectsVersion": "<0.4.0",
+    "published": "04 Jul, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKED-451341",
+    "affectsPackage": "marked",
+    "affectsVersion": ">=0.4.0 <0.7.0",
+    "published": "02 Jul, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-USERAGENT-174737",
+    "affectsPackage": "useragent",
+    "affectsVersion": "*",
+    "published": "19 May, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-REMARKABLE-174639",
+    "affectsPackage": "remarkable",
+    "affectsVersion": ">=1.0.0 <1.7.3",
+    "published": "13 May, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKED-174116",
+    "affectsPackage": "marked",
+    "affectsVersion": ">=0.1.3 <0.6.2",
+    "published": "07 Apr, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-LODASH-73639",
+    "affectsPackage": "lodash",
+    "affectsVersion": "<4.17.11",
+    "published": "05 Apr, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MARKED-73637",
+    "affectsPackage": "marked",
+    "affectsVersion": ">=0.5.0 <0.6.1",
+    "published": "30 Jan, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-REMOVEMARKDOWN-73635",
+    "affectsPackage": "remove-markdown",
+    "affectsVersion": "*",
+    "published": "29 Jan, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-ESM-72880",
+    "affectsPackage": "esm",
+    "affectsVersion": "<3.1.0",
+    "published": "03 Jan, 2019"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-UAPCORE-72743",
+    "affectsPackage": "uap-core",
+    "affectsVersion": "<0.6.0",
+    "published": "30 Dec, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:mosca:20180613",
+    "affectsPackage": "mosca",
+    "affectsVersion": "<2.8.2",
+    "published": "30 Aug, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:slugify:20180805",
+    "affectsPackage": "slugify",
+    "affectsVersion": "<1.3.1",
+    "published": "05 Aug, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:underscore.string:20170908",
+    "affectsPackage": "underscore.string",
+    "affectsVersion": ">2.4.1 <3.3.5",
+    "published": "25 Jun, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:platform.js:20170907",
+    "affectsPackage": "platform.js",
+    "affectsVersion": "*",
+    "published": "25 Jun, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:node-htmlparser-classic:20170906",
+    "affectsPackage": "node-htmlparser-classic",
+    "affectsVersion": "*",
+    "published": "25 Jun, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-ISMOBILEJS-72624",
+    "affectsPackage": "ismobilejs",
+    "affectsVersion": "<0.5.0",
+    "published": "25 Jun, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:citation-js:20180508",
+    "affectsPackage": "citation-js",
+    "affectsVersion": "<0.4.0-7",
+    "published": "16 May, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ua-parser-js:20180227",
+    "affectsPackage": "ua-parser-js",
+    "affectsVersion": "<0.7.18",
+    "published": "02 May, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:rgb2hex:20180429",
+    "affectsPackage": "rgb2hex",
+    "affectsVersion": "<0.1.6",
+    "published": "30 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:foreman:20180429",
+    "affectsPackage": "foreman",
+    "affectsVersion": "<3.0.1",
+    "published": "30 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:is-url:20180319",
+    "affectsPackage": "is-url",
+    "affectsVersion": "<1.2.4",
+    "published": "15 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:plist:20180219",
+    "affectsPackage": "plist",
+    "affectsVersion": ">=1.2.0 <3.0.1",
+    "published": "15 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ducktype:20180219",
+    "affectsPackage": "ducktype",
+    "affectsVersion": "<1.2.1",
+    "published": "15 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:simpl-schema:20180219",
+    "affectsPackage": "simpl-schema",
+    "affectsVersion": "<1.5.0",
+    "published": "15 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:sshpk:20180409",
+    "affectsPackage": "sshpk",
+    "affectsVersion": "<1.14.1",
+    "published": "09 Apr, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:eslint:20180222",
+    "affectsPackage": "eslint",
+    "affectsVersion": ">=1.4.0 <4.18.2",
+    "published": "22 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:path-complete-extname:20180307",
+    "affectsPackage": "path-complete-extname",
+    "affectsVersion": "<1.0.0",
+    "published": "08 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:clean-css:20180306",
+    "affectsPackage": "clean-css",
+    "affectsVersion": "<4.1.11",
+    "published": "07 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:diff:20180305",
+    "affectsPackage": "diff",
+    "affectsVersion": ">=3.0.0 <3.5.0",
+    "published": "06 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ua-parser-js:20171012",
+    "affectsPackage": "ua-parser-js",
+    "affectsVersion": "<0.7.16",
+    "published": "06 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:useragent:20170308",
+    "affectsPackage": "useragent",
+    "affectsVersion": "<2.1.13",
+    "published": "06 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:aws-lambda-multipart-parser:20180303",
+    "affectsPackage": "aws-lambda-multipart-parser",
+    "affectsVersion": "<0.1.2",
+    "published": "06 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:nwmatcher:20180305",
+    "affectsPackage": "nwmatcher",
+    "affectsVersion": "<1.4.4",
+    "published": "05 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:phpjs:20180305",
+    "affectsPackage": "phpjs",
+    "affectsVersion": "*",
+    "published": "05 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:content:20180305",
+    "affectsPackage": "content",
+    "affectsVersion": "<3.0.7,>=4.0.0 <4.0.4",
+    "published": "05 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:protobufjs:20180305",
+    "affectsPackage": "protobufjs",
+    "affectsVersion": "<5.0.3,>=6.0.0 <6.8.6",
+    "published": "05 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:uas-parser:20180305",
+    "affectsPackage": "uas-parser",
+    "affectsVersion": "<0.2.3",
+    "published": "05 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:highcharts:20180225",
+    "affectsPackage": "highcharts",
+    "affectsVersion": "<6.1.0",
+    "published": "01 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:emailjs-mime-codec:20180225",
+    "affectsPackage": "emailjs-mime-codec",
+    "affectsVersion": "<2.0.5",
+    "published": "01 Mar, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:wicket:20180225",
+    "affectsPackage": "wicket",
+    "affectsVersion": "<1.3.2",
+    "published": "27 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:marked:20180225",
+    "affectsPackage": "marked",
+    "affectsVersion": "<0.3.18",
+    "published": "27 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:bson:20180225",
+    "affectsPackage": "bson",
+    "affectsVersion": ">=0.5.0 <1.0.5",
+    "published": "27 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:mongoose-beautiful-unique-validation:20180226",
+    "affectsPackage": "mongoose-beautiful-unique-validation",
+    "affectsVersion": "<7.1.1",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:git-username:20180226",
+    "affectsPackage": "git-username",
+    "affectsVersion": "<0.5.1",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:node-json-db:20180226",
+    "affectsPackage": "node-json-db",
+    "affectsVersion": "<0.7.4",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:node-forge:20180226",
+    "affectsPackage": "node-forge",
+    "affectsVersion": "<0.7.4",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:github-url-to-object:20180226",
+    "affectsPackage": "github-url-to-object",
+    "affectsVersion": "<4.0.4",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:compromise:20180226",
+    "affectsPackage": "compromise",
+    "affectsVersion": "<11.5.1",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:checkit:20180226",
+    "affectsPackage": "checkit",
+    "affectsVersion": "*",
+    "published": "26 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:truncate:20180225",
+    "affectsPackage": "truncate",
+    "affectsVersion": "<2.0.1",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:skeemas:20180225",
+    "affectsPackage": "skeemas",
+    "affectsVersion": "<1.2.5",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:sanitize:20180225",
+    "affectsPackage": "sanitize",
+    "affectsVersion": "< 2.1.0",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:address-rfc2822:20180225",
+    "affectsPackage": "address-rfc2822",
+    "affectsVersion": "<2.0.2",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:email-existence:20180225",
+    "affectsPackage": "email-existence",
+    "affectsVersion": "<0.1.6",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:datatype-expansion:20180225",
+    "affectsPackage": "datatype-expansion",
+    "affectsVersion": "<0.3.1",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:astronomia:20180225",
+    "affectsPackage": "astronomia",
+    "affectsVersion": "<1.3.9",
+    "published": "25 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:xlsx:20180222",
+    "affectsPackage": "xlsx",
+    "affectsVersion": "<0.12.2",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:vue:20180222",
+    "affectsPackage": "vue",
+    "affectsVersion": "<2.5.14",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:shaka-player:20180222",
+    "affectsPackage": "shaka-player",
+    "affectsVersion": "<2.3.3",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:valid-email:20180222",
+    "affectsPackage": "valid-email",
+    "affectsVersion": "<1.0.0",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:markdown-js:20180221",
+    "affectsPackage": "markdown-js",
+    "affectsVersion": "<0.0.4",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:moddle-xml:20180222",
+    "affectsPackage": "moddle-xml",
+    "affectsVersion": "<4.1.3",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:harb:20180222",
+    "affectsPackage": "harb",
+    "affectsVersion": "*",
+    "published": "22 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:html-dom-parser:20180220",
+    "affectsPackage": "html-dom-parser",
+    "affectsVersion": "<0.1.3",
+    "published": "20 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:node-pg-migrate:20180220",
+    "affectsPackage": "node-pg-migrate",
+    "affectsVersion": "<2.23.0",
+    "published": "20 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:gettext-parser:20180220",
+    "affectsPackage": "gettext-parser",
+    "affectsVersion": "<1.3.1",
+    "published": "20 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:deckardcain:20180220",
+    "affectsPackage": "deckardcain",
+    "affectsVersion": "<0.3.4",
+    "published": "20 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:abaaso:20180220",
+    "affectsPackage": "abaaso",
+    "affectsVersion": "*",
+    "published": "20 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:braces:20180219",
+    "affectsPackage": "braces",
+    "affectsVersion": "<2.3.1",
+    "published": "19 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:validator:20180218",
+    "affectsPackage": "validator",
+    "affectsVersion": ">=5.2.0 <9.4.1",
+    "published": "18 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:jasmine-core:20180216",
+    "affectsPackage": "jasmine-core",
+    "affectsVersion": "<3.1.0",
+    "published": "18 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:postcss-inline-base64:20180216",
+    "affectsPackage": "postcss-inline-base64",
+    "affectsVersion": "<3.0.0",
+    "published": "18 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:cejs:20180217",
+    "affectsPackage": "cejs",
+    "affectsVersion": "<2.0.20180219",
+    "published": "18 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:is-my-json-valid:20180214",
+    "affectsPackage": "is-my-json-valid",
+    "affectsVersion": "<1.4.1,>=2.0.0 <2.17.2",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:valid-data-url:20180214",
+    "affectsPackage": "valid-data-url",
+    "affectsVersion": "<0.1.5",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ssri:20180214",
+    "affectsPackage": "ssri",
+    "affectsVersion": "<5.2.2",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:q-io:20180212",
+    "affectsPackage": "q-io",
+    "affectsVersion": "<1.13.5",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:nicest:20180213",
+    "affectsPackage": "nicest",
+    "affectsVersion": "<1.1.3",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:mimer:20180210",
+    "affectsPackage": "mimer",
+    "affectsVersion": "<0.3.0",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:jquery.csssr.validation:20180215",
+    "affectsPackage": "jquery.csssr.validation",
+    "affectsVersion": "<0.0.26",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:htmllint:20180213",
+    "affectsPackage": "htmllint",
+    "affectsVersion": "<0.7.2",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:dirty-json:20180213",
+    "affectsPackage": "dirty-json",
+    "affectsVersion": "<0.5.2",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:citeproc:20180214",
+    "affectsPackage": "citeproc",
+    "affectsVersion": "<2.1.184",
+    "published": "15 Feb, 2018"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:mobile-detect:20170907",
+    "affectsPackage": "mobile-detect",
+    "affectsVersion": "<1.4.0",
+    "published": "10 Dec, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:content-type-parser:20170905",
+    "affectsPackage": "content-type-parser",
+    "affectsVersion": "<2.0.0",
+    "published": "10 Dec, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:whatwg-mimetype:20170907",
+    "affectsPackage": "whatwg-mimetype",
+    "affectsVersion": "<2.0.0",
+    "published": "10 Dec, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:moment:20170905",
+    "affectsPackage": "moment",
+    "affectsVersion": "<2.19.3",
+    "published": "28 Nov, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:method-override:20170927",
+    "affectsPackage": "method-override",
+    "affectsVersion": ">1.0.2 <2.3.10",
+    "published": "28 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:fresh:20170908",
+    "affectsPackage": "fresh",
+    "affectsVersion": "<0.5.2",
+    "published": "27 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:forwarded:20170908",
+    "affectsPackage": "forwarded",
+    "affectsVersion": "<0.1.2",
+    "published": "27 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:mime:20170907",
+    "affectsPackage": "mime",
+    "affectsVersion": "<1.4.1,>=2.0.0 <2.0.3",
+    "published": "27 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:timespan:20170907",
+    "affectsPackage": "timespan",
+    "affectsVersion": "*",
+    "published": "26 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:slug:20170907",
+    "affectsPackage": "slug",
+    "affectsVersion": "<0.9.2",
+    "published": "26 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:string:20170907",
+    "affectsPackage": "string",
+    "affectsVersion": "*",
+    "published": "26 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:debug:20170905",
+    "affectsPackage": "debug",
+    "affectsVersion": ">=1.0.0 <2.6.9,>=3.0.0 <3.1.0",
+    "published": "26 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:tough-cookie:20170905",
+    "affectsPackage": "tough-cookie",
+    "affectsVersion": "<2.3.3",
+    "published": "21 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:marked:20170907",
+    "affectsPackage": "marked",
+    "affectsVersion": "<0.3.9",
+    "published": "21 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:parsejson:20170908",
+    "affectsPackage": "parsejson",
+    "affectsVersion": "*",
+    "published": "21 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:content:20170908",
+    "affectsPackage": "content",
+    "affectsVersion": "<3.0.6",
+    "published": "13 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:dns-sync:20170909",
+    "affectsPackage": "dns-sync",
+    "affectsVersion": "*",
+    "published": "10 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:no-case:20170908",
+    "affectsPackage": "no-case",
+    "affectsVersion": "<2.3.2",
+    "published": "10 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:charset:20170908",
+    "affectsPackage": "charset",
+    "affectsVersion": "<1.0.1",
+    "published": "10 Sep, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ua-parser:20170829",
+    "affectsPackage": "ua-parser",
+    "affectsVersion": "*",
+    "published": "30 Aug, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:amqp-match:20170515",
+    "affectsPackage": "amqp-match",
+    "affectsVersion": "*",
+    "published": "15 May, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ms:20170412",
+    "affectsPackage": "ms",
+    "affectsVersion": ">=0.7.1 <2.0.0",
+    "published": "15 May, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:uikit:20160701",
+    "affectsPackage": "uikit",
+    "affectsVersion": ">=2.0.0 <2.26.4",
+    "published": "08 May, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:brace-expansion:20170302",
+    "affectsPackage": "brace-expansion",
+    "affectsVersion": "<1.1.7",
+    "published": "26 Apr, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:decamelize:20151223",
+    "affectsPackage": "decamelize",
+    "affectsVersion": ">=1.1.0 <1.1.2",
+    "published": "16 Apr, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:useragent:20170206",
+    "affectsPackage": "useragent",
+    "affectsVersion": "<2.1.12",
+    "published": "16 Apr, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:uri-js:20160804",
+    "affectsPackage": "uri-js",
+    "affectsVersion": "<3.0.0",
+    "published": "16 Apr, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:http-proxy:20110901",
+    "affectsPackage": "http-proxy",
+    "affectsVersion": "<0.7.0",
+    "published": "13 Feb, 2017"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:moment:20161019",
+    "affectsPackage": "moment",
+    "affectsVersion": "<2.15.2",
+    "published": "24 Oct, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:uc.micro:20160530",
+    "affectsPackage": "uc.micro",
+    "affectsVersion": "<=1.0.0",
+    "published": "06 Oct, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:tough-cookie:20160722",
+    "affectsPackage": "tough-cookie",
+    "affectsVersion": ">=0.9.7 <2.3.0",
+    "published": "22 Jul, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/SNYK-JS-MINIMATCH-1019388",
+    "affectsPackage": "minimatch",
+    "affectsVersion": "<3.0.2",
+    "published": "20 Jun, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:minimatch:20160620",
+    "affectsPackage": "minimatch",
+    "affectsVersion": "<3.0.2",
+    "published": "20 Jun, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:negotiator:20160616",
+    "affectsPackage": "negotiator",
+    "affectsVersion": "<0.6.1",
+    "published": "16 Jun, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:riot-compiler:20160321",
+    "affectsPackage": "riot-compiler",
+    "affectsVersion": "<=2.3.21",
+    "published": "21 Mar, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:moment:20160126",
+    "affectsPackage": "moment",
+    "affectsVersion": "<2.11.2",
+    "published": "01 Feb, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:hawk:20160119",
+    "affectsPackage": "hawk",
+    "affectsVersion": "<3.1.3,>=4.0.0 <4.1.1",
+    "published": "19 Jan, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:is-my-json-valid:20160118",
+    "affectsPackage": "is-my-json-valid",
+    "affectsVersion": "<2.12.4",
+    "published": "18 Jan, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:jadedown:20160105",
+    "affectsPackage": "jadedown",
+    "affectsVersion": "*",
+    "published": "06 Jan, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:jshamcrest:20160105",
+    "affectsPackage": "jshamcrest",
+    "affectsVersion": "*",
+    "published": "06 Jan, 2016"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:millisecond:20151120",
+    "affectsPackage": "millisecond",
+    "affectsVersion": "<0.1.2",
+    "published": "25 Nov, 2015"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:uglify-js:20151024",
+    "affectsPackage": "uglify-js",
+    "affectsVersion": "<2.6.0",
+    "published": "06 Nov, 2015"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ms:20151024",
+    "affectsPackage": "ms",
+    "affectsVersion": "<0.7.1",
+    "published": "06 Nov, 2015"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:bleach:20151024",
+    "affectsPackage": "bleach",
+    "affectsVersion": "*",
+    "published": "06 Nov, 2015"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:ansi2html:20151025",
+    "affectsPackage": "ansi2html",
+    "affectsVersion": "*",
+    "published": "06 Nov, 2015"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:semver:20150403",
+    "affectsPackage": "semver",
+    "affectsVersion": "<4.3.2",
+    "published": "03 Apr, 2015"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:validator:20130705",
+    "affectsPackage": "validator",
+    "affectsVersion": ">=0.1.0 <3.22.1",
+    "published": "12 Nov, 2014"
+  },
+  {
+    "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+    "link": "https://snyk.io/vuln/npm:marked:20140131-1",
+    "affectsPackage": "marked",
+    "affectsVersion": "<0.3.4",
+    "published": "30 Jan, 2014"
+  }
+]

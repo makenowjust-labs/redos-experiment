@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/70?type=npm",
+  "fetched": "2020-11-20 03:34:56",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:earlybird:20170418",
+      "affectsPackage": "earlybird",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:dylmomo:20170518",
+      "affectsPackage": "dylmomo",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:dgard8.lab6:20170516",
+      "affectsPackage": "dgard8.lab6",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:desafio:20170429",
+      "affectsPackage": "desafio",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:dcserver:20170516",
+      "affectsPackage": "dcserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:datachannel-client:20170418",
+      "affectsPackage": "datachannel-client",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:dasafio:20170509",
+      "affectsPackage": "dasafio",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:cyber-js:20170418",
+      "affectsPackage": "cyber-js",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:cuciuci:20170511",
+      "affectsPackage": "cuciuci",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:craft-ai-icons:20170514",
+      "affectsPackage": "craft-ai-icons",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:city-weather-abe:20170521",
+      "affectsPackage": "city-weather-abe",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:censorify.tanisjr:20170509",
+      "affectsPackage": "censorify.tanisjr",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:calmquist.static-server:20170516",
+      "affectsPackage": "calmquist.static-server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:badjs-sourcemap-server:20170418",
+      "affectsPackage": "badjs-sourcemap-server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:22lixian:20170511",
+      "affectsPackage": "22lixian",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:11xiaoli:20170509",
+      "affectsPackage": "11xiaoli",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:rocketmake-nuget:20170514",
+      "affectsPackage": "rocketmake-nuget",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:ip:20170304",
+      "affectsPackage": "ip",
+      "affectsVersion": "<1.1.5",
+      "published": "04 Jun, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:ghost:20170110",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.11.4 >=0.8.0",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:rendr-handlebars:20140722",
+      "affectsPackage": "rendr-handlebars",
+      "affectsVersion": "<1.0.0",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:octotree:20160613",
+      "affectsPackage": "octotree",
+      "affectsVersion": "<2.0.11",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:octotree:20140514",
+      "affectsPackage": "octotree",
+      "affectsVersion": "<1.1",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Man-in-the-Middle (MitM)",
+      "link": "https://snyk.io/vuln/npm:hotel:20160322",
+      "affectsPackage": "hotel",
+      "affectsVersion": "*",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:ghost:20161007",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<1.0.0-alpha.5 >=1.0.0-alpha.1,>=0.8.0 < 0.11.2",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/npm:ghost:20160823",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.10.0",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/npm:ghost:20150303",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.5.9",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ghost:20150303-5",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.5.9",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:ghost:20150303-4",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.5.9",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/npm:ghost:20150303-3",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.5.9",
+      "published": "30 May, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:ghost:20150303-2",
+      "affectsPackage": "ghost",
+      "affectsVersion": "<0.5.9",
+      "published": "30 May, 2017"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/20?type=npm",
+  "fetched": "2020-11-20 03:09:02",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540962",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Uncontrolled Recursion",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540964",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.1",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540966",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540968",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Uncontrolled Recursion",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540970",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540972",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "NULL Pointer Dereference",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540974",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540978",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540980",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540982",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.11.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540984",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.3.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540986",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540988",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540990",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "NULL Pointer Dereference",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540992",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.3",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "NULL Pointer Dereference",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540994",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540996",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-Bounds",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540998",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-541000",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "*",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-541002",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "*",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-AWSLAMBDA-540839",
+      "affectsPackage": "aws-lambda",
+      "affectsVersion": "<1.0.5",
+      "published": "07 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Link Resolution Before File Access",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEGIT-542723",
+      "affectsPackage": "nodegit",
+      "affectsVersion": "<0.26.3",
+      "published": "07 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Handling of Alternate Data Stream",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEGIT-542722",
+      "affectsPackage": "nodegit",
+      "affectsVersion": "<0.26.3",
+      "published": "07 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Handling of Alternate Data Stream",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEGIT-542721",
+      "affectsPackage": "nodegit",
+      "affectsVersion": "<0.26.3",
+      "published": "07 Jan, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEGIT-542720",
+      "affectsPackage": "nodegit",
+      "affectsVersion": "<0.26.3",
+      "published": "07 Jan, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITDIFFAPPLY-540774",
+      "affectsPackage": "git-diff-apply",
+      "affectsVersion": "<0.22.2",
+      "published": "06 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Authentication",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSLARAVELPASSPORT-540726",
+      "affectsPackage": "express-laravel-passport",
+      "affectsVersion": "*",
+      "published": "05 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ATLASBOARDATLASSIANPACKAGE-540725",
+      "affectsPackage": "atlasboard-atlassian-package",
+      "affectsVersion": "*",
+      "published": "05 Jan, 2020"
+    },
+    {
+      "vulnerability": "Buffer Over-read",
+      "link": "https://snyk.io/vuln/SNYK-JS-DBUS-540504",
+      "affectsPackage": "dbus",
+      "affectsVersion": "*",
+      "published": "03 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SEEFTL-540434",
+      "affectsPackage": "seeftl",
+      "affectsVersion": "*",
+      "published": "31 Dec, 2019"
+    }
+  ]
+}

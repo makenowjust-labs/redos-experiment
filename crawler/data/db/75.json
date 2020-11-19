@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/75?type=npm",
+  "fetched": "2020-11-20 03:37:30",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:i18next:20161013",
+      "affectsPackage": "i18next",
+      "affectsVersion": ">=2.0.0 <3.4.4",
+      "published": "13 Feb, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:i18next:20151018",
+      "affectsPackage": "i18next",
+      "affectsVersion": "<1.10.3",
+      "published": "13 Feb, 2017"
+    },
+    {
+      "vulnerability": "Insecure Randomness",
+      "link": "https://snyk.io/vuln/npm:ws:20160920",
+      "affectsPackage": "ws",
+      "affectsVersion": "<1.1.2",
+      "published": "07 Feb, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:marked:20170112",
+      "affectsPackage": "marked",
+      "affectsVersion": "<0.3.7",
+      "published": "30 Jan, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:websocket-driver:20131012",
+      "affectsPackage": "websocket-driver",
+      "affectsVersion": "<0.3.1",
+      "published": "30 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:validator:20150313",
+      "affectsPackage": "validator",
+      "affectsVersion": ">=3.0.0 <3.34.0",
+      "published": "30 Jan, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:sails:20130622",
+      "affectsPackage": "sails",
+      "affectsVersion": "<0.9.0",
+      "published": "30 Jan, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:sails:20150604",
+      "affectsPackage": "sails",
+      "affectsVersion": ">=0.11.0-rc6 <0.12.0-rc4",
+      "published": "30 Jan, 2017"
+    },
+    {
+      "vulnerability": "Content Security Policy (CSP) Bypass",
+      "link": "https://snyk.io/vuln/npm:angular:20161101",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.5.0 <1.5.9",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Script Injection",
+      "link": "https://snyk.io/vuln/npm:angular:20160527",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.0.0 <1.2.30",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20160122",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.3.0 <1.5.0-rc.2",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20151205",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.5.0-rc.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20151130",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.4.10",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20150909",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.5.0-beta.2",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Clickjacking",
+      "link": "https://snyk.io/vuln/npm:angular:20150807-1",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.3.1 <1.5.0-beta.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20150807",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.0.0 <1.5.0-beta.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:angular:20150310",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.4.0-beta.6",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Command Execution",
+      "link": "https://snyk.io/vuln/npm:angular:20141104",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.3.2",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Unsafe Object Deserialization",
+      "link": "https://snyk.io/vuln/npm:angular:20140909",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.2.19 <1.2.24",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20140908",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.3.0-rc.4",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:angular:20140608",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.3.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Protection Bypass",
+      "link": "https://snyk.io/vuln/npm:angular:20131113",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.2.2",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Script Injection",
+      "link": "https://snyk.io/vuln/npm:angular:20130625",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.1.5",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20130622",
+      "affectsPackage": "angular",
+      "affectsVersion": ">=1.0.0 <1.2.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20130621",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.2.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular-gettext:20140624",
+      "affectsPackage": "angular-gettext",
+      "affectsVersion": "<1.0.0",
+      "published": "23 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:react:20150318",
+      "affectsPackage": "react",
+      "affectsVersion": ">=0.0.1 <0.14.0",
+      "published": "18 Jan, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:react:20131217",
+      "affectsPackage": "react",
+      "affectsVersion": ">=0.5.0 <0.5.2,>=0.4.0 <0.4.2",
+      "published": "18 Jan, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Command Execution",
+      "link": "https://snyk.io/vuln/npm:clamscan:20150821",
+      "affectsPackage": "clamscan",
+      "affectsVersion": "<0.8.2",
+      "published": "18 Jan, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:fury-adapter-swagger:20161024",
+      "affectsPackage": "fury-adapter-swagger",
+      "affectsVersion": "<0.9.7 >=0.2.0,~0.8.0-pre",
+      "published": "11 Jan, 2017"
+    }
+  ]
+}

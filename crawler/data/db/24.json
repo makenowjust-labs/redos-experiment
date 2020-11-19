@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/24?type=npm",
+  "fetched": "2020-11-20 03:11:04",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCIONOPS-536184",
+      "affectsPackage": "bitcion-ops",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BIP30-536185",
+      "affectsPackage": "bip30",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BICTORELIB-536186",
+      "affectsPackage": "bictore-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BICTOINJSLIB-536187",
+      "affectsPackage": "bictoinjs-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BICTOINDRPC-536188",
+      "affectsPackage": "bictoind-rpc",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BICTOINOPS-536189",
+      "affectsPackage": "bictoin-ops",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BCONI-536190",
+      "affectsPackage": "bconi",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BCION-536191",
+      "affectsPackage": "bcion",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BAESX-536192",
+      "affectsPackage": "baes-x",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BABELLOQDER-536193",
+      "affectsPackage": "babel-loqder",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BABELLOADRE-536194",
+      "affectsPackage": "babel-loadre",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BABELLAODER-536195",
+      "affectsPackage": "babel-laoder",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SMARTBANNERJS-536070",
+      "affectsPackage": "smartbanner.js",
+      "affectsVersion": "<1.14.1",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-GUN-536071",
+      "affectsPackage": "gun",
+      "affectsVersion": "<0.2019.416",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Unsafe Dependency Resolution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GENERATORJHIPSTER-536074",
+      "affectsPackage": "generator-jhipster",
+      "affectsVersion": "<6.3.1",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Buffer Overflow",
+      "link": "https://snyk.io/vuln/SNYK-JS-CENTRA-536073",
+      "affectsPackage": "centra",
+      "affectsVersion": "<2.4.0",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-CUBEJSBACKENDAPIGATEWAY-536072",
+      "affectsPackage": "@cubejs-backend/api-gateway",
+      "affectsVersion": ">=0.11.0 <0.11.17",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Sandbox Breakout",
+      "link": "https://snyk.io/vuln/SNYK-JS-REALMSSHIM-536069",
+      "affectsPackage": "realms-shim",
+      "affectsVersion": "<1.2.1",
+      "published": "26 Nov, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EDITORMD-536076",
+      "affectsPackage": "editor.md",
+      "affectsVersion": ">0.0.0",
+      "published": "26 Nov, 2019"
+    },
+    {
+      "vulnerability": "NULL Pointer Dereference",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535505",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.11.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Resource Exhaustion",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535504",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.11.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Uncontrolled Recursion",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535503",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.8.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "NULL Pointer Dereference",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535502",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.5.5",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535501",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.11.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "NULL Pointer Dereference",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535500",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.11.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535499",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.2.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Out-of-Bounds",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535498",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-535497",
+      "affectsPackage": "node-sass",
+      "affectsVersion": ">=4.4.0 <4.13.1",
+      "published": "25 Nov, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PANNELLUM-535489",
+      "affectsPackage": "pannellum",
+      "affectsVersion": ">=2.5.0 <2.5.5",
+      "published": "24 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious 󠅮󠅰󠅭Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CXCT-535487",
+      "affectsPackage": "cxct",
+      "affectsVersion": "*",
+      "published": "24 Nov, 2019"
+    }
+  ]
+}

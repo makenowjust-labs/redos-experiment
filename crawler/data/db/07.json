@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/7?type=npm",
+  "fetched": "2020-11-20 03:02:05",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FTPSRV-598863",
+      "affectsPackage": "ftp-srv",
+      "affectsVersion": ">=1.0.0 <4.3.4",
+      "published": "19 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-TEMPL8-598770",
+      "affectsPackage": "templ8",
+      "affectsVersion": "*",
+      "published": "17 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NISUTILS-598799",
+      "affectsPackage": "nis-utils",
+      "affectsVersion": "*",
+      "published": "17 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONPOINTER-598804",
+      "affectsPackage": "jsonpointer",
+      "affectsVersion": "<4.1.0",
+      "published": "17 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSWITCH-597113",
+      "affectsPackage": "bootstrap-switch",
+      "affectsVersion": "*",
+      "published": "17 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASH-590103",
+      "affectsPackage": "lodash",
+      "affectsVersion": "<4.17.20",
+      "published": "16 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-PHPJS-598681",
+      "affectsPackage": "phpjs",
+      "affectsVersion": "*",
+      "published": "14 Aug, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-MADLIBOBJECTUTILS-598676",
+      "affectsPackage": "madlib-object-utils",
+      "affectsVersion": "<0.1.7",
+      "published": "14 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUEFY-598386",
+      "affectsPackage": "buefy",
+      "affectsVersion": "<0.9.0",
+      "published": "13 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PROGRESSKENDOANGULAREDITOR-598159",
+      "affectsPackage": "@progress/kendo-angular-editor",
+      "affectsVersion": "<1.2.3",
+      "published": "12 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TINYMCE-598223",
+      "affectsPackage": "tinymce",
+      "affectsVersion": "<4.9.11,>=5.0.0 <5.4.0",
+      "published": "12 Aug, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-JPV-598089",
+      "affectsPackage": "jpv",
+      "affectsVersion": "<2.2.2",
+      "published": "11 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PRISMJS-597628",
+      "affectsPackage": "prismjs",
+      "affectsVersion": ">=1.1.0 <1.21.0",
+      "published": "09 Aug, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-WAPPALYZER-597530",
+      "affectsPackage": "wappalyzer",
+      "affectsVersion": "<6.0.6",
+      "published": "07 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-Site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-POLARISWEBSITE-597473",
+      "affectsPackage": "polaris-website",
+      "affectsVersion": "<1.1.1",
+      "published": "06 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAVESERVER-597396",
+      "affectsPackage": "save-server",
+      "affectsVersion": "<1.0.7",
+      "published": "05 Aug, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FTPSRV-597159",
+      "affectsPackage": "ftp-srv",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWNITKATEX-597160",
+      "affectsPackage": "markdown-it-katex",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKDOWN-597156",
+      "affectsPackage": "markdown",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597165",
+      "affectsPackage": "is-my-json-valid",
+      "affectsVersion": "<2.20.2",
+      "published": "02 Aug, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597167",
+      "affectsPackage": "is-my-json-valid",
+      "affectsVersion": "<2.20.3",
+      "published": "02 Aug, 2020"
+    },
+    {
+      "vulnerability": "Incorrect Comparison",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLPVALIDATE-597083",
+      "affectsPackage": "slp-validate",
+      "affectsVersion": "<1.2.2",
+      "published": "31 Jul, 2020"
+    },
+    {
+      "vulnerability": "Incorrect Comparison",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLPJS-597082",
+      "affectsPackage": "slpjs",
+      "affectsVersion": "<0.27.4",
+      "published": "31 Jul, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-AUTH0-596476",
+      "affectsPackage": "auth0",
+      "affectsVersion": "<2.27.1",
+      "published": "30 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSFILEUPLOAD-595969",
+      "affectsPackage": "express-fileupload",
+      "affectsVersion": "<1.1.10",
+      "published": "30 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITTAGSREMOTE-596503",
+      "affectsPackage": "git-tags-remote",
+      "affectsVersion": "*",
+      "published": "30 Jul, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-FLAT-596927",
+      "affectsPackage": "flat",
+      "affectsVersion": ">=5.0.0 <5.0.2,>=4.0.0 <4.1.1,>=3.0.0 <3.0.1,>=2.0.0 <2.0.2,>=5.0.0 <5.0.2,<1.6.2",
+      "published": "30 Jul, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FASTIFY-596516",
+      "affectsPackage": "fastify",
+      "affectsVersion": "<2.15.1",
+      "published": "30 Jul, 2020"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-608662",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=7.0.0 <7.3.3,>=8.0.0 <8.5.1,>=9.0.0 <9.2.2",
+      "published": "29 Jul, 2020"
+    },
+    {
+      "vulnerability": "Use After Free",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-598894",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=7.0.0 <7.3.3,>=8.0.0 <8.5.1,>=9.0.0 <9.2.1",
+      "published": "29 Jul, 2020"
+    }
+  ]
+}

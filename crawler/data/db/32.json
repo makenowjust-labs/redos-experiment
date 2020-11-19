@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/32?type=npm",
+  "fetched": "2020-11-20 03:15:11",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-COCOSUTILS-460152",
+      "affectsPackage": "cocos-utils",
+      "affectsVersion": "*",
+      "published": "22 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BBBUILDER-460132",
+      "affectsPackage": "bb-builder",
+      "affectsVersion": "*",
+      "published": "22 Aug, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-MITHRIL-460113",
+      "affectsPackage": "mithril",
+      "affectsVersion": ">=1.0.0 <1.1.7,>=2.0.0 <2.0.3",
+      "published": "21 Aug, 2019"
+    },
+    {
+      "vulnerability": "Improper Authorization",
+      "link": "https://snyk.io/vuln/SNYK-JS-GOOGLEAPIS-460104",
+      "affectsPackage": "googleapis",
+      "affectsVersion": ">=36.0.0 <39.1.0",
+      "published": "21 Aug, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-LARVITBASEAPI-459899",
+      "affectsPackage": "larvitbase-api",
+      "affectsVersion": "<0.5.5",
+      "published": "20 Aug, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOCALDEVICES-459898",
+      "affectsPackage": "local-devices",
+      "affectsVersion": "<3.0.0",
+      "published": "20 Aug, 2019"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SEQUELIZE-459751",
+      "affectsPackage": "sequelize",
+      "affectsVersion": ">=4.0.0 <4.44.3,>=5.0.0 <5.15.1",
+      "published": "19 Aug, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-ADDAX-459559",
+      "affectsPackage": "addax",
+      "affectsVersion": "<1.1.0",
+      "published": "16 Aug, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-WXCHANGBA-459325",
+      "affectsPackage": "wxchangba",
+      "affectsVersion": "*",
+      "published": "14 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SLUSHFULLSTACKFRAMEWORK-458733",
+      "affectsPackage": "slush-fullstack-framework",
+      "affectsVersion": "=0.9.2",
+      "published": "08 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-PYRAMIDPROPORTION-458731",
+      "affectsPackage": "pyramid-proportion",
+      "affectsVersion": "=1.0.5",
+      "published": "08 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-PENSISCHEDULER-458734",
+      "affectsPackage": "pensi-scheduler",
+      "affectsVersion": "=1.1.3",
+      "published": "08 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEVICEMQTT-458732",
+      "affectsPackage": "device-mqtt",
+      "affectsVersion": "=1.0.11",
+      "published": "08 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ZEMEN-458633",
+      "affectsPackage": "zemen",
+      "affectsVersion": "=0.0.5",
+      "published": "07 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NGXCONTEXTMENU-458623",
+      "affectsPackage": "ngx-context-menu",
+      "affectsVersion": "=0.0.26",
+      "published": "07 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JQUERYAIRLOAD-458582",
+      "affectsPackage": "jquery-airload",
+      "affectsVersion": "=0.2.5",
+      "published": "07 Aug, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRPCTSHEALTHCHECK-456752",
+      "affectsPackage": "grpc-ts-health-check",
+      "affectsVersion": "<2.0.0",
+      "published": "06 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-UPLOADERPLUGIN-456751",
+      "affectsPackage": "uploader-plugin",
+      "affectsVersion": "1.0.2",
+      "published": "06 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAILCLOTHJS-456749",
+      "affectsPackage": "sailclothjs",
+      "affectsVersion": "1.2.6",
+      "published": "06 Aug, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CALRD-456750",
+      "affectsPackage": "cal_rd",
+      "affectsVersion": "*",
+      "published": "06 Aug, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SELECT2-456562",
+      "affectsPackage": "select2",
+      "affectsVersion": "<4.0.8",
+      "published": "04 Aug, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EDITORMD-456539",
+      "affectsPackage": "editor.md",
+      "affectsVersion": "*",
+      "published": "04 Aug, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEBB-456334",
+      "affectsPackage": "nodebb",
+      "affectsVersion": "<0.8.2",
+      "published": "01 Aug, 2019"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HARAKA-456231",
+      "affectsPackage": "haraka",
+      "affectsVersion": "<2.8.20",
+      "published": "01 Aug, 2019"
+    },
+    {
+      "vulnerability": "DNS Rebinding",
+      "link": "https://snyk.io/vuln/SNYK-JS-WEBTORRENT-456068",
+      "affectsPackage": "webtorrent",
+      "affectsVersion": "<0.105.2",
+      "published": "31 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MINHTTPSERVER-456063",
+      "affectsPackage": "min-http-server",
+      "affectsVersion": "*",
+      "published": "31 Jul, 2019"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-455615",
+      "affectsPackage": "electron",
+      "affectsVersion": "<0.33.5",
+      "published": "30 Jul, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEWIFI-455846",
+      "affectsPackage": "node-wifi",
+      "affectsVersion": "<2.0.12",
+      "published": "30 Jul, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOMOKEEPER-455475",
+      "affectsPackage": "domokeeper",
+      "affectsVersion": ">=0.0.0",
+      "published": "29 Jul, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSESERVER-455635",
+      "affectsPackage": "parse-server",
+      "affectsVersion": "<3.4.1",
+      "published": "29 Jul, 2019"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/2?type=npm",
+  "fetched": "2020-11-20 02:59:29",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-TWILIONPM-1035374",
+      "affectsPackage": "twilio-npm",
+      "affectsVersion": "*",
+      "published": "03 Nov, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CODEMIRROR-1016937",
+      "affectsPackage": "codemirror",
+      "affectsVersion": "<5.58.2",
+      "published": "30 Oct, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPI-1022256",
+      "affectsPackage": "strapi",
+      "affectsVersion": "<3.2.5",
+      "published": "29 Oct, 2020"
+    },
+    {
+      "vulnerability": "Path Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-BROWSERLESSCHROME-1023657",
+      "affectsPackage": "browserless-chrome",
+      "affectsVersion": "*",
+      "published": "29 Oct, 2020"
+    },
+    {
+      "vulnerability": "Path Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-DROPPY-1023656",
+      "affectsPackage": "droppy",
+      "affectsVersion": "*",
+      "published": "29 Oct, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1023168",
+      "affectsPackage": "systeminformation",
+      "affectsVersion": "<4.26.2",
+      "published": "28 Oct, 2020"
+    },
+    {
+      "vulnerability": "Signature Validation Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-XMLCRYPTO-1023301",
+      "affectsPackage": "xml-crypto",
+      "affectsVersion": "<2.0.0",
+      "published": "28 Oct, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-GFC-1023302",
+      "affectsPackage": "gfc",
+      "affectsVersion": "*",
+      "published": "28 Oct, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DATGUI-1016275",
+      "affectsPackage": "dat.gui",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NESTEDPROPERTY-1022154",
+      "affectsPackage": "nested-property",
+      "affectsVersion": "<3.0.0",
+      "published": "27 Oct, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTTPLIVESIMULATOR-1022148",
+      "affectsPackage": "http-live-simulator",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TRIM-1017038",
+      "affectsPackage": "trim",
+      "affectsVersion": "<0.0.3",
+      "published": "27 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRAPESJS-1020496",
+      "affectsPackage": "grapesjs",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-CREATEGIT-1022150",
+      "affectsPackage": "create-git",
+      "affectsVersion": "<1.0.0-2",
+      "published": "27 Oct, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1021909",
+      "affectsPackage": "systeminformation",
+      "affectsVersion": "<4.27.11",
+      "published": "26 Oct, 2020"
+    },
+    {
+      "vulnerability": "XML External Entity (XXE) Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSTOXML-1017039",
+      "affectsPackage": "jstoxml",
+      "affectsVersion": "<2.0.0",
+      "published": "26 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-PATHVAL-596926",
+      "affectsPackage": "pathval",
+      "affectsVersion": "*",
+      "published": "25 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOUNTEBANK-1021889",
+      "affectsPackage": "mountebank",
+      "affectsVersion": "<2.3.3",
+      "published": "25 Oct, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOCUTUS-1009836",
+      "affectsPackage": "locutus",
+      "affectsVersion": "*",
+      "published": "23 Oct, 2020"
+    },
+    {
+      "vulnerability": "Improper Authorization",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPIPLUGINCONTENTTYPEBUILDER-1021616",
+      "affectsPackage": "strapi-plugin-content-type-builder",
+      "affectsVersion": "<3.2.5",
+      "published": "23 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPIPLUGINCONTENTMANAGER-1021615",
+      "affectsPackage": "strapi-plugin-content-manager",
+      "affectsVersion": "<3.2.5",
+      "published": "23 Oct, 2020"
+    },
+    {
+      "vulnerability": "Operation on a Resource after Expiration or Release",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSESERVER-1021232",
+      "affectsPackage": "parse-server",
+      "affectsVersion": "<4.4.0",
+      "published": "23 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCRATCHSVGRENDERER-1020497",
+      "affectsPackage": "scratch-svg-renderer",
+      "affectsVersion": "<0.2.0-prerelease.20201019174008",
+      "published": "21 Oct, 2020"
+    },
+    {
+      "vulnerability": "Heap-based Buffer Overflow",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-1021884",
+      "affectsPackage": "electron",
+      "affectsVersion": "<8.5.3,>=9.0.0-beta.1 <9.3.3,>=10.0.0-beta.1 <10.1.5",
+      "published": "21 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HERMESENGINE-1015406",
+      "affectsPackage": "hermes-engine",
+      "affectsVersion": "*",
+      "published": "20 Oct, 2020"
+    },
+    {
+      "vulnerability": "Access Restriction Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-WEBPACKSUBRESOURCEINTEGRITY-1019475",
+      "affectsPackage": "webpack-subresource-integrity",
+      "affectsVersion": ">=1.5.0 <1.5.1",
+      "published": "20 Oct, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-OSMSTATICMAPS-609637",
+      "affectsPackage": "osm-static-maps",
+      "affectsVersion": "*",
+      "published": "19 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-TSEDCORE-1019382",
+      "affectsPackage": "@tsed/core",
+      "affectsVersion": "<5.65.7",
+      "published": "19 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-LIGHTNINGSERVER-1019381",
+      "affectsPackage": "lightning-server",
+      "affectsVersion": "*",
+      "published": "19 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-CHARTJS-1018716",
+      "affectsPackage": "chart.js",
+      "affectsVersion": "<2.9.4",
+      "published": "19 Oct, 2020"
+    }
+  ]
+}

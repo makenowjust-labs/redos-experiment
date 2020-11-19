@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/19?type=npm",
+  "fetched": "2020-11-20 03:08:32",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-DELIVERORELSE-543670",
+      "affectsPackage": "deliver-or-else",
+      "affectsVersion": "*",
+      "published": "30 Jan, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-LSOF-543632",
+      "affectsPackage": "lsof",
+      "affectsVersion": "*",
+      "published": "29 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPI-543624",
+      "affectsPackage": "strapi",
+      "affectsVersion": "<3.0.0-beta.18.4",
+      "published": "29 Jan, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOTPROP-543489",
+      "affectsPackage": "dot-prop",
+      "affectsVersion": ">1.0.1 <4.2.1,>=5.0.0 <5.1.1",
+      "published": "28 Jan, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-URLPARSE-543307",
+      "affectsPackage": "url-parse",
+      "affectsVersion": "<1.4.5",
+      "published": "27 Jan, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANGULAREXPRESSIONS-543284",
+      "affectsPackage": "angular-expressions",
+      "affectsVersion": "<1.0.1",
+      "published": "26 Jan, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-CODECOV-543183",
+      "affectsPackage": "codecov",
+      "affectsVersion": "<3.6.2",
+      "published": "24 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PRIMENG-537902",
+      "affectsPackage": "primeng",
+      "affectsVersion": "<9.0.0-rc.3",
+      "published": "23 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SEQUELIZE-543029",
+      "affectsPackage": "sequelize",
+      "affectsVersion": "<4.44.4",
+      "published": "23 Jan, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-KLONA-543063",
+      "affectsPackage": "klona",
+      "affectsVersion": "<1.1.1",
+      "published": "23 Jan, 2020"
+    },
+    {
+      "vulnerability": "Insecure Encryption",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSEL-543171",
+      "affectsPackage": "parsel",
+      "affectsVersion": ">=0.0.0",
+      "published": "22 Jan, 2020"
+    },
+    {
+      "vulnerability": "Insecure Encryption",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSEL-543172",
+      "affectsPackage": "parsel",
+      "affectsVersion": ">=0.0.0",
+      "published": "22 Jan, 2020"
+    },
+    {
+      "vulnerability": "Internal Property Tampering",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCHEMAINSPECTOR-536970",
+      "affectsPackage": "schema-inspector",
+      "affectsVersion": "<1.6.9",
+      "published": "20 Jan, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-KINDOF-537849",
+      "affectsPackage": "kind-of",
+      "affectsVersion": ">=6.0.0 <6.0.3",
+      "published": "19 Jan, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-542662",
+      "affectsPackage": "node-sass",
+      "affectsVersion": ">=3.3.0 <4.13.1",
+      "published": "19 Jan, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-CORDOVAPLUGININAPPBROWSER-541840",
+      "affectsPackage": "cordova-plugin-inappbrowser",
+      "affectsVersion": "<3.1.0",
+      "published": "14 Jan, 2020"
+    },
+    {
+      "vulnerability": "Malicious 󠅮󠅰󠅭Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-1337QQJS-541596",
+      "affectsPackage": "1337qq-js",
+      "affectsVersion": ">=0.0.0",
+      "published": "14 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODERED-541514",
+      "affectsPackage": "node-red",
+      "affectsVersion": "<0.20.7",
+      "published": "12 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HEXOADMIN-541512",
+      "affectsPackage": "hexo-admin",
+      "affectsVersion": "*",
+      "published": "12 Jan, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPMGITPUBLISH-541508",
+      "affectsPackage": "npm-git-publish",
+      "affectsVersion": "*",
+      "published": "12 Jan, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-METAGIT-541513",
+      "affectsPackage": "meta-git",
+      "affectsVersion": "*",
+      "published": "12 Jan, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-HOTFORMULAPARSER-541328",
+      "affectsPackage": "hot-formula-parser",
+      "affectsVersion": "<3.0.1",
+      "published": "10 Jan, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-TOTALJS-537824",
+      "affectsPackage": "total.js",
+      "affectsVersion": "<3.3.3",
+      "published": "09 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HAPIBOOM-541183",
+      "affectsPackage": "@hapi/boom",
+      "affectsVersion": "<0.3.8",
+      "published": "09 Jan, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HELLOJS-540823",
+      "affectsPackage": "hellojs",
+      "affectsVersion": "<1.18.2",
+      "published": "09 Jan, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SOLETTADEVAPP-459558",
+      "affectsPackage": "soletta-dev-app",
+      "affectsVersion": "*",
+      "published": "09 Jan, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEVCERTSANSCACHE-540926",
+      "affectsPackage": "devcert-sanscache",
+      "affectsVersion": "<0.4.7",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540956",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.0",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Out-of-bounds Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540958",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<3.6.3",
+      "published": "08 Jan, 2020"
+    },
+    {
+      "vulnerability": "Uncontrolled Recursion",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESASS-540960",
+      "affectsPackage": "node-sass",
+      "affectsVersion": "<4.4.0",
+      "published": "08 Jan, 2020"
+    }
+  ]
+}

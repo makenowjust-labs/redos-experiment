@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/51?type=npm",
+  "fetched": "2020-11-20 03:24:56",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Insecure Credential Comparison",
+      "link": "https://snyk.io/vuln/npm:safe-compare:20180417",
+      "affectsPackage": "safe-compare",
+      "affectsVersion": ">=1.1.0 <1.1.2",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:public:20180415",
+      "affectsPackage": "public",
+      "affectsVersion": "<0.1.4",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:merge-recursive:20180415",
+      "affectsPackage": "merge-recursive",
+      "affectsVersion": "*",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:merge-options:20180415",
+      "affectsPackage": "merge-options",
+      "affectsVersion": "<1.0.1",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:merge-objects:20180415",
+      "affectsPackage": "merge-objects",
+      "affectsVersion": "*",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:deap:20180415",
+      "affectsPackage": "deap",
+      "affectsVersion": "<1.0.1",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:glance:20180415",
+      "affectsPackage": "glance",
+      "affectsVersion": "*",
+      "published": "17 Apr, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:is-url:20180319",
+      "affectsPackage": "is-url",
+      "affectsVersion": "<1.2.4",
+      "published": "15 Apr, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:plist:20180219",
+      "affectsPackage": "plist",
+      "affectsVersion": ">=1.2.0 <3.0.1",
+      "published": "15 Apr, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:ducktype:20180219",
+      "affectsPackage": "ducktype",
+      "affectsVersion": "<1.2.1",
+      "published": "15 Apr, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:simpl-schema:20180219",
+      "affectsPackage": "simpl-schema",
+      "affectsVersion": "<1.5.0",
+      "published": "15 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:bracket-template:20180409",
+      "affectsPackage": "bracket-template",
+      "affectsVersion": "*",
+      "published": "15 Apr, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:sshpk:20180409",
+      "affectsPackage": "sshpk",
+      "affectsVersion": "<1.14.1",
+      "published": "09 Apr, 2018"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:http-proxy-agent:20180406",
+      "affectsPackage": "http-proxy-agent",
+      "affectsVersion": "<2.1.0",
+      "published": "09 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/npm:auth0-lock:20180409",
+      "affectsPackage": "auth0-lock",
+      "affectsVersion": "<11.0.0",
+      "published": "09 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/npm:auth0-js:20180409",
+      "affectsPackage": "auth0-js",
+      "affectsVersion": "<9.0.0",
+      "published": "09 Apr, 2018"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:https-proxy-agent:20180402",
+      "affectsPackage": "https-proxy-agent",
+      "affectsVersion": "<2.2.0",
+      "published": "08 Apr, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/npm:mol-proto:20160407",
+      "affectsPackage": "mol-proto",
+      "affectsVersion": "<1.0.6",
+      "published": "08 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20180116",
+      "affectsPackage": "kibana",
+      "affectsVersion": ">=5.1.1 <5.6.6,>=6.0.0 <6.1.2",
+      "published": "08 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20170526",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.4.1",
+      "published": "08 Apr, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:whereis:20180401",
+      "affectsPackage": "whereis",
+      "affectsVersion": "<0.4.1",
+      "published": "02 Apr, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:metascraper:20180328",
+      "affectsPackage": "metascraper",
+      "affectsVersion": "<5.3.0",
+      "published": "02 Apr, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:electron:20180323",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=1.7.0 <1.7.13,>=1.8.1 <1.8.4,>=2.0.0-beta.1 <2.0.0-beta.4",
+      "published": "27 Mar, 2018"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/npm:insight-api:20180209",
+      "affectsPackage": "insight-api",
+      "affectsVersion": "*",
+      "published": "27 Mar, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:eslint:20180222",
+      "affectsPackage": "eslint",
+      "affectsVersion": ">=1.4.0 <4.18.2",
+      "published": "22 Mar, 2018"
+    },
+    {
+      "vulnerability": "Access Restriction Bypass",
+      "link": "https://snyk.io/vuln/npm:npm:20180222",
+      "affectsPackage": "npm",
+      "affectsVersion": "<5.7.1",
+      "published": "21 Mar, 2018"
+    },
+    {
+      "vulnerability": "XML External Entity (XXE) Injection",
+      "link": "https://snyk.io/vuln/npm:mxgraph:20171122",
+      "affectsPackage": "mxgraph",
+      "affectsVersion": "<3.7.6",
+      "published": "21 Mar, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/npm:cordova-plugin-ios-keychain:20180306",
+      "affectsPackage": "cordova-plugin-ios-keychain",
+      "affectsVersion": "*",
+      "published": "21 Mar, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:bui:20180314",
+      "affectsPackage": "bui",
+      "affectsVersion": "*",
+      "published": "21 Mar, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/npm:serve:20180318",
+      "affectsPackage": "serve",
+      "affectsVersion": "<6.5.2",
+      "published": "18 Mar, 2018"
+    }
+  ]
+}

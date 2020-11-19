@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/1?type=npm",
+  "fetched": "2020-11-20 02:58:58",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HANDSONTABLE-1019380",
+      "affectsPackage": "handsontable",
+      "affectsVersion": "<8.2.0",
+      "published": "13 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-OBJECTHIERARCHYACCESS-1039883",
+      "affectsPackage": "object-hierarchy-access",
+      "affectsVersion": ">=0.2.0 <0.33.0",
+      "published": "13 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-FIELD-1039884",
+      "affectsPackage": "field",
+      "affectsVersion": "*",
+      "published": "13 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEEPHAS-1039845",
+      "affectsPackage": "deephas",
+      "affectsVersion": "<1.0.7",
+      "published": "13 Nov, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEMAILER-1038834",
+      "affectsPackage": "nodemailer",
+      "affectsVersion": "<6.4.16",
+      "published": "12 Nov, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JOPLIN-1024440",
+      "affectsPackage": "joplin",
+      "affectsVersion": "<1.4.2",
+      "published": "12 Nov, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSVALIDATORS-1017404",
+      "affectsPackage": "express-validators",
+      "affectsVersion": "*",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRPC-598671",
+      "affectsPackage": "grpc",
+      "affectsVersion": "<1.24.4",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRPCGRPCJS-1038818",
+      "affectsPackage": "@grpc/grpc-js",
+      "affectsVersion": "<1.1.8",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRIKEENTCOSET-1038821",
+      "affectsPackage": "@strikeentco/set",
+      "affectsVersion": "<1.0.1",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-XPCJS-1040419",
+      "affectsPackage": "xpc.js",
+      "affectsVersion": "*",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-WSBDJS-1038825",
+      "affectsPackage": "wsbd.js",
+      "affectsVersion": "*",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DISCORDAPP-1038826",
+      "affectsPackage": "discord.app",
+      "affectsVersion": "*",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ACADDON-1038824",
+      "affectsPackage": "ac-addon",
+      "affectsVersion": "*",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEDOWNLOADERHELPER-1038832",
+      "affectsPackage": "node-downloader-helper",
+      "affectsVersion": "<1.0.15",
+      "published": "11 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSON8MERGEPATCH-1038399",
+      "affectsPackage": "json8-merge-patch",
+      "affectsVersion": "<1.0.3",
+      "published": "10 Nov, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DISCORDDLL-1038397",
+      "affectsPackage": "discord.dll",
+      "affectsVersion": "*",
+      "published": "10 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONPTR-1016939",
+      "affectsPackage": "json-ptr",
+      "affectsVersion": "*",
+      "published": "10 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-Y18N-1021887",
+      "affectsPackage": "y18n",
+      "affectsVersion": "<5.0.5",
+      "published": "10 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-FIREBASEUTIL-1038324",
+      "affectsPackage": "@firebase/util",
+      "affectsVersion": "<0.3.4",
+      "published": "09 Nov, 2020"
+    },
+    {
+      "vulnerability": "Web Cache Poisoning",
+      "link": "https://snyk.io/vuln/SNYK-JS-FINDMYWAY-1038269",
+      "affectsPackage": "find-my-way",
+      "affectsVersion": "<2.2.5,>=3.0.0 <3.0.5",
+      "published": "08 Nov, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEKRB5-1038260",
+      "affectsPackage": "node-krb5",
+      "affectsVersion": "*",
+      "published": "08 Nov, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KRB5-1038261",
+      "affectsPackage": "krb5",
+      "affectsVersion": "*",
+      "published": "08 Nov, 2020"
+    },
+    {
+      "vulnerability": "Server-Side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-AXIOS-1038255",
+      "affectsPackage": "axios",
+      "affectsVersion": "*",
+      "published": "08 Nov, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSREPORTCHROMEPDF-1037310",
+      "affectsPackage": "jsreport-chrome-pdf",
+      "affectsVersion": "<1.10.0",
+      "published": "05 Nov, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ABSOLUNETKAFE-1017403",
+      "affectsPackage": "@absolunet/kafe",
+      "affectsVersion": "<3.2.10",
+      "published": "05 Nov, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-PHANTOMHTMLTOPDF-1023598",
+      "affectsPackage": "phantom-html-to-pdf",
+      "affectsVersion": "<0.6.1",
+      "published": "05 Nov, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSON8-1017116",
+      "affectsPackage": "json8",
+      "affectsVersion": "<1.0.3",
+      "published": "03 Nov, 2020"
+    },
+    {
+      "vulnerability": "Man-in-the-Middle (MitM)",
+      "link": "https://snyk.io/vuln/SNYK-JS-METEOR-1027338",
+      "affectsPackage": "meteor",
+      "affectsVersion": "*",
+      "published": "03 Nov, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOMPURIFY-1035544",
+      "affectsPackage": "dompurify",
+      "affectsVersion": "<2.2.2",
+      "published": "03 Nov, 2020"
+    }
+  ]
+}

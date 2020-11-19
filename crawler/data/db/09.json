@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/9?type=npm",
+  "fetched": "2020-11-20 03:03:08",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Insertion of Sensitive Information into Log File",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPM-575435",
+      "affectsPackage": "npm",
+      "affectsVersion": "<6.14.6",
+      "published": "08 Jul, 2020"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SOCKJS-575261",
+      "affectsPackage": "sockjs",
+      "affectsVersion": "<0.3.20",
+      "published": "08 Jul, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-575393",
+      "affectsPackage": "electron",
+      "affectsVersion": "<7.2.4,>=8.0.0 <8.2.4",
+      "published": "07 Jul, 2020"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-575394",
+      "affectsPackage": "electron",
+      "affectsVersion": "<7.2.4,>=8.0.0 <8.2.4",
+      "published": "07 Jul, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRIDERGIT-572913",
+      "affectsPackage": "strider-git",
+      "affectsVersion": "<2.0.0",
+      "published": "07 Jul, 2020"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-575395",
+      "affectsPackage": "electron",
+      "affectsVersion": "<7.2.4,>=8.0.0 <8.2.4",
+      "published": "07 Jul, 2020"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-575396",
+      "affectsPackage": "electron",
+      "affectsVersion": "<6.1.11,>=7.0.0 <7.2.4,>=8.0.0 <8.2.4",
+      "published": "07 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FORMIOJS-560149",
+      "affectsPackage": "formiojs",
+      "affectsVersion": "*",
+      "published": "07 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSPDF-568273",
+      "affectsPackage": "jspdf",
+      "affectsVersion": "<2.0.0",
+      "published": "03 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSPDF-575256",
+      "affectsPackage": "jspdf",
+      "affectsVersion": "<2.0.0",
+      "published": "03 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KEYCLOAKCONNECT-575263",
+      "affectsPackage": "keycloak-connect",
+      "affectsVersion": "<10.0.0",
+      "published": "03 Jul, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOCUTUS-575119",
+      "affectsPackage": "locutus",
+      "affectsVersion": "<2.0.13",
+      "published": "02 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TILESERVERGL-575121",
+      "affectsPackage": "tileserver-gl",
+      "affectsVersion": "*",
+      "published": "02 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONEDITOR-575026",
+      "affectsPackage": "jsoneditor",
+      "affectsVersion": "<9.0.2",
+      "published": "01 Jul, 2020"
+    },
+    {
+      "vulnerability": "Insecure Encryption",
+      "link": "https://snyk.io/vuln/SNYK-JS-BCRYPT-572911",
+      "affectsPackage": "bcrypt",
+      "affectsVersion": "<5.0.0",
+      "published": "01 Jul, 2020"
+    },
+    {
+      "vulnerability": "Cryptographic Issues",
+      "link": "https://snyk.io/vuln/SNYK-JS-BCRYPT-575033",
+      "affectsPackage": "bcrypt",
+      "affectsVersion": "<5.0.0",
+      "published": "01 Jul, 2020"
+    },
+    {
+      "vulnerability": "Authorization Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSJWT-575022",
+      "affectsPackage": "express-jwt",
+      "affectsVersion": "<6.0.0",
+      "published": "01 Jul, 2020"
+    },
+    {
+      "vulnerability": "Insecure Defaults",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-572012",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<3.26.1",
+      "published": "01 Jul, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-WIFISCANNER-574786",
+      "affectsPackage": "wifiscanner",
+      "affectsVersion": "*",
+      "published": "30 Jun, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITLABWORKFLOW-573137",
+      "affectsPackage": "gitlab-workflow",
+      "affectsVersion": "*",
+      "published": "28 Jun, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-UPPYCOMPANION-574719",
+      "affectsPackage": "@uppy/companion",
+      "affectsVersion": "<1.13.2,>=2.0.0-alpha.0 <2.0.0-alpha.5",
+      "published": "28 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOCSIFY-567099",
+      "affectsPackage": "docsify",
+      "affectsVersion": "<4.11.4",
+      "published": "26 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-REDOC-574605",
+      "affectsPackage": "redoc",
+      "affectsVersion": "<2.0.0-rc.28",
+      "published": "26 Jun, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-MVERSION-573174",
+      "affectsPackage": "mversion",
+      "affectsVersion": "<2.0.1",
+      "published": "25 Jun, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUNYAN-573166",
+      "affectsPackage": "bunyan",
+      "affectsVersion": "<1.8.13,>=2.0.0 <2.0.3",
+      "published": "24 Jun, 2020"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-INFLUX-559587",
+      "affectsPackage": "influx",
+      "affectsVersion": "<5.5.3",
+      "published": "23 Jun, 2020"
+    },
+    {
+      "vulnerability": "Memory Corruption",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSRSASIGN-572937",
+      "affectsPackage": "jsrsasign",
+      "affectsVersion": "<8.0.18",
+      "published": "22 Jun, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSRSASIGN-572938",
+      "affectsPackage": "jsrsasign",
+      "affectsVersion": "<8.0.18",
+      "published": "22 Jun, 2020"
+    },
+    {
+      "vulnerability": "Signature Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSRSASIGN-572936",
+      "affectsPackage": "jsrsasign",
+      "affectsVersion": "<8.0.18",
+      "published": "22 Jun, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-LIMDU-572951",
+      "affectsPackage": "limdu",
+      "affectsVersion": "*",
+      "published": "22 Jun, 2020"
+    }
+  ]
+}

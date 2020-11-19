@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/36?type=npm",
+  "fetched": "2020-11-20 03:17:18",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CORDOVAPLUGINCHINAPICKER-451001",
+      "affectsPackage": "cordova-plugin-china-picker",
+      "affectsVersion": "=1.0.910",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COFFEEPROJECT-451003",
+      "affectsPackage": "coffee-project",
+      "affectsVersion": "=1.7.5",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CODIFY-451005",
+      "affectsPackage": "codify",
+      "affectsVersion": "=0.3.1",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-AWESOMEREACTUTILITY-451009",
+      "affectsPackage": "awesome_react_utility",
+      "affectsVersion": "=1.0.2",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANOTHERDATERANGEPICKER-451011",
+      "affectsPackage": "another-date-range-picker",
+      "affectsVersion": "=4.1.48",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANOTHERDATEPICKER-451013",
+      "affectsPackage": "another-date-picker",
+      "affectsVersion": ">=2.0.43 <2.0.45",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANGULARMATERIALSIDENAVRND-451015",
+      "affectsPackage": "angular-material-sidenav-rnd",
+      "affectsVersion": "=0.1.1",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANGULARBMAP-451017",
+      "affectsPackage": "angular-bmap",
+      "affectsVersion": "=0.0.9",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-IMPALABMAP-451019",
+      "affectsPackage": "@impala/bmap",
+      "affectsVersion": "=1.0.3",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DICTUMJS-450959",
+      "affectsPackage": "dictum.js",
+      "affectsVersion": ">=1.0.5",
+      "published": "25 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-AXOIS-450958",
+      "affectsPackage": "axois",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REGENRATOR-450956",
+      "affectsPackage": "regenrator",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REGENRAOTR-450957",
+      "affectsPackage": "regenraotr",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SOKETJS-450934",
+      "affectsPackage": "soket.js",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SOKETIO-450954",
+      "affectsPackage": "soket.io",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-SERVEHEREJS-450884",
+      "affectsPackage": "serve-here.js",
+      "affectsVersion": "<1.2.0",
+      "published": "24 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KEYSTONE-450882",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<4.0.0-beta.1",
+      "published": "23 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KEYSTONE-450881",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<4.0.0-beta.1",
+      "published": "23 Jun, 2019"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SEQUELIZE-450222",
+      "affectsPackage": "sequelize",
+      "affectsVersion": "<3.35.1",
+      "published": "21 Jun, 2019"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SEQUELIZE-450221",
+      "affectsPackage": "sequelize",
+      "affectsVersion": ">=3.0.0 <3.35.1,>=4.0.0 <4.44.3,>=5.0.0 <5.8.11",
+      "published": "21 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BERSLUCASLILJS-450217",
+      "affectsPackage": "@berslucas/liljs",
+      "affectsVersion": "<1.0.2",
+      "published": "20 Jun, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SETVALUE-450213",
+      "affectsPackage": "set-value",
+      "affectsVersion": "<2.0.1,>=3.0.0 <3.0.1",
+      "published": "20 Jun, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-MIXINDEEP-450212",
+      "affectsPackage": "mixin-deep",
+      "affectsVersion": ">=2.0.0 <2.0.1,<1.3.2",
+      "published": "20 Jun, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASSIGNDEEP-450211",
+      "affectsPackage": "assign-deep",
+      "affectsVersion": ">=1.0.0 <1.0.1,<0.4.8",
+      "published": "20 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SMARTSEARCHWP-450210",
+      "affectsPackage": "smartsearchwp",
+      "affectsVersion": ">0.0.1-security",
+      "published": "20 Jun, 2019"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-UNTITLEDMODEL-450197",
+      "affectsPackage": "untitled-model",
+      "affectsVersion": "*",
+      "published": "18 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DIAGRAMJSDIRECTEDITING-450046",
+      "affectsPackage": "diagram-js-direct-editing",
+      "affectsVersion": "<1.4.3",
+      "published": "17 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DIAGRAMJS-449956",
+      "affectsPackage": "diagram-js",
+      "affectsVersion": "<2.6.2,>=3.0.0 <3.3.1",
+      "published": "17 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-449942",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": ">=2.0.3 <2.0.24",
+      "published": "16 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-449941",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": ">=3.0.0 <3.0.13",
+      "published": "16 Jun, 2019"
+    }
+  ]
+}

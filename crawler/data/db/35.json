@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/35?type=npm",
+  "fetched": "2020-11-20 03:16:44",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MATHJAX-451470",
+      "affectsPackage": "mathjax",
+      "affectsVersion": "<2.7.4",
+      "published": "04 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KIBANA-451475",
+      "affectsPackage": "kibana",
+      "affectsVersion": ">=4.3.0 <4.6.2",
+      "published": "03 Jul, 2019"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/SNYK-JS-KIBANA-451474",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<4.6.2,>=5.0.0 <5.0.1",
+      "published": "03 Jul, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASH-450202",
+      "affectsPackage": "lodash",
+      "affectsVersion": "<4.17.12",
+      "published": "02 Jul, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAILSHQLODASH-460129",
+      "affectsPackage": "@sailshq/lodash",
+      "affectsVersion": "<3.10.4",
+      "published": "02 Jul, 2019"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKED-451341",
+      "affectsPackage": "marked",
+      "affectsVersion": ">=0.4.0 <0.7.0",
+      "published": "02 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MXGRAPH-451302",
+      "affectsPackage": "mxgraph",
+      "affectsVersion": "<4.0.0",
+      "published": "01 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TAKEAPEEK-451265",
+      "affectsPackage": "takeapeek",
+      "affectsVersion": "*",
+      "published": "01 Jul, 2019"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/SNYK-JS-APOSTROPHE-451089",
+      "affectsPackage": "apostrophe",
+      "affectsVersion": "<2.92.0",
+      "published": "27 Jun, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUIRENODE-451045",
+      "affectsPackage": "require-node",
+      "affectsVersion": ">=1.0.0 <1.3.4,>2.0.0 <2.0.4",
+      "published": "27 Jun, 2019"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEEPLY-451026",
+      "affectsPackage": "deeply",
+      "affectsVersion": "<3.1.0",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRAYLOGWEBINTERFACE-451022",
+      "affectsPackage": "graylog-web-interface",
+      "affectsVersion": "<2.4.6",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RPCWEBSOCKET-451021",
+      "affectsPackage": "rpc-websocket",
+      "affectsVersion": ">=0.7.6",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JASMIN-451020",
+      "affectsPackage": "jasmin",
+      "affectsVersion": "=0.0.3",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-FRESHDOM-450987",
+      "affectsPackage": "freshdom",
+      "affectsVersion": "=0.0.6",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BLINGJS-451007",
+      "affectsPackage": "blingjs",
+      "affectsVersion": "=0.0.4",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RCCALENDARJHORST-450980",
+      "affectsPackage": "rc-calendar-jhorst",
+      "affectsVersion": "=8.4.3",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-XOC-450974",
+      "affectsPackage": "xoc",
+      "affectsVersion": "=1.0.7",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEALIPAY-450975",
+      "affectsPackage": "simple-alipay",
+      "affectsVersion": "=1.0.1",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-S3ASY-450971",
+      "affectsPackage": "s3asy",
+      "affectsVersion": "=0.4.8",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTSERVERNATIVE-450976",
+      "affectsPackage": "react-server-native",
+      "affectsVersion": "=0.0.7",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTDATESSC-450978",
+      "affectsPackage": "react-dates-sc",
+      "affectsVersion": "=0.3.0",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-OAUTHVALIDATOR-450982",
+      "affectsPackage": "oauth-validator",
+      "affectsVersion": "=1.0.2",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NGINXBEAUTIFIER-450973",
+      "affectsPackage": "nginxbeautifier",
+      "affectsVersion": "=1.0.14",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MODLIBRARY-450984",
+      "affectsPackage": "modlibrary",
+      "affectsVersion": "=0.1.1",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-IMPALA-450989",
+      "affectsPackage": "impala",
+      "affectsVersion": "=1.1.7",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DYNAMOSCHEMA-450992",
+      "affectsPackage": "dynamo-schema",
+      "affectsVersion": "=0.0.3",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOSSIER-450994",
+      "affectsPackage": "dossier",
+      "affectsVersion": "=0.0.4",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CSSTRANSFORMSUPPORT-450997",
+      "affectsPackage": "css_transform_support",
+      "affectsVersion": "=1.0.2",
+      "published": "26 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CSSTRANSFORMSTEP-450999",
+      "affectsPackage": "css_transform_step",
+      "affectsVersion": "=1.0.6",
+      "published": "26 Jun, 2019"
+    }
+  ]
+}

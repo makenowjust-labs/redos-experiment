@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/30?type=npm",
+  "fetched": "2020-11-20 03:14:09",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CSVPARSE-467403",
+      "affectsPackage": "csv-parse",
+      "affectsVersion": "<4.4.6",
+      "published": "20 Sep, 2019"
+    },
+    {
+      "vulnerability": "Credential Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-IBMDB-459762",
+      "affectsPackage": "ibm_db",
+      "affectsVersion": "<2.6.0",
+      "published": "20 Sep, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SUBTEXT-467257",
+      "affectsPackage": "subtext",
+      "affectsVersion": "*",
+      "published": "19 Sep, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HAPISUBTEXT-467262",
+      "affectsPackage": "@hapi/subtext",
+      "affectsVersion": "<6.1.2",
+      "published": "19 Sep, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-COMMERCIALSUBTEXT-467263",
+      "affectsPackage": "@commercial/subtext",
+      "affectsVersion": "<5.1.1",
+      "published": "19 Sep, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTMLPDF-467248",
+      "affectsPackage": "html-pdf",
+      "affectsVersion": "*",
+      "published": "19 Sep, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-IDSENTERPRISE-467124",
+      "affectsPackage": "ids-enterprise",
+      "affectsVersion": "<4.22.0-beta.0",
+      "published": "17 Sep, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITLABHOOK-466987",
+      "affectsPackage": "gitlabhook",
+      "affectsVersion": "*",
+      "published": "15 Sep, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTTPSERVER-466986",
+      "affectsPackage": "http_server",
+      "affectsVersion": "*",
+      "published": "15 Sep, 2019"
+    },
+    {
+      "vulnerability": "Insecure Randomness",
+      "link": "https://snyk.io/vuln/SNYK-JS-GENERATORJHIPSTERKOTLIN-466981",
+      "affectsPackage": "generator-jhipster-kotlin",
+      "affectsVersion": "<1.2.0",
+      "published": "14 Sep, 2019"
+    },
+    {
+      "vulnerability": "Insecure Randomness",
+      "link": "https://snyk.io/vuln/SNYK-JS-GENERATORJHIPSTER-466980",
+      "affectsPackage": "generator-jhipster",
+      "affectsVersion": "<6.3.0",
+      "published": "14 Sep, 2019"
+    },
+    {
+      "vulnerability": "Improper Access Control",
+      "link": "https://snyk.io/vuln/SNYK-JS-CRYPTPAD-466668",
+      "affectsPackage": "cryptpad",
+      "affectsVersion": "<3.0.0",
+      "published": "11 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-EVILPACKAGE-461166",
+      "affectsPackage": "evil-package",
+      "affectsVersion": "*",
+      "published": "08 Sep, 2019"
+    },
+    {
+      "vulnerability": "Improper Access Control",
+      "link": "https://snyk.io/vuln/SNYK-JS-TOTALJS-461096",
+      "affectsPackage": "total.js",
+      "affectsVersion": ">=3.1.0",
+      "published": "05 Sep, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-TOTALJS-461097",
+      "affectsPackage": "total.js",
+      "affectsVersion": ">=3.1.0 <3.4.0",
+      "published": "05 Sep, 2019"
+    },
+    {
+      "vulnerability": "Improper Authentication",
+      "link": "https://snyk.io/vuln/SNYK-JS-TOTALJS-461098",
+      "affectsPackage": "total.js",
+      "affectsVersion": ">=3.1.0",
+      "published": "05 Sep, 2019"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TOTALJS-461099",
+      "affectsPackage": "total.js",
+      "affectsVersion": ">=3.1.0",
+      "published": "05 Sep, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-LARVITBASEWWW-460645",
+      "affectsPackage": "larvitbase-www",
+      "affectsVersion": "<0.7.6",
+      "published": "03 Sep, 2019"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-SENECA-460597",
+      "affectsPackage": "seneca",
+      "affectsVersion": "<3.9.0",
+      "published": "03 Sep, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MAVONEDITOR-459108",
+      "affectsPackage": "mavon-editor",
+      "affectsVersion": "<2.8.2",
+      "published": "02 Sep, 2019"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEMARKDOWN-460540",
+      "affectsPackage": "simple-markdown",
+      "affectsVersion": "<0.5.2",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SPARKIES-460521",
+      "affectsPackage": "sparkies",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SERILIZE-460522",
+      "affectsPackage": "serilize",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SERIALIZES-460523",
+      "affectsPackage": "serializes",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESPDY-460524",
+      "affectsPackage": "node-spdy",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEFTP-460525",
+      "affectsPackage": "node-ftp",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MYSQLKOA-460526",
+      "affectsPackage": "mysql-koa",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOGOOSE-460527",
+      "affectsPackage": "mogoose",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOGODBCORE-460528",
+      "affectsPackage": "mogodb-core",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOGODB-460529",
+      "affectsPackage": "mogodb",
+      "affectsVersion": "*",
+      "published": "01 Sep, 2019"
+    }
+  ]
+}

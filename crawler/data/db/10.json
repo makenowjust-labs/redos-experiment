@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/10?type=npm",
+  "fetched": "2020-11-20 03:03:40",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Access Restriction Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPI-572909",
+      "affectsPackage": "strapi",
+      "affectsVersion": "<3.0.2",
+      "published": "21 Jun, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCP-1009828",
+      "affectsPackage": "scp",
+      "affectsVersion": "*",
+      "published": "21 Jun, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODERSYNC-568773",
+      "affectsPackage": "node-rsync",
+      "affectsVersion": "*",
+      "published": "21 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-FASTHTTP-572892",
+      "affectsPackage": "fast-http",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARKEDTREE-590121",
+      "affectsPackage": "marked-tree",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-MARSCODE-590122",
+      "affectsPackage": "marscode",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-ROLLUPPLUGINSERVER-590123",
+      "affectsPackage": "rollup-plugin-server",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-ROLLUPPLUGINDEVSERVER-590124",
+      "affectsPackage": "rollup-plugin-dev-server",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-ROLLUPPLUGINSERVEFAVICON-585950",
+      "affectsPackage": "rollup-plugin-serve-favicon",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-ROLLUPPLUGINSERVE-585897",
+      "affectsPackage": "rollup-plugin-serve",
+      "affectsVersion": "*",
+      "published": "20 Jun, 2020"
+    },
+    {
+      "vulnerability": "Path Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAPPER-572858",
+      "affectsPackage": "sapper",
+      "affectsVersion": "<0.27.11",
+      "published": "19 Jun, 2020"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-WAPPALYZER-572854",
+      "affectsPackage": "wappalyzer",
+      "affectsVersion": "<6.0.3",
+      "published": "19 Jun, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-CASPERJS-572803",
+      "affectsPackage": "casperjs",
+      "affectsVersion": "*",
+      "published": "19 Jun, 2020"
+    },
+    {
+      "vulnerability": "Improper Authorization",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAPCLOUDSDKCORE-572711",
+      "affectsPackage": "@sap-cloud-sdk/core",
+      "affectsVersion": ">=1.19.0 <1.21.2",
+      "published": "18 Jun, 2020"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-MJML-572496",
+      "affectsPackage": "mjml",
+      "affectsVersion": "<4.6.3",
+      "published": "17 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cryptographic Issues",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELLIPTIC-571484",
+      "affectsPackage": "elliptic",
+      "affectsVersion": "<6.5.3",
+      "published": "17 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DIJIT-572370",
+      "affectsPackage": "dijit",
+      "affectsVersion": "<1.11.11,>=1.12.0 <1.12.9,>=1.13.0 <1.13.8,>=1.14.0 <1.14.7,>=1.15.0 <1.15.4,>=1.16.0 <1.16.3",
+      "published": "16 Jun, 2020"
+    },
+    {
+      "vulnerability": "Remote Code Execution (RCE)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MVERSION-572433",
+      "affectsPackage": "mversion",
+      "affectsVersion": "<2.0.0",
+      "published": "16 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TUIEDITOR-571463",
+      "affectsPackage": "tui-editor",
+      "affectsVersion": "<2.2.0",
+      "published": "16 Jun, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-THENIFY-571690",
+      "affectsPackage": "thenify",
+      "affectsVersion": "<3.3.1",
+      "published": "15 Jun, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEIMPORT-571691",
+      "affectsPackage": "node-import",
+      "affectsVersion": "*",
+      "published": "15 Jun, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-REDASH-572119",
+      "affectsPackage": "redash",
+      "affectsVersion": "*",
+      "published": "12 Jun, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-SSBSERVER-572110",
+      "affectsPackage": "ssb-server",
+      "affectsVersion": ">=16.0.0 <16.0.1",
+      "published": "12 Jun, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-SSBDB-572109",
+      "affectsPackage": "ssb-db",
+      "affectsVersion": ">=20.0.0 <20.0.1",
+      "published": "12 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANGULAR-572020",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.8.0",
+      "published": "11 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-LAYUISRC-572018",
+      "affectsPackage": "layui-src",
+      "affectsVersion": "*",
+      "published": "11 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-VUEINSTANTSEARCH-572014",
+      "affectsPackage": "vue-instantsearch",
+      "affectsVersion": "<3.0.0",
+      "published": "11 Jun, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HIGHCHARTS-571995",
+      "affectsPackage": "highcharts",
+      "affectsVersion": "<7.2.2,>=8.0.0 <8.1.1",
+      "published": "11 Jun, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEVCERT-571955",
+      "affectsPackage": "devcert",
+      "affectsVersion": "<1.1.1",
+      "published": "10 Jun, 2020"
+    },
+    {
+      "vulnerability": "Arbitrary File Read",
+      "link": "https://snyk.io/vuln/SNYK-JS-NEXT-571938",
+      "affectsPackage": "next",
+      "affectsVersion": "<5.1.0",
+      "published": "10 Jun, 2020"
+    }
+  ]
+}

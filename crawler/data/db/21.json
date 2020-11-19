@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/21?type=npm",
+  "fetched": "2020-11-20 03:09:33",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ECSTATIC-540354",
+      "affectsPackage": "ecstatic",
+      "affectsVersion": "<4.1.3",
+      "published": "31 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FILEVIEW-540148",
+      "affectsPackage": "fileview",
+      "affectsVersion": "*",
+      "published": "29 Dec, 2019"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-TYPEGRAPHQL-538910",
+      "affectsPackage": "type-graphql",
+      "affectsVersion": "<0.17.6",
+      "published": "23 Dec, 2019"
+    },
+    {
+      "vulnerability": "Outdated Static Dependency",
+      "link": "https://snyk.io/vuln/SNYK-JS-VUEMOMENT-538934",
+      "affectsPackage": "vue-moment",
+      "affectsVersion": "<4.1.0",
+      "published": "23 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NEXTCLOUDVUECOLLECTIONS-538459",
+      "affectsPackage": "nextcloud-vue-collections",
+      "affectsVersion": "<0.4.2",
+      "published": "20 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-AUTOLINKER-564438",
+      "affectsPackage": "autolinker",
+      "affectsVersion": "<3.14.0",
+      "published": "16 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/SNYK-JS-YARN-537806",
+      "affectsPackage": "yarn",
+      "affectsVersion": "<1.21.1",
+      "published": "13 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/SNYK-JS-PNPMPACKAGEBINS-539934",
+      "affectsPackage": "@pnpm/package-bins",
+      "affectsVersion": "<4.0.1",
+      "published": "13 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-TRIX-537647",
+      "affectsPackage": "trix",
+      "affectsVersion": "<1.2.3",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPM-537606",
+      "affectsPackage": "npm",
+      "affectsVersion": "<6.13.3",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Write",
+      "link": "https://snyk.io/vuln/SNYK-JS-BINLINKS-537610",
+      "affectsPackage": "bin-links",
+      "affectsVersion": "<1.1.5",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Unauthorized File Access",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPM-537604",
+      "affectsPackage": "npm",
+      "affectsVersion": "<6.13.3",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Unauthorized File Access",
+      "link": "https://snyk.io/vuln/SNYK-JS-BINLINKS-537609",
+      "affectsPackage": "bin-links",
+      "affectsVersion": "<1.1.5",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Overwrite",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPM-537603",
+      "affectsPackage": "npm",
+      "affectsVersion": "<6.13.4",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary File Overwrite",
+      "link": "https://snyk.io/vuln/SNYK-JS-BINLINKS-537608",
+      "affectsPackage": "bin-links",
+      "affectsVersion": "<1.1.6",
+      "published": "12 Dec, 2019"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-CHROMELAUNCHER-537575",
+      "affectsPackage": "chrome-launcher",
+      "affectsVersion": "<0.13.2",
+      "published": "11 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAFEREVAL-534901",
+      "affectsPackage": "safer-eval",
+      "affectsVersion": "*",
+      "published": "06 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SERIALIZETOJS-536958",
+      "affectsPackage": "serialize-to-js",
+      "affectsVersion": "<3.0.1",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SERIALIZEJAVASCRIPT-536840",
+      "affectsPackage": "serialize-javascript",
+      "affectsVersion": "<2.1.1",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCEDITOR-536836",
+      "affectsPackage": "sceditor",
+      "affectsVersion": "*",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEDF-536779",
+      "affectsPackage": "node-df",
+      "affectsVersion": "*",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTTPSERVER-536780",
+      "affectsPackage": "http_server",
+      "affectsVersion": "*",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-TREEKILL-536805",
+      "affectsPackage": "treekill",
+      "affectsVersion": "*",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-TREEKILL-536781",
+      "affectsPackage": "tree-kill",
+      "affectsVersion": "<1.2.2",
+      "published": "05 Dec, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-STRAPI-536641",
+      "affectsPackage": "strapi",
+      "affectsVersion": "<3.0.0-beta.17.8",
+      "published": "04 Dec, 2019"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-JPV-536466",
+      "affectsPackage": "jpv",
+      "affectsVersion": "<2.1.0",
+      "published": "02 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-VIEWERJS-536441",
+      "affectsPackage": "viewerjs",
+      "affectsVersion": "<1.3.6",
+      "published": "02 Dec, 2019"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/SNYK-JS-EZMASTER-536386",
+      "affectsPackage": "ezmaster",
+      "affectsVersion": "<5.2.11",
+      "published": "01 Dec, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEVALUE-536388",
+      "affectsPackage": "devalue",
+      "affectsVersion": "<2.0.1",
+      "published": "01 Dec, 2019"
+    },
+    {
+      "vulnerability": "Man in The Middle (MiTM)",
+      "link": "https://snyk.io/vuln/SNYK-JS-MYSQL2-536208",
+      "affectsPackage": "mysql2",
+      "affectsVersion": "<1.0.0-rc.1",
+      "published": "28 Nov, 2019"
+    }
+  ]
+}

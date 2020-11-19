@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/64?type=npm",
+  "fetched": "2020-11-20 03:31:47",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:proxy.js:20170802",
+      "affectsPackage": "proxy.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:openssl.js:20170802",
+      "affectsPackage": "openssl.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:opencv.js:20170802",
+      "affectsPackage": "opencv.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodesqlite:20170802",
+      "affectsPackage": "nodesqlite",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodesass:20170802",
+      "affectsPackage": "nodesass",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:noderequest:20170802",
+      "affectsPackage": "noderequest",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodemssql:20170802",
+      "affectsPackage": "nodemssql",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodemailer.js:20170802",
+      "affectsPackage": "nodemailer.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodemailer-js:20170802",
+      "affectsPackage": "nodemailer-js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodeffmpeg:20170802",
+      "affectsPackage": "nodeffmpeg",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodefabric:20170802",
+      "affectsPackage": "nodefabric",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nodecaffe:20170802",
+      "affectsPackage": "nodecaffe",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:node-tkinter:20170802",
+      "affectsPackage": "node-tkinter",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:node-sqlite:20170802",
+      "affectsPackage": "node-sqlite",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:node-openssl:20170802",
+      "affectsPackage": "node-openssl",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:node-opensl:20170802",
+      "affectsPackage": "node-opensl",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:node-opencv:20170802",
+      "affectsPackage": "node-opencv",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:node-fabric:20170802",
+      "affectsPackage": "node-fabric",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:mysqljs:20170802",
+      "affectsPackage": "mysqljs",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:mssql.js:20170802",
+      "affectsPackage": "mssql.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:mssql-node:20170802",
+      "affectsPackage": "mssql-node",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:mongose:20170802",
+      "affectsPackage": "mongose",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:mariadb:20170802",
+      "affectsPackage": "mariadb",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lzl123:20170730",
+      "affectsPackage": "lzl123",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lihuini:20170730",
+      "affectsPackage": "lihuini",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:jquery.js:20170802",
+      "affectsPackage": "jquery.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:http-proxy.js:20170802",
+      "affectsPackage": "http-proxy.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hechatroom:20170730",
+      "affectsPackage": "hechatroom",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:gruntcli:20170802",
+      "affectsPackage": "gruntcli",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ghod5servercs360:20170730",
+      "affectsPackage": "ghod5servercs360",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    }
+  ]
+}

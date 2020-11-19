@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/40?type=npm",
+  "fetched": "2020-11-20 03:19:21",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUSET-174669",
+      "affectsPackage": "requset",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUETS-174668",
+      "affectsPackage": "requets",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUET-174663",
+      "affectsPackage": "requet",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUESTT-174673",
+      "affectsPackage": "requestt",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUESST-174672",
+      "affectsPackage": "requesst",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUES-174665",
+      "affectsPackage": "reques",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQUEEST-174671",
+      "affectsPackage": "requeest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQQUEST-174661",
+      "affectsPackage": "reqquest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REQEST-174831",
+      "affectsPackage": "reqest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REEQUEST-174659",
+      "affectsPackage": "reequest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOMEN-174681",
+      "affectsPackage": "momen",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JAJAJEJEJIJI-174692",
+      "affectsPackage": "jajajejejiji",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRSS-174679",
+      "affectsPackage": "exprss",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPERSS-174678",
+      "affectsPackage": "experss",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ERQUEST-174646",
+      "affectsPackage": "erquest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-EQUEST-174667",
+      "affectsPackage": "equest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-EACT-174677",
+      "affectsPackage": "eact",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COMMNADER-174680",
+      "affectsPackage": "commnader",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CHAK-174676",
+      "affectsPackage": "chak",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CALK-174674",
+      "affectsPackage": "calk",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-AYSNC-174682",
+      "affectsPackage": "aysnc",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASYYNC-174687",
+      "affectsPackage": "asyync",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASYNNC-174688",
+      "affectsPackage": "asynnc",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASYMC-174689",
+      "affectsPackage": "asymc",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASYCN-174684",
+      "affectsPackage": "asycn",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASNYC-174683",
+      "affectsPackage": "asnyc",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASNC-174685",
+      "affectsPackage": "asnc",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASINC-174690",
+      "affectsPackage": "asinc",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-AASYNC-174686",
+      "affectsPackage": "aasync",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-4EQUEST-174675",
+      "affectsPackage": "4equest",
+      "affectsVersion": "*",
+      "published": "14 May, 2019"
+    }
+  ]
+}

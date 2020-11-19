@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/23?type=npm",
+  "fetched": "2020-11-20 03:10:34",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CONISTRING-536154",
+      "affectsPackage": "conistring",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COMMANEDR-536155",
+      "affectsPackage": "commanedr",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COMMANDRE-536156",
+      "affectsPackage": "commandre",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COLNE-536157",
+      "affectsPackage": "colne",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COINSTRNG-536158",
+      "affectsPackage": "coinstrng",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COINSTRIG-536159",
+      "affectsPackage": "coinstrig",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COINSTIRNG-536160",
+      "affectsPackage": "coinstirng",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COINPAYMENT-536161",
+      "affectsPackage": "coinpayment",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CIONSTRING-536162",
+      "affectsPackage": "cionstring",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BSAEX-536163",
+      "affectsPackage": "bsae-x",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BS85CHECK-536164",
+      "affectsPackage": "bs85check",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BS85-536165",
+      "affectsPackage": "bs85",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BS58CHEKC-536166",
+      "affectsPackage": "bs58chekc",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BS58CHEK-536167",
+      "affectsPackage": "bs58chek",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BS58CHCEK-536168",
+      "affectsPackage": "bs58chcek",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BPI66-536169",
+      "affectsPackage": "bpi66",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BPI39-536170",
+      "affectsPackage": "bpi39",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BP66-536171",
+      "affectsPackage": "bp66",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCROELIB-536172",
+      "affectsPackage": "bitcroe-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCONIJSLIB-536173",
+      "affectsPackage": "bitconijs-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCONIDRPC-536174",
+      "affectsPackage": "bitconid-rpc",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCONIOPS-536175",
+      "affectsPackage": "bitconi-ops",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCOISNJLIB-536176",
+      "affectsPackage": "bitcoisnj-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCOINSWEEP-536177",
+      "affectsPackage": "bitcoin-sweep",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCOINOSP-536178",
+      "affectsPackage": "bitcoin-osp",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCOIMJSLIB-536179",
+      "affectsPackage": "bitcoimjs-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCOIMDRPC-536180",
+      "affectsPackage": "bitcoimd-rpc",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCOIJNSLIB-536181",
+      "affectsPackage": "bitcoijns-lib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCIONJSLIB-536182",
+      "affectsPackage": "bitcionjslib",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BITCIONJS-536183",
+      "affectsPackage": "bitcionjs",
+      "affectsVersion": "*",
+      "published": "28 Nov, 2019"
+    }
+  ]
+}

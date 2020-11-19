@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/61?type=npm",
+  "fetched": "2020-11-20 03:30:14",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:whatwg-mimetype:20170907",
+      "affectsPackage": "whatwg-mimetype",
+      "affectsVersion": "<2.0.0",
+      "published": "10 Dec, 2017"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/npm:auth0-js:20171204",
+      "affectsPackage": "auth0-js",
+      "affectsVersion": "<8.12",
+      "published": "07 Dec, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:npm-script-demo:20170927",
+      "affectsPackage": "npm-script-demo",
+      "affectsVersion": "*",
+      "published": "06 Dec, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:moment:20170905",
+      "affectsPackage": "moment",
+      "affectsVersion": "<2.19.3",
+      "published": "28 Nov, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:mathjs:20171118",
+      "affectsPackage": "mathjs",
+      "affectsVersion": "<3.17.0",
+      "published": "28 Nov, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:mathjs:20171118-1",
+      "affectsPackage": "mathjs",
+      "affectsVersion": "<3.17.0",
+      "published": "28 Nov, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-NEXT-174590",
+      "affectsPackage": "next",
+      "affectsVersion": "<2.4.1",
+      "published": "17 Nov, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ws:20171108",
+      "affectsPackage": "ws",
+      "affectsVersion": "<1.1.5,>=2.0.0 <3.3.1",
+      "published": "09 Nov, 2017"
+    },
+    {
+      "vulnerability": "Insecure Defaults",
+      "link": "https://snyk.io/vuln/npm:cordova-plugin-file-transfer:20140219",
+      "affectsPackage": "cordova-plugin-file-transfer",
+      "affectsVersion": "<0.4.2",
+      "published": "09 Nov, 2017"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/npm:cordova-plugin-inappbrowser:20140219",
+      "affectsPackage": "cordova-plugin-inappbrowser",
+      "affectsVersion": "<0.3.2",
+      "published": "09 Nov, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:cordova-android:20150526",
+      "affectsPackage": "cordova-android",
+      "affectsVersion": "<3.7.2,>=4.0.0 <4.0.2",
+      "published": "09 Nov, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:sandbox:20160821",
+      "affectsPackage": "sandbox",
+      "affectsVersion": "*",
+      "published": "07 Nov, 2017"
+    },
+    {
+      "vulnerability": "CSV Injection",
+      "link": "https://snyk.io/vuln/npm:keystone:20170918-2",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<4.0.0-beta.7",
+      "published": "05 Nov, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:keystone:20170918-1",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<4.0.0-beta.7",
+      "published": "05 Nov, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:keystone:20170918",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<4.0.0-beta.7",
+      "published": "05 Nov, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:hooka-tools:20171025",
+      "affectsPackage": "hooka-tools",
+      "affectsVersion": "*",
+      "published": "25 Oct, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:discordi.js:20171009",
+      "affectsPackage": "discordi.js",
+      "affectsVersion": "*",
+      "published": "19 Oct, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:static-eval:20171016",
+      "affectsPackage": "static-eval",
+      "affectsVersion": "<2.0.0",
+      "published": "18 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:severzlt:20171006",
+      "affectsPackage": "severzlt",
+      "affectsVersion": "*",
+      "published": "17 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nodeserver-jta:20171006",
+      "affectsPackage": "nodeserver-jta",
+      "affectsVersion": "*",
+      "published": "17 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ljjnodeserve:20171006",
+      "affectsPackage": "ljjnodeserve",
+      "affectsVersion": "*",
+      "published": "17 Oct, 2017"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/npm:st:20171013",
+      "affectsPackage": "st",
+      "affectsVersion": "<1.2.2",
+      "published": "15 Oct, 2017"
+    },
+    {
+      "vulnerability": "Credential Exposure",
+      "link": "https://snyk.io/vuln/npm:aegir:20171013",
+      "affectsPackage": "aegir",
+      "affectsVersion": ">=12.0.0 <12.0.8",
+      "published": "15 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:xbhxbh:20170910",
+      "affectsPackage": "xbhxbh",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wangshuai:20170910",
+      "affectsPackage": "wangshuai",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:tinyserver:20170910",
+      "affectsPackage": "tinyserver",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nopach:20170910",
+      "affectsPackage": "nopach",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:nodejs.jseidl:20170910",
+      "affectsPackage": "nodejs.jseidl",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:jquey:20171006",
+      "affectsPackage": "jquey",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:electron:20170426",
+      "affectsPackage": "electron",
+      "affectsVersion": "<1.6.8",
+      "published": "09 Oct, 2017"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://snyk.io/vuln/page/87?type=npm",
+  "fetched": "2020-11-20 03:43:39",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Code Execution due to Deserialization",
+      "link": "https://snyk.io/vuln/npm:js-yaml:20130623",
+      "affectsPackage": "js-yaml",
+      "affectsVersion": "<2.0.5",
+      "published": "23 Jun, 2013"
+    },
+    {
+      "vulnerability": "Potential Command Injection",
+      "link": "https://snyk.io/vuln/npm:libnotify:20130515",
+      "affectsPackage": "libnotify",
+      "affectsVersion": "<= 1.0.3",
+      "published": "15 May, 2013"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/npm:hubot-scripts:20130515",
+      "affectsPackage": "hubot-scripts",
+      "affectsVersion": "<= 2.4.3",
+      "published": "15 May, 2013"
+    },
+    {
+      "vulnerability": "Unauthenticated Remote Command Injection",
+      "link": "https://snyk.io/vuln/npm:ep_imageconvert:20130506",
+      "affectsPackage": "ep_imageconvert",
+      "affectsVersion": "<=0.0.2",
+      "published": "06 May, 2013"
+    },
+    {
+      "vulnerability": "API Admin Auth Weakness",
+      "link": "https://snyk.io/vuln/npm:tomato:20130307",
+      "affectsPackage": "tomato",
+      "affectsVersion": "<0.0.6",
+      "published": "07 Mar, 2013"
+    }
+  ]
+}

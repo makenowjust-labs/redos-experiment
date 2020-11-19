@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/58?type=npm",
+  "fetched": "2020-11-20 03:28:42",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:gettext-parser:20180220",
+      "affectsPackage": "gettext-parser",
+      "affectsVersion": "<1.3.1",
+      "published": "20 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:deckardcain:20180220",
+      "affectsPackage": "deckardcain",
+      "affectsVersion": "<0.3.4",
+      "published": "20 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:abaaso:20180220",
+      "affectsPackage": "abaaso",
+      "affectsVersion": "*",
+      "published": "20 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:braces:20180219",
+      "affectsPackage": "braces",
+      "affectsVersion": "<2.3.1",
+      "published": "19 Feb, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20180202",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.6.9",
+      "published": "19 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:validator:20180218",
+      "affectsPackage": "validator",
+      "affectsVersion": ">=5.2.0 <9.4.1",
+      "published": "18 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:jasmine-core:20180216",
+      "affectsPackage": "jasmine-core",
+      "affectsVersion": "<3.1.0",
+      "published": "18 Feb, 2018"
+    },
+    {
+      "vulnerability": "Buffer Overflow",
+      "link": "https://snyk.io/vuln/npm:validator:20160218",
+      "affectsPackage": "validator",
+      "affectsVersion": "<5.0.0",
+      "published": "18 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:postcss-inline-base64:20180216",
+      "affectsPackage": "postcss-inline-base64",
+      "affectsVersion": "<3.0.0",
+      "published": "18 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:cejs:20180217",
+      "affectsPackage": "cejs",
+      "affectsVersion": "<2.0.20180219",
+      "published": "18 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:mixin-deep:20180215",
+      "affectsPackage": "mixin-deep",
+      "affectsVersion": "<1.3.1",
+      "published": "16 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:merge-deep:20180215",
+      "affectsPackage": "merge-deep",
+      "affectsVersion": "<3.0.1",
+      "published": "16 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:defaults-deep:20180215",
+      "affectsPackage": "defaults-deep",
+      "affectsVersion": "<0.2.4",
+      "published": "16 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/npm:assign-deep:20180215",
+      "affectsPackage": "assign-deep",
+      "affectsVersion": "<0.4.7",
+      "published": "16 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:is-my-json-valid:20180214",
+      "affectsPackage": "is-my-json-valid",
+      "affectsVersion": "<1.4.1,>=2.0.0 <2.17.2",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:valid-data-url:20180214",
+      "affectsPackage": "valid-data-url",
+      "affectsVersion": "<0.1.5",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:ssri:20180214",
+      "affectsPackage": "ssri",
+      "affectsVersion": "<5.2.2",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:q-io:20180212",
+      "affectsPackage": "q-io",
+      "affectsVersion": "<1.13.5",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:nicest:20180213",
+      "affectsPackage": "nicest",
+      "affectsVersion": "<1.1.3",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:mimer:20180210",
+      "affectsPackage": "mimer",
+      "affectsVersion": "<0.3.0",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:jquery.csssr.validation:20180215",
+      "affectsPackage": "jquery.csssr.validation",
+      "affectsVersion": "<0.0.26",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:htmllint:20180213",
+      "affectsPackage": "htmllint",
+      "affectsVersion": "<0.7.2",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:dirty-json:20180213",
+      "affectsPackage": "dirty-json",
+      "affectsVersion": "<0.5.2",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:citeproc:20180214",
+      "affectsPackage": "citeproc",
+      "affectsVersion": "<2.1.184",
+      "published": "15 Feb, 2018"
+    },
+    {
+      "vulnerability": "Variables Overwrite",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAILSJSCACHEMAN-173694",
+      "affectsPackage": "sailsjs-cacheman",
+      "affectsVersion": "*",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Execution",
+      "link": "https://snyk.io/vuln/npm:pullit:20180214",
+      "affectsPackage": "pullit",
+      "affectsVersion": "<1.4.0",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASHMERGEWITH-174137",
+      "affectsPackage": "lodash.mergewith",
+      "affectsVersion": "<4.6.1",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASHMERGE-173733",
+      "affectsPackage": "lodash.merge",
+      "affectsVersion": "<4.6.2",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASHDEFAULTSDEEP-450198",
+      "affectsPackage": "lodash.defaultsdeep",
+      "affectsVersion": "<4.6.1",
+      "published": "14 Feb, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-LODASHBASEMERGE-450201",
+      "affectsPackage": "lodash._basemerge",
+      "affectsVersion": "*",
+      "published": "14 Feb, 2018"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/69?type=npm",
+  "fetched": "2020-11-20 03:34:26",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:node-server-forfront:20170521",
+      "affectsPackage": "node-server-forfront",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:zwserver:20170516",
+      "affectsPackage": "zwserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:myserver.alexcthomas18:20170518",
+      "affectsPackage": "myserver.alexcthomas18",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:myprolyz:20170505",
+      "affectsPackage": "myprolyz",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:mockserve:20170423",
+      "affectsPackage": "mockserve",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:mfrserver:20170505",
+      "affectsPackage": "mfrserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:looppake:20170518",
+      "affectsPackage": "looppake",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:liyujing:20170510",
+      "affectsPackage": "liyujing",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:liuyaserver:20170521",
+      "affectsPackage": "liuyaserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lessindex:20170425",
+      "affectsPackage": "lessindex",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:lab6.brit95:20170518",
+      "affectsPackage": "lab6.brit95",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:jn_jj_server:20170422",
+      "affectsPackage": "jn_jj_server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:jansenstuffpleasework:20170518",
+      "affectsPackage": "jansenstuffpleasework",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:iter-server:20170511",
+      "affectsPackage": "iter-server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:iter-http:20170418",
+      "affectsPackage": "iter-http",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:intsol-package:20170511",
+      "affectsPackage": "intsol-package",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:infraserver:20170518",
+      "affectsPackage": "infraserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Resources Downloaded over Insecure Protocol",
+      "link": "https://snyk.io/vuln/npm:hubl-server:20170605",
+      "affectsPackage": "hubl-server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hcbserver:20170429",
+      "affectsPackage": "hcbserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:gomeplus-h5-proxy:20170429",
+      "affectsPackage": "gomeplus-h5-proxy",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:getcityapi.yoehoehne:20170518",
+      "affectsPackage": "getcityapi.yoehoehne",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:gaoxuyan:20170505",
+      "affectsPackage": "gaoxuyan",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:gaoxiaotingtingting:20170510",
+      "affectsPackage": "gaoxiaotingtingting",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:fsk-server:20170419",
+      "affectsPackage": "fsk-server",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:fbr-client:20170510",
+      "affectsPackage": "fbr-client",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:fast-http-cli:20170418",
+      "affectsPackage": "fast-http-cli",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:exxxxxxxxxxx:20170510",
+      "affectsPackage": "exxxxxxxxxxx",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ewgaddis.lab6:20170510",
+      "affectsPackage": "ewgaddis.lab6",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:enserver:20170516",
+      "affectsPackage": "enserver",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:easyquick:20170418",
+      "affectsPackage": "easyquick",
+      "affectsVersion": "*",
+      "published": "07 Jun, 2017"
+    }
+  ]
+}

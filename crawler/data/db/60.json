@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/60?type=npm",
+  "fetched": "2020-11-20 03:29:44",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Identity Spoofing",
+      "link": "https://snyk.io/vuln/npm:libp2p-secio:20180115",
+      "affectsPackage": "libp2p-secio",
+      "affectsVersion": "<0.9.0",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:weyland:20130324",
+      "affectsPackage": "weyland",
+      "affectsVersion": "<2.1.0",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:showdown-xss-filter:20150602",
+      "affectsPackage": "showdown-xss-filter",
+      "affectsVersion": "<0.1.1",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Template Injection",
+      "link": "https://snyk.io/vuln/npm:jsviews:20160320",
+      "affectsPackage": "jsviews",
+      "affectsVersion": "<0.9.74",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:js-xss:20150812",
+      "affectsPackage": "js-xss",
+      "affectsVersion": "<0.2.7",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:blocks:20160910",
+      "affectsPackage": "blocks",
+      "affectsVersion": "<0.3.5",
+      "published": "19 Jan, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serve-here:20171225",
+      "affectsPackage": "serve-here",
+      "affectsVersion": "*",
+      "published": "14 Jan, 2018"
+    },
+    {
+      "vulnerability": "Insecure Token Validation",
+      "link": "https://snyk.io/vuln/npm:node-jose:20171222",
+      "affectsPackage": "node-jose",
+      "affectsVersion": "<0.11.0",
+      "published": "10 Jan, 2018"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20170214",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.2.1",
+      "published": "04 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20170605",
+      "affectsPackage": "kibana",
+      "affectsVersion": ">=5.3.0 <5.3.3,>=5.4.0 <5.4.1",
+      "published": "04 Jan, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/npm:kibana:20170628",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.4.3",
+      "published": "04 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20170928",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.6.1",
+      "published": "04 Jan, 2018"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:mqtt:20171225",
+      "affectsPackage": "mqtt",
+      "affectsVersion": ">=2.0.0 <2.15.0",
+      "published": "03 Jan, 2018"
+    },
+    {
+      "vulnerability": "User Impersonation",
+      "link": "https://snyk.io/vuln/npm:passport-wsfed-saml2:20171222",
+      "affectsPackage": "passport-wsfed-saml2",
+      "affectsVersion": "<3.0.5",
+      "published": "03 Jan, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:marked:20170815",
+      "affectsPackage": "marked",
+      "affectsVersion": "<0.3.9",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:marked:20170815-1",
+      "affectsPackage": "marked",
+      "affectsVersion": "<0.3.9",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:swagger-ui:20171031",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<3.4.2",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:pure:20170529",
+      "affectsPackage": "pure",
+      "affectsVersion": "<2.86.0",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:vue:20170829",
+      "affectsPackage": "vue",
+      "affectsVersion": "<2.4.3",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:vue:20170401",
+      "affectsPackage": "vue",
+      "affectsVersion": "<2.3.0-beta.1",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ractive:20160318",
+      "affectsPackage": "ractive",
+      "affectsVersion": "<0.8.0",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:kibana:20160628",
+      "affectsPackage": "kibana",
+      "affectsVersion": "<5.0.0-alpha5",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jquery-colorbox:20171115",
+      "affectsPackage": "jquery-colorbox",
+      "affectsVersion": "*",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Insecure Randomness",
+      "link": "https://snyk.io/vuln/npm:crypto-browserify:20140722",
+      "affectsPackage": "crypto-browserify",
+      "affectsVersion": "<2.1.11",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:angular:20171018",
+      "affectsPackage": "angular",
+      "affectsVersion": "<1.6.7",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/npm:keystone:20141129",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<0.2.34",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:botkit:20161220",
+      "affectsPackage": "botkit",
+      "affectsVersion": "<0.4.4",
+      "published": "25 Dec, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:ecstatic:20160809",
+      "affectsPackage": "ecstatic",
+      "affectsVersion": "<2.0.0",
+      "published": "14 Dec, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:mobile-detect:20170907",
+      "affectsPackage": "mobile-detect",
+      "affectsVersion": "<1.4.0",
+      "published": "10 Dec, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:content-type-parser:20170905",
+      "affectsPackage": "content-type-parser",
+      "affectsVersion": "<2.0.0",
+      "published": "10 Dec, 2017"
+    }
+  ]
+}

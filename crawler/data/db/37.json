@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/37?type=npm",
+  "fetched": "2020-11-20 03:17:49",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-449940",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<2.2.1",
+      "published": "16 Jun, 2019"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-RESQUEL-449938",
+      "affectsPackage": "resquel",
+      "affectsVersion": "*",
+      "published": "16 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-449921",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<3.20.9",
+      "published": "14 Jun, 2019"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KEYCLOAKCONNECT-461168",
+      "affectsPackage": "keycloak-connect",
+      "affectsVersion": "<4.4.0",
+      "published": "14 Jun, 2019"
+    },
+    {
+      "vulnerability": "Reverse Tabnabbing",
+      "link": "https://snyk.io/vuln/SNYK-JS-SWAGGERUI-449808",
+      "affectsPackage": "swagger-ui",
+      "affectsVersion": "<3.18.0",
+      "published": "13 Jun, 2019"
+    },
+    {
+      "vulnerability": "User Impersonation",
+      "link": "https://snyk.io/vuln/SNYK-JS-CONVERSEJS-449664",
+      "affectsPackage": "converse.js",
+      "affectsVersion": "<1.0.7,>=2.0.0 <2.0.5",
+      "published": "12 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-KEYSTONE-449663",
+      "affectsPackage": "keystone",
+      "affectsVersion": "<4.0.0-beta.7",
+      "published": "12 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-IDSENTERPRISE-449634",
+      "affectsPackage": "ids-enterprise",
+      "affectsVersion": "<4.18.2",
+      "published": "12 Jun, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-IDSENTERPRISE-449633",
+      "affectsPackage": "ids-enterprise",
+      "affectsVersion": "<4.18.2",
+      "published": "12 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-COLRONAME-449541",
+      "affectsPackage": "colro-name",
+      "affectsVersion": "*",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-VUEBACKBONE-449522",
+      "affectsPackage": "vue-backbone",
+      "affectsVersion": ">0.1.1 <0.1.3",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SCROOOL-449523",
+      "affectsPackage": "scroool",
+      "affectsVersion": ">0.1.6 <0.1.8",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTDATEPICKERPLUS-449521",
+      "affectsPackage": "react-datepicker-plus",
+      "affectsVersion": ">2.4.1 <2.4.4",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RADICJS-449524",
+      "affectsPackage": "radicjs",
+      "affectsVersion": ">0.2.0 <0.2.2",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RADICUTIL-449525",
+      "affectsPackage": "radic-util",
+      "affectsVersion": ">1.0.1 <1.0.3",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-PRECODEJS-449526",
+      "affectsPackage": "precode.js",
+      "affectsVersion": ">1.1.0 <1.1.2",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-PMCONTROLS-449518",
+      "affectsPackage": "pm-controls",
+      "affectsVersion": ">1.1.7 <1.1.9",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NGXPICA-449519",
+      "affectsPackage": "ngx-pica",
+      "affectsVersion": ">1.1.4 <1.1.6",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NGUILIBRARY-449527",
+      "affectsPackage": "ng-ui-library",
+      "affectsVersion": ">1.0.986 <1.0.988",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MXNESTEDMENU-449520",
+      "affectsPackage": "mx-nested-menu",
+      "affectsVersion": ">0.1.29 <0.1.31",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MOTIVSCSS-449528",
+      "affectsPackage": "motiv.scss",
+      "affectsVersion": ">0.4.19 <0.4.21",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-LIBUBX-449529",
+      "affectsPackage": "libubx",
+      "affectsVersion": ">1.0.2 <1.0.4",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-LEAFLETGPX-449530",
+      "affectsPackage": "leaflet-gpx",
+      "affectsVersion": ">1.0.0 <1.0.2",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JEKYLLFORGITHUBPROJECTS-449531",
+      "affectsPackage": "jekyll-for-github-projects",
+      "affectsVersion": ">0.2.11 <0.2.13",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRUNTRADICAL-449532",
+      "affectsPackage": "grunt-radical",
+      "affectsVersion": ">0.0.13 <0.0.15",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-GRUNTRADIC-449533",
+      "affectsPackage": "grunt-radic",
+      "affectsVersion": ">0.1.0 <0.1.2",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-GITHUBJQUERYWIDGETS-449534",
+      "affectsPackage": "github-jquery-widgets",
+      "affectsVersion": ">0.1.1 <0.1.3",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-GEOHEAT-449535",
+      "affectsPackage": "geoheat",
+      "affectsVersion": ">1.3.1 <1.3.3",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-EMBERPOWERTIMEPICKER-449536",
+      "affectsPackage": "ember-power-timepicker",
+      "affectsVersion": ">1.0.7 <1.0.9",
+      "published": "10 Jun, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ANGULARLOCATIONUPDATE-449537",
+      "affectsPackage": "angular-location-update",
+      "affectsVersion": ">0.0.2 <0.0.4",
+      "published": "10 Jun, 2019"
+    }
+  ]
+}

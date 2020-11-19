@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/33?type=npm",
+  "fetched": "2020-11-20 03:15:42",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Account Enumeration",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARSESERVER-455637",
+      "affectsPackage": "parse-server",
+      "affectsVersion": "<3.6.0",
+      "published": "29 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PLOTLYJS-455599",
+      "affectsPackage": "plotly.js",
+      "affectsVersion": "<1.10.4,>=1.11.0 <1.16.0",
+      "published": "28 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-RISINGSTACKPROTECT-455402",
+      "affectsPackage": "@risingstack/protect",
+      "affectsVersion": "*",
+      "published": "25 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HTTPFILESERVER-455304",
+      "affectsPackage": "http-file-server",
+      "affectsVersion": "*",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CONSOLEFEED-455290",
+      "affectsPackage": "console-feed",
+      "affectsVersion": "<2.8.10",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-VIVAXYHERE-455285",
+      "affectsPackage": "@vivaxy/here",
+      "affectsVersion": "<3.2.2",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONSERIALIZER-455284",
+      "affectsPackage": "json-serializer",
+      "affectsVersion": "=2.0.10",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-TOMATO-455283",
+      "affectsPackage": "tomato",
+      "affectsVersion": "*",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BROWSERIFT-455282",
+      "affectsPackage": "browserift",
+      "affectsVersion": "*",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-MALEFICENT-455281",
+      "affectsPackage": "maleficent",
+      "affectsVersion": "*",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Arbitrary Code Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSFS-455280",
+      "affectsPackage": "expressfs",
+      "affectsVersion": "*",
+      "published": "24 Jul, 2019"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-OTPAUTH-451697",
+      "affectsPackage": "otpauth",
+      "affectsVersion": "<3.2.8",
+      "published": "23 Jul, 2019"
+    },
+    {
+      "vulnerability": "Access Restriction Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-MSRCRYPTO-451668",
+      "affectsPackage": "msrcrypto",
+      "affectsVersion": "<1.4.1",
+      "published": "21 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-FASTREQUESTS-451664",
+      "affectsPackage": "fast-requests",
+      "affectsVersion": ">=0.0.0",
+      "published": "21 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CAGEJS-451665",
+      "affectsPackage": "cage-js",
+      "affectsVersion": ">=0.0.0",
+      "published": "21 Jul, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-ATOMPM-451662",
+      "affectsPackage": "atompm",
+      "affectsVersion": "<0.8.2",
+      "published": "18 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOADFROMCWDORNPM-451650",
+      "affectsPackage": "load-from-cwd-or-npm",
+      "affectsVersion": ">=3.0.2 <3.0.4",
+      "published": "18 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RATEMAP-451649",
+      "affectsPackage": "rate-map",
+      "affectsVersion": ">=1.0.3 <1.0.5",
+      "published": "18 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DMNJSPROPERTIESPANEL-451641",
+      "affectsPackage": "dmn-js-properties-panel",
+      "affectsVersion": "<0.3.0",
+      "published": "17 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CMMNJSPROPERTIESPANEL-451642",
+      "affectsPackage": "cmmn-js-properties-panel",
+      "affectsVersion": "<0.8.0",
+      "published": "17 Jul, 2019"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BPMNJSPROPERTIESPANEL-451639",
+      "affectsPackage": "bpmn-js-properties-panel",
+      "affectsVersion": "<0.31.0",
+      "published": "17 Jul, 2019"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-RESTIFYSWAGGERJSDOC-451631",
+      "affectsPackage": "restify-swagger-jsdoc",
+      "affectsVersion": "<3.2.1",
+      "published": "16 Jul, 2019"
+    },
+    {
+      "vulnerability": "Improper Authorization",
+      "link": "https://snyk.io/vuln/SNYK-JS-GOOGLEAPIS-451632",
+      "affectsPackage": "googleapis",
+      "affectsVersion": ">=36.0.0 <39.1.0",
+      "published": "16 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODESJS-451630",
+      "affectsPackage": "nodes.js",
+      "affectsVersion": "*",
+      "published": "16 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-TIAR-451573",
+      "affectsPackage": "tiar",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-SECUREIDENTITYLOGINMODULE-451574",
+      "affectsPackage": "secure_identity_login_module",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RIVERMOCK-451575",
+      "affectsPackage": "river-mock",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-RETCODELOG-451576",
+      "affectsPackage": "retcodelog",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-QINGTING-451577",
+      "affectsPackage": "qingting",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ONLYTESTNOTINSTALL-451593",
+      "affectsPackage": "only-test-not-install",
+      "affectsVersion": "*",
+      "published": "15 Jul, 2019"
+    }
+  ]
+}

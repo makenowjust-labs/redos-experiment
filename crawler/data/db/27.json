@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/27?type=npm",
+  "fetched": "2020-11-20 03:12:37",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-CUFFERXOR-474519",
+      "affectsPackage": "cuffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BWFFERXOR-474520",
+      "affectsPackage": "bwffer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUVFERXOR-474521",
+      "affectsPackage": "buvfer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUNFERXOR-474522",
+      "affectsPackage": "bunfer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUGFERXOR-474523",
+      "affectsPackage": "bugfer-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFVERXOR-474524",
+      "affectsPackage": "bufver-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFNERXOR-474525",
+      "affectsPackage": "bufner-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFGERXOR-474526",
+      "affectsPackage": "bufger-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFURXOR-474527",
+      "affectsPackage": "buffur-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFMRXOR-474528",
+      "affectsPackage": "buffmr-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFGRXOR-474529",
+      "affectsPackage": "buffgr-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFEZXOR-474530",
+      "affectsPackage": "buffez-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFEVXOR-474531",
+      "affectsPackage": "buffev-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFESXOR-474532",
+      "affectsPackage": "buffes-xor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERMXOR-474533",
+      "affectsPackage": "buffermxor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERZOR-474534",
+      "affectsPackage": "buffer-zor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERYOR-474535",
+      "affectsPackage": "buffer-yor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXOZ-474536",
+      "affectsPackage": "buffer-xoz",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXOV-474537",
+      "affectsPackage": "buffer-xov",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXOS-474538",
+      "affectsPackage": "buffer-xos",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXOP-474539",
+      "affectsPackage": "buffer-xop",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXOB-474540",
+      "affectsPackage": "buffer-xob",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXO2-474541",
+      "affectsPackage": "buffer-xo2",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXNR-474542",
+      "affectsPackage": "buffer-xnr",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXMR-474543",
+      "affectsPackage": "buffer-xmr",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXKR-474544",
+      "affectsPackage": "buffer-xkr",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERXGR-474545",
+      "affectsPackage": "buffer-xgr",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERPOR-474546",
+      "affectsPackage": "buffer-por",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFERHOR-474547",
+      "affectsPackage": "buffer-hor",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-BUFFER8OR-474548",
+      "affectsPackage": "buffer-8or",
+      "affectsVersion": "*",
+      "published": "27 Oct, 2019"
+    }
+  ]
+}

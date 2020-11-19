@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/57?type=npm",
+  "fetched": "2020-11-20 03:27:59",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:mongoose-beautiful-unique-validation:20180226",
+      "affectsPackage": "mongoose-beautiful-unique-validation",
+      "affectsVersion": "<7.1.1",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:git-username:20180226",
+      "affectsPackage": "git-username",
+      "affectsVersion": "<0.5.1",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:node-json-db:20180226",
+      "affectsPackage": "node-json-db",
+      "affectsVersion": "<0.7.4",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:node-forge:20180226",
+      "affectsPackage": "node-forge",
+      "affectsVersion": "<0.7.4",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:github-url-to-object:20180226",
+      "affectsPackage": "github-url-to-object",
+      "affectsVersion": "<4.0.4",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:compromise:20180226",
+      "affectsPackage": "compromise",
+      "affectsVersion": "<11.5.1",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:checkit:20180226",
+      "affectsPackage": "checkit",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:node-cxc:20180226",
+      "affectsPackage": "node-cxc",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:truncate:20180225",
+      "affectsPackage": "truncate",
+      "affectsVersion": "<2.0.1",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:skeemas:20180225",
+      "affectsPackage": "skeemas",
+      "affectsVersion": "<1.2.5",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:sanitize:20180225",
+      "affectsPackage": "sanitize",
+      "affectsVersion": "< 2.1.0",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:address-rfc2822:20180225",
+      "affectsPackage": "address-rfc2822",
+      "affectsVersion": "<2.0.2",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:email-existence:20180225",
+      "affectsPackage": "email-existence",
+      "affectsVersion": "<0.1.6",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:datatype-expansion:20180225",
+      "affectsPackage": "datatype-expansion",
+      "affectsVersion": "<0.3.1",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:astronomia:20180225",
+      "affectsPackage": "astronomia",
+      "affectsVersion": "<1.3.9",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:resolve-path:20180222",
+      "affectsPackage": "resolve-path",
+      "affectsVersion": "<1.4.0",
+      "published": "25 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:xlsx:20180222",
+      "affectsPackage": "xlsx",
+      "affectsVersion": "<0.12.2",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:vue:20180222",
+      "affectsPackage": "vue",
+      "affectsVersion": "<2.5.14",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:shaka-player:20180222",
+      "affectsPackage": "shaka-player",
+      "affectsVersion": "<2.3.3",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:valid-email:20180222",
+      "affectsPackage": "valid-email",
+      "affectsVersion": "<1.0.0",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:markdown-js:20180221",
+      "affectsPackage": "markdown-js",
+      "affectsVersion": "<0.0.4",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:moddle-xml:20180222",
+      "affectsPackage": "moddle-xml",
+      "affectsVersion": "<4.1.3",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:harb:20180222",
+      "affectsPackage": "harb",
+      "affectsVersion": "*",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/npm:converse.js:20180208",
+      "affectsPackage": "converse.js",
+      "affectsVersion": "<3.3.3",
+      "published": "22 Feb, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:gifsicle:20170810",
+      "affectsPackage": "gifsicle",
+      "affectsVersion": "<1.90",
+      "published": "21 Feb, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:crud-file-server:20180217",
+      "affectsPackage": "crud-file-server",
+      "affectsVersion": "<0.9.0",
+      "published": "21 Feb, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Request Forgery (CSRF)",
+      "link": "https://snyk.io/vuln/npm:pym.js:20180215",
+      "affectsPackage": "pym.js",
+      "affectsVersion": "<1.3.2",
+      "published": "21 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:public:20180217",
+      "affectsPackage": "public",
+      "affectsVersion": "<0.1.3",
+      "published": "21 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:html-dom-parser:20180220",
+      "affectsPackage": "html-dom-parser",
+      "affectsVersion": "<0.1.3",
+      "published": "20 Feb, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:node-pg-migrate:20180220",
+      "affectsPackage": "node-pg-migrate",
+      "affectsVersion": "<2.23.0",
+      "published": "20 Feb, 2018"
+    }
+  ]
+}

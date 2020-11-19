@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/63?type=npm",
+  "fetched": "2020-11-20 03:31:16",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:mktmpio:20170917",
+      "affectsPackage": "mktmpio",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:botbait:20170917",
+      "affectsPackage": "botbait",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:ikst:20170917",
+      "affectsPackage": "ikst",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:subtitles-lib:20170917",
+      "affectsPackage": "subtitles-lib",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:npm_scripts_test_metrics:20170917",
+      "affectsPackage": "npm_scripts_test_metrics",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:npm-exploit:20170917",
+      "affectsPackage": "npm-exploit",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:maybemaliciouspackage:20170917",
+      "affectsPackage": "maybemaliciouspackage",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:harmlesspackage:20170917",
+      "affectsPackage": "harmlesspackage",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:deasyncp:20170917",
+      "affectsPackage": "deasyncp",
+      "affectsVersion": "*",
+      "published": "17 Sep, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:content:20170908",
+      "affectsPackage": "content",
+      "affectsVersion": "<3.0.6",
+      "published": "13 Sep, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:dns-sync:20170909",
+      "affectsPackage": "dns-sync",
+      "affectsVersion": "*",
+      "published": "10 Sep, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:no-case:20170908",
+      "affectsPackage": "no-case",
+      "affectsVersion": "<2.3.2",
+      "published": "10 Sep, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:charset:20170908",
+      "affectsPackage": "charset",
+      "affectsVersion": "<1.0.1",
+      "published": "10 Sep, 2017"
+    },
+    {
+      "vulnerability": "Sandbox Escaping",
+      "link": "https://snyk.io/vuln/npm:safe-eval:20170830",
+      "affectsPackage": "safe-eval",
+      "affectsVersion": "<0.4.0",
+      "published": "06 Sep, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:fs-git:20170601",
+      "affectsPackage": "fs-git",
+      "affectsVersion": "<1.0.2",
+      "published": "30 Aug, 2017"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:ua-parser:20170829",
+      "affectsPackage": "ua-parser",
+      "affectsVersion": "*",
+      "published": "30 Aug, 2017"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:pg:20170813",
+      "affectsPackage": "pg",
+      "affectsVersion": "<2.11.2,>=3.0.0 <3.6.4,>=4.0.0 <4.5.7,>=5.0.0 <5.2.1,>=6.0.0 <6.0.5,>=6.1.0 <6.1.6,>=6.2.0 <6.2.5,>=6.3.0 <6.3.3,>=6.4.0 <6.4.2,>=7.0.0 <7.0.2,>=7.1.0 <7.1.2",
+      "published": "13 Aug, 2017"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:mysql:20170317",
+      "affectsPackage": "mysql",
+      "affectsVersion": "<2.14.0",
+      "published": "08 Aug, 2017"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:js-quantities:20161202",
+      "affectsPackage": "js-quantities",
+      "affectsVersion": "<1.6.4",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Out of Memory Crash",
+      "link": "https://snyk.io/vuln/npm:js-quantities:20161111",
+      "affectsPackage": "js-quantities",
+      "affectsVersion": "<1.7.0",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:foundation-sites:20170802",
+      "affectsPackage": "foundation-sites",
+      "affectsVersion": "<6.0.0",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:xxf11:20170730",
+      "affectsPackage": "xxf11",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:tkinter:20170802",
+      "affectsPackage": "tkinter",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:srverqq:20170730",
+      "affectsPackage": "srverqq",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:sqlserver:20170802",
+      "affectsPackage": "sqlserver",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:sqliter:20170802",
+      "affectsPackage": "sqliter",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:sqlite.js:20170802",
+      "affectsPackage": "sqlite.js",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:smb:20170802",
+      "affectsPackage": "smb",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:shadowsock:20170802",
+      "affectsPackage": "shadowsock",
+      "affectsVersion": "<= 1.0.2",
+      "published": "02 Aug, 2017"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:servergmf:20170730",
+      "affectsPackage": "servergmf",
+      "affectsVersion": "*",
+      "published": "02 Aug, 2017"
+    }
+  ]
+}

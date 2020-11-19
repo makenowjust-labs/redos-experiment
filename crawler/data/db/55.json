@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/55?type=npm",
+  "fetched": "2020-11-20 03:26:58",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:cuiaiguang:20180226",
+      "affectsPackage": "cuiaiguang",
+      "affectsVersion": "*",
+      "published": "27 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:wuzhuang:20180226",
+      "affectsPackage": "wuzhuang",
+      "affectsVersion": "*",
+      "published": "27 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:asset-cache:20180226",
+      "affectsPackage": "asset-cache",
+      "affectsVersion": "*",
+      "published": "27 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ptest:20180226",
+      "affectsPackage": "ptest",
+      "affectsVersion": "*",
+      "published": "27 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:micra:20180226",
+      "affectsPackage": "micra",
+      "affectsVersion": "*",
+      "published": "27 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:m-server:20180226",
+      "affectsPackage": "m-server",
+      "affectsVersion": "<1.4.2",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:static-cling:20180226",
+      "affectsPackage": "static-cling",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:html-pages:20180226",
+      "affectsPackage": "html-pages",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:api-proxy:20180226",
+      "affectsPackage": "api-proxy",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:basic-static:20180226",
+      "affectsPackage": "basic-static",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:hserver-static:20180226",
+      "affectsPackage": "hserver-static",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:sabu:20180226",
+      "affectsPackage": "sabu",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:awning:20180226",
+      "affectsPackage": "awning",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:atropa-server:20180226",
+      "affectsPackage": "atropa-server",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:atropa-ide:20180226",
+      "affectsPackage": "atropa-ide",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:aso-server:20180226",
+      "affectsPackage": "aso-server",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:stattic:20180226",
+      "affectsPackage": "stattic",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:pico-static-server:20180226",
+      "affectsPackage": "pico-static-server",
+      "affectsVersion": "<3.0.2",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:crud-file-server:20180226",
+      "affectsPackage": "crud-file-server",
+      "affectsVersion": "<0.9.0",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:bae-nodejs:20180226",
+      "affectsPackage": "bae-nodejs",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:node-staticserver:20180226",
+      "affectsPackage": "node-staticserver",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:server-static:20180226",
+      "affectsPackage": "server-static",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:bruteser:20180226",
+      "affectsPackage": "bruteser",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:butler-server:20180226",
+      "affectsPackage": "butler-server",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:canvas-designer:20180226",
+      "affectsPackage": "canvas-designer",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:glurp:20180226",
+      "affectsPackage": "glurp",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:der-server:20180226",
+      "affectsPackage": "der-server",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ex-http-frame:20180226",
+      "affectsPackage": "ex-http-frame",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:btnode:20180226",
+      "affectsPackage": "btnode",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:gfm-srv:20180226",
+      "affectsPackage": "gfm-srv",
+      "affectsVersion": "*",
+      "published": "26 Feb, 2018"
+    }
+  ]
+}

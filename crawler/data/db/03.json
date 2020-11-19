@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/3?type=npm",
+  "fetched": "2020-11-20 03:00:00",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPMUSERVALIDATE-1019352",
+      "affectsPackage": "npm-user-validate",
+      "affectsVersion": "<1.0.1",
+      "published": "18 Oct, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODETEST1010-1018833",
+      "affectsPackage": "nodetest1010",
+      "affectsVersion": "*",
+      "published": "16 Oct, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODETEST199-1018834",
+      "affectsPackage": "nodetest199",
+      "affectsVersion": "*",
+      "published": "16 Oct, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-NPMPUBMAN-1018835",
+      "affectsPackage": "npmpubman",
+      "affectsVersion": "*",
+      "published": "16 Oct, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-PLUTOVSLACKCLIENT-1018836",
+      "affectsPackage": "plutov-slack-client",
+      "affectsVersion": "*",
+      "published": "16 Oct, 2020"
+    },
+    {
+      "vulnerability": "Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-FREESPACE-1018705",
+      "affectsPackage": "freespace",
+      "affectsVersion": "*",
+      "published": "15 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BIZCHARTS-608848",
+      "affectsPackage": "bizcharts",
+      "affectsVersion": "<4.0.15",
+      "published": "13 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-MATHJS-1016401",
+      "affectsPackage": "mathjs",
+      "affectsVersion": "<7.5.1",
+      "published": "13 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-SUMMERNOTE-597187",
+      "affectsPackage": "summernote",
+      "affectsVersion": "*",
+      "published": "09 Oct, 2020"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/SNYK-JS-NEXTJS-1016908",
+      "affectsPackage": "next.js",
+      "affectsVersion": ">=9.5.0 <9.5.4",
+      "published": "09 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOMPURIFY-1016634",
+      "affectsPackage": "dompurify",
+      "affectsVersion": "<2.0.17",
+      "published": "08 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIMPLSCHEMA-1016157",
+      "affectsPackage": "simpl-schema",
+      "affectsVersion": "<1.10.2",
+      "published": "07 Oct, 2020"
+    },
+    {
+      "vulnerability": "Improper Restriction of Rendered UI Layers or Frames",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-1016273",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=8.0.0-beta.0 <8.5.1,>=9.0.0-beta.0 <9.3.0,>=10.0.0-beta.0 <10.0.1,>=11.0.0-beta.0 <11.0.0-beta.1",
+      "published": "07 Oct, 2020"
+    },
+    {
+      "vulnerability": "Improper Access Control",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTRON-1016271",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=8.0.0-beta.0 <8.5.2,>=9.0.0-beta.0 <9.3.1,>=10.0.0-beta.0 <10.1.2,>=11.0.0-beta.0 <11.0.0-beta.6",
+      "published": "07 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-HELLOJS-1014546",
+      "affectsPackage": "hellojs",
+      "affectsVersion": "<1.18.6",
+      "published": "06 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-JSONPOINTER-596925",
+      "affectsPackage": "json-pointer",
+      "affectsVersion": "<0.6.1",
+      "published": "05 Oct, 2020"
+    },
+    {
+      "vulnerability": "Server-Side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-NODEPDFGENERATOR-609636",
+      "affectsPackage": "node-pdf-generator",
+      "affectsVersion": "*",
+      "published": "05 Oct, 2020"
+    },
+    {
+      "vulnerability": "Server-side Request Forgery (SSRF)",
+      "link": "https://snyk.io/vuln/SNYK-JS-PHANTOMJSSEO-609638",
+      "affectsPackage": "phantomjs-seo",
+      "affectsVersion": "*",
+      "published": "05 Oct, 2020"
+    },
+    {
+      "vulnerability": "File Type Restriction Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-SOCKETIOFILE-1015597",
+      "affectsPackage": "socket.io-file",
+      "affectsVersion": "*",
+      "published": "04 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-FROALAEDITOR-1015371",
+      "affectsPackage": "froala-editor",
+      "affectsVersion": "<3.2.2",
+      "published": "02 Oct, 2020"
+    },
+    {
+      "vulnerability": "Improper Input Validation",
+      "link": "https://snyk.io/vuln/SNYK-JS-ACTIONSCORE-1015402",
+      "affectsPackage": "@actions/core",
+      "affectsVersion": "<1.2.6",
+      "published": "02 Oct, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-ELECTORN-1015404",
+      "affectsPackage": "electorn",
+      "affectsVersion": "*",
+      "published": "02 Oct, 2020"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/SNYK-JS-LOADYAML-1015403",
+      "affectsPackage": "loadyaml",
+      "affectsVersion": "*",
+      "published": "02 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAFETYDANCE-598687",
+      "affectsPackage": "safetydance",
+      "affectsVersion": "*",
+      "published": "02 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-BMOOR-598664",
+      "affectsPackage": "bmoor",
+      "affectsVersion": "<0.8.12",
+      "published": "02 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-CANVASDESIGNER-597485",
+      "affectsPackage": "canvas-designer",
+      "affectsVersion": "*",
+      "published": "01 Oct, 2020"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DATATABLESNET-598806",
+      "affectsPackage": "datatables.net",
+      "affectsVersion": "<1.10.22",
+      "published": "01 Oct, 2020"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/SNYK-JS-AMPHTML-598262",
+      "affectsPackage": "amp-html",
+      "affectsVersion": "*",
+      "published": "01 Oct, 2020"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSELECT-1014662",
+      "affectsPackage": "bootstrap-select",
+      "affectsVersion": "<1.13.6",
+      "published": "01 Oct, 2020"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-NATSWS-1014647",
+      "affectsPackage": "nats.ws",
+      "affectsVersion": "<1.0.0-111",
+      "published": "01 Oct, 2020"
+    }
+  ]
+}

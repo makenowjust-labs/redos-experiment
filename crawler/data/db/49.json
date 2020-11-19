@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/49?type=npm",
+  "fetched": "2020-11-20 03:23:55",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-ISMOBILEJS-72624",
+      "affectsPackage": "ismobilejs",
+      "affectsVersion": "<0.5.0",
+      "published": "25 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:hexo-editor:20180103",
+      "affectsPackage": "hexo-editor",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:electron-markdownify:20171205",
+      "affectsPackage": "electron-markdownify",
+      "affectsVersion": "*",
+      "published": "25 Jun, 2018"
+    },
+    {
+      "vulnerability": "Uninititialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:njwt:20180614",
+      "affectsPackage": "njwt",
+      "affectsVersion": "<1.0.0",
+      "published": "24 Jun, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:cryo:20180619",
+      "affectsPackage": "cryo",
+      "affectsVersion": "*",
+      "published": "24 Jun, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:git-dummy-commit:20180619",
+      "affectsPackage": "git-dummy-commit",
+      "affectsVersion": "*",
+      "published": "19 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:oauth2orize-fprm:20180501",
+      "affectsPackage": "oauth2orize-fprm",
+      "affectsVersion": "<0.2.1",
+      "published": "17 Jun, 2018"
+    },
+    {
+      "vulnerability": "Insecure Randomness",
+      "link": "https://snyk.io/vuln/npm:generate-pincode:20180612",
+      "affectsPackage": "generate-pincode",
+      "affectsVersion": "<5.0.2",
+      "published": "12 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAPSASS-598772",
+      "affectsPackage": "bootstrap-sass",
+      "affectsVersion": "<3.4.0",
+      "published": "12 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:bootstrap:20180529",
+      "affectsPackage": "bootstrap",
+      "affectsVersion": "<3.4.0,>=4.0.0 <4.1.2",
+      "published": "12 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-BOOTSTRAP-73560",
+      "affectsPackage": "bootstrap",
+      "affectsVersion": ">=4.0.0 <4.1.2",
+      "published": "12 Jun, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:express-cart:20180606",
+      "affectsPackage": "express-cart",
+      "affectsVersion": "<1.1.7",
+      "published": "06 Jun, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/npm:serve:20180531",
+      "affectsPackage": "serve",
+      "affectsVersion": "<7.0.0",
+      "published": "03 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:ag-grid:20171016",
+      "affectsPackage": "ag-grid",
+      "affectsVersion": ">=13.0.0 <14.0.0",
+      "published": "03 Jun, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:sexstatic:20180529",
+      "affectsPackage": "sexstatic",
+      "affectsVersion": "*",
+      "published": "03 Jun, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary File Write via Archive Extraction (Zip Slip)",
+      "link": "https://snyk.io/vuln/npm:unzipper:20180415",
+      "affectsPackage": "unzipper",
+      "affectsVersion": "<0.8.13",
+      "published": "31 May, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary File Write via Archive Extraction (Zip Slip)",
+      "link": "https://snyk.io/vuln/npm:adm-zip:20180415",
+      "affectsPackage": "adm-zip",
+      "affectsVersion": "<0.4.11",
+      "published": "31 May, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:pdf-image:20180529",
+      "affectsPackage": "pdf-image",
+      "affectsVersion": "<2.0.1",
+      "published": "30 May, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-VIDEOJSSWF-575391",
+      "affectsPackage": "videojs-swf",
+      "affectsVersion": "<4.5.4",
+      "published": "29 May, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:tinymce:20180522",
+      "affectsPackage": "tinymce",
+      "affectsVersion": "<4.5.12,>=4.6.0 <4.7.12",
+      "published": "24 May, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:tinymce:20170613",
+      "affectsPackage": "tinymce",
+      "affectsVersion": "<4.6.4",
+      "published": "24 May, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:react-marked-markdown:20180517",
+      "affectsPackage": "react-marked-markdown",
+      "affectsVersion": "*",
+      "published": "22 May, 2018"
+    },
+    {
+      "vulnerability": "Open Redirect",
+      "link": "https://snyk.io/vuln/npm:hekto:20180412",
+      "affectsPackage": "hekto",
+      "affectsVersion": "<0.2.4",
+      "published": "22 May, 2018"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:nothing-js:20180516",
+      "affectsPackage": "nothing-js",
+      "affectsVersion": "*",
+      "published": "21 May, 2018"
+    },
+    {
+      "vulnerability": "Malicious Package",
+      "link": "https://snyk.io/vuln/npm:ladder-text-js:20180516",
+      "affectsPackage": "ladder-text-js",
+      "affectsVersion": "*",
+      "published": "21 May, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:citation-js:20180508",
+      "affectsPackage": "citation-js",
+      "affectsVersion": "<0.4.0-7",
+      "published": "16 May, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:koa-body:20180127",
+      "affectsPackage": "koa-body",
+      "affectsVersion": "<3.0.0",
+      "published": "16 May, 2018"
+    },
+    {
+      "vulnerability": "Uninitialized Memory Exposure",
+      "link": "https://snyk.io/vuln/npm:stringstream:20180511",
+      "affectsPackage": "stringstream",
+      "affectsVersion": "<0.0.6",
+      "published": "13 May, 2018"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/npm:sql:20180512",
+      "affectsPackage": "sql",
+      "affectsVersion": "*",
+      "published": "13 May, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:open:20180512",
+      "affectsPackage": "open",
+      "affectsVersion": "<6.0.0",
+      "published": "13 May, 2018"
+    }
+  ]
+}

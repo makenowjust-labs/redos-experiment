@@ -1,0 +1,216 @@
+{
+  "url": "https://snyk.io/vuln/page/47?type=npm",
+  "fetched": "2020-11-20 03:22:54",
+  "vulnerabilities": [
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-RRULE-72421",
+      "affectsPackage": "rrule",
+      "affectsVersion": "<2.5.6",
+      "published": "09 Oct, 2018"
+    },
+    {
+      "vulnerability": "Authentication Bypass",
+      "link": "https://snyk.io/vuln/SNYK-JS-PASSPORTSAML-72411",
+      "affectsPackage": "passport-saml",
+      "affectsVersion": "<1.0.0",
+      "published": "02 Oct, 2018"
+    },
+    {
+      "vulnerability": "Prototype Pollution",
+      "link": "https://snyk.io/vuln/SNYK-JS-DEFAULTSDEEP-173661",
+      "affectsPackage": "defaults-deep",
+      "affectsVersion": "*",
+      "published": "28 Sep, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-WEBPACKDEVSERVER-72405",
+      "affectsPackage": "webpack-dev-server",
+      "affectsVersion": "<3.1.11",
+      "published": "26 Sep, 2018"
+    },
+    {
+      "vulnerability": "Information Exposure",
+      "link": "https://snyk.io/vuln/SNYK-JS-PARCELBUNDLER-461001",
+      "affectsPackage": "parcel-bundler",
+      "affectsVersion": "<1.10.0",
+      "published": "26 Sep, 2018"
+    },
+    {
+      "vulnerability": "SQL Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-EXPRESSCART-72404",
+      "affectsPackage": "express-cart",
+      "affectsVersion": "<1.1.8",
+      "published": "26 Sep, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-REACTTOOLTIP-72363",
+      "affectsPackage": "react-tooltip",
+      "affectsVersion": "<3.8.1",
+      "published": "13 Sep, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-PS-72307",
+      "affectsPackage": "ps",
+      "affectsVersion": "<1.0.0",
+      "published": "09 Sep, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-ASCIIART-72306",
+      "affectsPackage": "ascii-art",
+      "affectsVersion": "<1.4.4",
+      "published": "09 Sep, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-DOJO-72305",
+      "affectsPackage": "dojo",
+      "affectsVersion": "<1.14",
+      "published": "06 Sep, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/SNYK-JS-SAMSUNGREMOTE-72278",
+      "affectsPackage": "samsung-remote",
+      "affectsVersion": "<1.3.5",
+      "published": "05 Sep, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/SNYK-JS-EDITORMD-72282",
+      "affectsPackage": "editor.md",
+      "affectsVersion": "*",
+      "published": "05 Sep, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/SNYK-JS-SIMPLEHTTPSERVER-72286",
+      "affectsPackage": "simplehttpserver",
+      "affectsVersion": "<0.2.1",
+      "published": "05 Sep, 2018"
+    },
+    {
+      "vulnerability": "Regular Expression Denial of Service (ReDoS)",
+      "link": "https://snyk.io/vuln/npm:mosca:20180613",
+      "affectsPackage": "mosca",
+      "affectsVersion": "<2.8.2",
+      "published": "30 Aug, 2018"
+    },
+    {
+      "vulnerability": "Denial of Service (DoS)",
+      "link": "https://snyk.io/vuln/npm:mem:20180117",
+      "affectsPackage": "mem",
+      "affectsVersion": "<4.0.0",
+      "published": "29 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:mergely:20180623",
+      "affectsPackage": "mergely",
+      "affectsVersion": "<4.0.5",
+      "published": "27 Aug, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Code Execution",
+      "link": "https://snyk.io/vuln/npm:electron:20180822",
+      "affectsPackage": "electron",
+      "affectsVersion": ">=1.7.0 <1.7.16,>=1.8.0 <1.8.8,>=2.0.0 <2.0.8,>=3.0.0-beta6 <3.0.0-beta.7",
+      "published": "27 Aug, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:egg-scripts:20180824",
+      "affectsPackage": "egg-scripts",
+      "affectsVersion": "<2.8.1",
+      "published": "27 Aug, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:serve:20180529",
+      "affectsPackage": "serve",
+      "affectsVersion": "<7.1.3",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Directory Traversal",
+      "link": "https://snyk.io/vuln/npm:ponse:20180718",
+      "affectsPackage": "ponse",
+      "affectsVersion": "<2.0.3",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:node-red:20180511",
+      "affectsPackage": "node-red",
+      "affectsVersion": "<0.18.6",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:m-server:20180712",
+      "affectsPackage": "m-server",
+      "affectsVersion": "<1.4.2",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/npm:express-cart:20180712",
+      "affectsPackage": "express-cart",
+      "affectsVersion": "<1.1.6",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary Command Injection",
+      "link": "https://snyk.io/vuln/npm:entitlements:20180718",
+      "affectsPackage": "entitlements",
+      "affectsVersion": "<1.3.0",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:buttle:20180704",
+      "affectsPackage": "buttle",
+      "affectsVersion": "*",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jplayer:20180814",
+      "affectsPackage": "jplayer",
+      "affectsVersion": "<2.3.0",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jplayer:20180813",
+      "affectsPackage": "jplayer",
+      "affectsVersion": "<2.3.2",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Cross-site Scripting (XSS)",
+      "link": "https://snyk.io/vuln/npm:jplayer:20130511",
+      "affectsPackage": "jplayer",
+      "affectsVersion": "<2.2.20",
+      "published": "21 Aug, 2018"
+    },
+    {
+      "vulnerability": "Privilege Escalation",
+      "link": "https://snyk.io/vuln/npm:flintcms:20180817",
+      "affectsPackage": "flintcms",
+      "affectsVersion": "<1.1.10",
+      "published": "19 Aug, 2018"
+    },
+    {
+      "vulnerability": "Arbitrary String Injection",
+      "link": "https://snyk.io/vuln/npm:dojox:20180818",
+      "affectsPackage": "dojox",
+      "affectsVersion": "<1.10.10,>=1.11.0 <1.11.6,>=1.12.0 <1.12.4,>=1.13.0 <1.13.1",
+      "published": "19 Aug, 2018"
+    }
+  ]
+}
