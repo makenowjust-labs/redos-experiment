@@ -118,3 +118,25 @@ dist
 .pnp.*
 
 
+### https://raw.github.com/github/gitignore/18aa6d83774d514da479d73a4beb864cd4220231/Scala.gitignore
+
+*.class
+*.log
+
+
+### https://raw.github.com/github/gitignore/18aa6d83774d514da479d73a4beb864cd4220231/Global/SBT.gitignore
+
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+
