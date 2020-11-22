@@ -1,0 +1,3 @@
+[submodule "deps/regex-matching-analyzer"]
+	path = deps/regex-matching-analyzer
+	url = https://github.com/minamide-group/regex-matching-analyzer
