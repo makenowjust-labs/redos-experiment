@@ -1,3 +1,6 @@
 [submodule "deps/regex-matching-analyzer"]
 	path = deps/regex-matching-analyzer
 	url = https://github.com/minamide-group/regex-matching-analyzer
+[submodule "deps/rescue"]
+	path = deps/rescue
+	url = https://github.com/2bdenny/ReScue
