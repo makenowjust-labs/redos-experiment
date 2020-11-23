@@ -44,7 +44,7 @@ object Main {
     val regexpJSON = args(0)
     println(s"==> Input: ${os.pwd / os.RelPath(regexpJSON)}")
     val outputJSON = args(1)
-    println(s"==> Input: ${os.pwd / os.RelPath(outputJSON)}")
+    println(s"==> Output: ${os.pwd / os.RelPath(outputJSON)}")
     println()
 
     val infos = read[Seq[RegExpInfo]](os.read(os.pwd / os.RelPath(regexpJSON)))

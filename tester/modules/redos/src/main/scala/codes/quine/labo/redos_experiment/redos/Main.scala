@@ -1,4 +1,4 @@
-package codes.quine.labo.redos_experiment.redos_tester
+package codes.quine.labo.redos_experiment.redos
 
 import scala.collection.mutable
 import scala.concurrent.duration._
@@ -56,7 +56,7 @@ object Main {
     val regexpJSON = args(0)
     println(s"==> Input: ${os.pwd / os.RelPath(regexpJSON)}")
     val outputJSON = args(1)
-    println(s"==> Input: ${os.pwd / os.RelPath(outputJSON)}")
+    println(s"==> Output: ${os.pwd / os.RelPath(outputJSON)}")
     checker = args(2) match {
       case "hybrid"    => Checker.Hybrid
       case "automaton" => Checker.Automaton
