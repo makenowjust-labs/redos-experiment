@@ -66,7 +66,7 @@ const fetchPage = async (url: URL): Promise<URL | null> => {
   const db: DB = { url: url.toString(), fetched, vulnerabilities };
 
   const index = page.index().toString().padStart(2, '0');
-  const path = `data/db/${index}.json`;
+  const path = `../data/db/${index}.json`;
   console.log(`==> save ${path}`);
   await fs.writeFile(path, JSON.stringify(db, undefined, '  '));
 

@@ -15,13 +15,13 @@ const sanitize = (vuln: Vulnerability, extension: string): string => {
 };
 
 const main = async () => {
-  const vulns = JSON.parse(await fs.readFile('data/redos.json', 'utf8')) as Vulnerability[];
+  const vulns = JSON.parse(await fs.readFile('../data/redos.json', 'utf8')) as Vulnerability[];
   for (const vuln of vulns) {
     try {
       const filename = sanitize(vuln, 'tgz');
       console.log(`==> fetch ${vuln.affectsPackage}@${vuln.affectsVersion}`);
       const tar = await pacote.tarball(`${vuln.affectsPackage}@${vuln.affectsVersion}`);
-      const dest = `data/pkg/${filename}`;
+      const dest = `../data/pkg/${filename}`;
       console.log(`==> save ${dest}`);
       await fs.writeFile(dest, tar);
       const pkg: Pkg = {
@@ -29,7 +29,7 @@ const main = async () => {
         version: vuln.affectsVersion,
         url: tar.resolved
       };
-      await fs.writeFile(`data/pkg/${sanitize(vuln, 'json')}`, JSON.stringify(pkg));
+      await fs.writeFile(`../data/pkg/${sanitize(vuln, 'json')}`, JSON.stringify(pkg));
       await delay(FetchSpan);
     } catch(err) {
       console.error(err);

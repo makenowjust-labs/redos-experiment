@@ -106,9 +106,9 @@ const handleJS = (pkg: Pkg, path: string, source: string): RegExpInfo[] => {
 
 const handleTgz = async (filename: string): Promise<RegExpInfo[]> => {
   console.log(`==> handle ${filename}`);
-  const pkg = JSON.parse(await fs.readFile(`data/pkg/${filename.replace(/\.tgz$/, '.json')}`, 'utf8')) as Pkg;
+  const pkg = JSON.parse(await fs.readFile(`../data/pkg/${filename.replace(/\.tgz$/, '.json')}`, 'utf8')) as Pkg;
   const infos: RegExpInfo[] = [];
-  const files = await decompress(`data/pkg/${filename}`);
+  const files = await decompress(`../data/pkg/${filename}`);
   for (const file of files) {
     try {
       if (file.path.endsWith('.js')) {
@@ -123,7 +123,7 @@ const handleTgz = async (filename: string): Promise<RegExpInfo[]> => {
 
 const main = async () => {
   const infos: RegExpInfo[] = [];
-  for (const filename of await fs.readdir('data/pkg')) {
+  for (const filename of await fs.readdir('../data/pkg')) {
     if (filename.endsWith('.tgz')) {
       infos.push(...await handleTgz(filename));
       console.log(`==> found ${infos.length} regexp`);
@@ -140,8 +140,8 @@ const main = async () => {
     set.add(re);
     setInfos.push(info);
   }
-  console.log(`==> reduced regexp: ${setInfos.length}`);
-  await fs.writeFile('data/regexp.json', JSON.stringify(setInfos, undefined, '  '));
+  console.log(`==> unique regexp: ${setInfos.length}`);
+  await fs.writeFile('../data/regexp.json', JSON.stringify(setInfos, undefined, '  '));
 };
 
 main();
