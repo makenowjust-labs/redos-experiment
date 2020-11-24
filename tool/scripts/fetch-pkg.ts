@@ -15,7 +15,7 @@ const sanitize = (vuln: Vulnerability, extension: string): string => {
 };
 
 const main = async () => {
-  const vulns = JSON.parse(await fs.readFile('../data/redos.json', 'utf8')) as Vulnerability[];
+  const vulns = JSON.parse(await fs.readFile('../data/redos-pkg.json', 'utf8')) as Vulnerability[];
   for (const vuln of vulns) {
     try {
       const filename = sanitize(vuln, 'tgz');

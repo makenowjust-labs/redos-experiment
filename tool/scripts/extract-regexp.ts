@@ -6,16 +6,7 @@ import type * as estree from 'estree';
 import decompress from 'decompress';
 
 import { Pkg } from '../src/pkg';
-
-interface RegExpInfo {
-  readonly package: string;
-  readonly version: string;
-  readonly path: string;
-  readonly line: number | undefined;
-  readonly column: number | undefined;
-  readonly source: string;
-  readonly flags: string;
-};
+import { RegExpInfo } from '../src/regexp-info';
 
 const handleJS = (pkg: Pkg, path: string, source: string): RegExpInfo[] => {
   console.log(`=> handle ${path} (in ${pkg.package}@${pkg.version})`);
@@ -141,7 +132,7 @@ const main = async () => {
     setInfos.push(info);
   }
   console.log(`==> unique regexp: ${setInfos.length}`);
-  await fs.writeFile('../data/regexp.json', JSON.stringify(setInfos, undefined, '  '));
+  await fs.writeFile('../data/redos-regexp.json', JSON.stringify(setInfos, undefined, '  '));
 };
 
 main();

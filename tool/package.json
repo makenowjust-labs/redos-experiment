@@ -20,8 +20,9 @@
   },
   "scripts": {
     "fetch-db": "sucrase-node scripts/fetch-db.ts",
-    "create-redos-json": "sucrase-node scripts/create-redos-json.ts",
+    "create-redos-pkg-json": "sucrase-node scripts/create-redos-pkg-json.ts",
     "fetch-pkg": "sucrase-node scripts/fetch-pkg.ts",
-    "extract-regexp": "sucrase-node scripts/extract-regexp.ts"
+    "extract-regexp": "sucrase-node scripts/extract-regexp.ts",
+    "process-txt": "sucrase-node scripts/process-txt.ts"
   }
 }
