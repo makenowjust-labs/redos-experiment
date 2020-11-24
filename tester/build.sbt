@@ -19,7 +19,7 @@ lazy val root = project
 lazy val redos = project
   .in(file("modules/redos"))
   .settings(
-    Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.redos_tester.Main"),
+    Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.redos.Main"),
     Compile / run / fork := true,
     libraryDependencies += "codes.quine.labo" %% "redos-core" % "1.1.1",
     libraryDependencies += "com.lihaoyi" %% "upickle" % "0.9.5",

@@ -33,7 +33,7 @@ $ popd
 Then, we can run them.
 
 ```console
-$ sbt redos/run ../../crawler/regexp.json ../result/redos-hybrid.json hybrid
-$ sbt regex-matching-analyzer/run ../../crawler/regexp.json ../result/regex-matching-analyzer.json
-$ sbt rescue/run ../../crawler/regexp.json ../result/rescue.json
+$ sbt 'redos/run ../../../crawler/data/regexp.json ../../result/redos-hybrid.json hybrid'
+$ sbt 'regex-matching-analyzer/run ../../../crawler/data/regexp.json ../../result/regex-matching-analyzer.json'
+$ sbt 'rescue/run ../../../crawler/data/regexp.json ../../result/rescue.json'
 ```
