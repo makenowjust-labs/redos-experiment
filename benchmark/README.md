@@ -16,7 +16,7 @@ In addition, it is needed to apply a patch to ReScue for timeout support.
 
 ```console
 $ git submodule update --init
-$ pushd ../deps
+$ pushd ../dep
 
 $ pushd rescue
 $ git apply < ../rescue.patch
