@@ -10,7 +10,7 @@
 
 ## Usage
 
-regex-matching-analyzer and ReScue are not published to Maven Centeral.
+regex-matching-analyzer and ReScue are not published to Maven Central.
 Before running them, it needs to install them to the local repository.
 In addition, it is needed to apply a patch to ReScue for timeout support.
 
@@ -33,7 +33,7 @@ $ popd
 Then, we can run them.
 
 ```console
-$ sbt 'redos/run ../../../crawler/data/regexp.json ../../result/redos-hybrid.json hybrid'
-$ sbt 'regex-matching-analyzer/run ../../../crawler/data/regexp.json ../../result/regex-matching-analyzer.json'
-$ sbt 'rescue/run ../../../crawler/data/regexp.json ../../result/rescue.json'
+$ sbt 'redos/run ../../../data/regexp.json ../../../result/redos-hybrid.json hybrid'
+$ sbt 'regex-matching-analyzer/run ../../../data/regexp.json ../../../result/regex-matching-analyzer.json'
+$ sbt 'rescue/run ../../../data/regexp.json ../../../result/rescue.json'
 ```
