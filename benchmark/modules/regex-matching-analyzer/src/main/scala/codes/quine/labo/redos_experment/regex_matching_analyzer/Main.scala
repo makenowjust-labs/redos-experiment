@@ -1,4 +1,4 @@
-package codes.quine.labo.redos_experiment.regex_matching_analyzer_tester
+package codes.quine.labo.redos_experiment.regex_matching_analyzer
 
 import scala.collection.mutable
 
