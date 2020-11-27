@@ -4,3 +4,6 @@
 [submodule "dep/ReScue"]
 	path = dep/ReScue
 	url = https://github.com/2bdenny/ReScue
+[submodule "dep/RegexStaticAnalysis"]
+	path = dep/RegexStaticAnalysis
+	url = https://github.com/NicolaasWeideman/RegexStaticAnalysis
