@@ -37,6 +37,16 @@ lazy val `regex-matching-analyzer` = project
     libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.7.1"
   )
 
+lazy val `regex-static-analysis` = project
+  .in(file("modules/regex-static-analysis"))
+  .settings(
+    Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.regex_static_analysis.Main"),
+    Compile / run / fork := true,
+    libraryDependencies += "nicolaasweideman" % "regex-static-analysis" % "1.0-SNAPSHOT",
+    libraryDependencies += "com.lihaoyi" %% "upickle" % "0.9.5",
+    libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.7.1"
+  )
+
 lazy val rescue = project
   .in(file("modules/rescue"))
   .settings(
