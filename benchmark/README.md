@@ -18,8 +18,8 @@ In addition, it is needed to apply a patch to ReScue for timeout support.
 $ git submodule update --init
 $ pushd ../dep
 
-$ pushd rescue
-$ git apply < ../rescue.patch
+$ pushd ReScue
+$ git apply < ../ReScue.patch
 $ mvn install
 $ popd
 
