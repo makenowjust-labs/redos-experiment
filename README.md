@@ -1,6 +1,6 @@
 # redos-experiment
 
-> A repository for a [@MakeNowJust-Labo/redos] experiment.
+> A repository for a [MakeNowJust-Labo/redos](https://github.com/MakeNowJust-Labo/redos) experiment.
 
 ## License
 
