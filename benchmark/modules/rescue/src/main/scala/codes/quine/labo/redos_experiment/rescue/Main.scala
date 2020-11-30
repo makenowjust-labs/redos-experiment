@@ -2,15 +2,13 @@ package codes.quine.labo.redos_experiment.rescue
 
 import java.util.concurrent.atomic.AtomicReference
 
-import cn.edu.nju.moon.redos.attackers.GeneticAttacker
-import cn.edu.nju.moon.redos.{RedosAttacker, Trace}
-
 import scala.collection.mutable
 import scala.concurrent._
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits._
 import scala.util.control.NonFatal
 
+import cn.edu.nju.moon.redos.attackers.GeneticAttacker
 import cn.edu.nju.moon.redos.regex.ReScuePattern
 import upickle.default._
 
