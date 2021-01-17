@@ -20,7 +20,6 @@ object Main {
   def config: Config = Config(
     checker = checker,
     timeout = Timeout.from(10.second),
-    maxRepeatCount = 20
   )
 
   final case class RegExpInfo(
