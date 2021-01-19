@@ -10,66 +10,38 @@ import scala.util.control.NonFatal
 
 import cn.edu.nju.moon.redos.attackers.GeneticAttacker
 import cn.edu.nju.moon.redos.regex.ReScuePattern
-import upickle.default._
+import codes.quine.labo.redos_experiment.common._
 
 object Main {
   val timeout: Duration = 10.second
 
-  final case class RegExpInfo(
-      `package`: String,
-      version: String,
-      path: String,
-      line: Int,
-      column: Int,
-      source: String,
-      flags: String
-  )
-
-  object RegExpInfo {
-    implicit val rw: ReadWriter[RegExpInfo] = macroRW
-  }
-
-  final case class Result(
-      info: RegExpInfo,
-      time: Long,
-      status: String,
-      used: Option[String],
-      attack: Option[String],
-      complexity: Option[String],
-      approximate: Option[Boolean],
-      message: Option[String]
-  )
-
-  object Result {
-    implicit val rw: ReadWriter[Result] = macroRW
-  }
-
   def main(args: Array[String]): Unit = {
-    val regexpJSON = args(0)
-    println(s"==> Input: ${os.pwd / os.RelPath(regexpJSON)}")
-    val outputJSON = args(1)
-    println(s"==> Output: ${os.pwd / os.RelPath(outputJSON)}")
+    val inputPath = args(0)
+    println(s"==> Input: $inputPath")
+    val outputPath = args(1)
+    println(s"==> Output: $outputPath")
+    println()
 
-    val infos = read[Seq[RegExpInfo]](os.read(os.pwd / os.RelPath(regexpJSON)))
+    val infoList = IO.read[Seq[RegExpInfo]](inputPath)
+    val infoSize = infoList.size
     val counts = mutable.Map(
-      "vulnerable" -> 0,
-      "safe" -> 0,
-      "timeout" -> 0,
-      "error" -> 0
+      Status.Safe -> 0,
+      Status.Vulnerable -> 0,
+      Status.Timeout -> 0,
+      Status.Error -> 0
     )
-    val results = infos.zipWithIndex.map { case (info, i) =>
-      println(s"==> [${i + 1}/${infos.size}] (${counts.map { case (s, c) => s"$s: $c" }.mkString(", ")})")
+    val results = infoList.zipWithIndex.map { case (info, i) =>
+      println(s"==> [$i/${infoSize}] (${counts.map { case (s, c) => s"$s: $c" }.mkString(", ")})")
       val result = test(info)
       counts(result.status) += 1
       result
     }
-    os.write(os.pwd / os.RelPath(outputJSON), write(results))
+    println(s"==> [$infoSize/$infoSize] (${counts.map { case (s, c) => s"$s: $c" }.mkString(", ")})")
+    IO.write(outputPath, results)
   }
 
   def test(info: RegExpInfo): Result = {
-    println(
-      s"==> Test /${info.source}/${info.flags} (at ${info.`package`}@${info.version} ${info.path}:${info.line}:${info.column})"
-    )
+    println(s"==> Test $info")
 
     val start = System.nanoTime()
     val threadRef = new AtomicReference[Thread]()
@@ -80,19 +52,21 @@ object Main {
         val attacker = new GeneticAttacker()
         Option(attacker.attack(pattern)) match {
           case Some(t) if t.attackSuccess() =>
-            Result(info, 0, "vulnerable", None, Some(t.str), None, None, None)
+            Result(info, 0, Status.Vulnerable, None, Some(t.str), None, None)
           case _ =>
-            Result(info, 0, "safe", None, None, None, None, None)
+            Result(info, 0, Status.Safe, None, None, None, None)
         }
       } catch {
         case NonFatal(ex) =>
-          Result(info, 0, "error", None, None, None, None, Some(ex.getMessage))
+          Result(info, 0, Status.Error, None, None, None, Some(ex.getMessage))
       }
     })
 
-    val result = try Await.result(future, timeout) catch {
-      case ex: TimeoutException => Result(info, 0, "timeout", None, None, None, None, None)
-    }
+    val result =
+      try Await.result(future, timeout)
+      catch {
+        case ex: TimeoutException => Result(info, 0, Status.Timeout, None, None, None, None)
+      }
     val time = System.nanoTime() - start
     Option(threadRef.get).foreach(_.interrupt())
 
@@ -102,6 +76,7 @@ object Main {
     System.gc()
     System.runFinalization()
 
+    println(s"==> Result: ${result.status}")
     result.copy(time = time)
   }
 }
