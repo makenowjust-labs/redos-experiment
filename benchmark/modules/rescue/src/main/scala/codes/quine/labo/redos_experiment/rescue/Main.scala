@@ -2,47 +2,23 @@ package codes.quine.labo.redos_experiment.rescue
 
 import java.util.concurrent.atomic.AtomicReference
 
-import scala.collection.mutable
 import scala.concurrent._
-import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits._
 import scala.util.control.NonFatal
-
 import cn.edu.nju.moon.redos.attackers.GeneticAttacker
 import cn.edu.nju.moon.redos.regex.ReScuePattern
+import codes.quine.labo.redos_experiment.common.Benchmarker.CLIConfig
 import codes.quine.labo.redos_experiment.common._
+import com.monovore.decline.Opts
 
-object Main {
-  val timeout: Duration = 10.second
+object Main extends Benchmarker {
+  override def name: String = "rescue"
+  override def version: String = "d197500"
 
-  def main(args: Array[String]): Unit = {
-    val inputPath = args(0)
-    println(s"==> Input: $inputPath")
-    val outputPath = args(1)
-    println(s"==> Output: $outputPath")
-    println()
+  type Extra = Unit
+  override def extraOpts: Opts[Unit] = Opts(())
 
-    val infoList = IO.read[Seq[RegExpInfo]](inputPath)
-    val infoSize = infoList.size
-    val counts = mutable.Map(
-      Status.Safe -> 0,
-      Status.Vulnerable -> 0,
-      Status.Timeout -> 0,
-      Status.Error -> 0
-    )
-    val results = infoList.zipWithIndex.map { case (info, i) =>
-      println(s"==> [$i/${infoSize}] (${counts.map { case (s, c) => s"$s: $c" }.mkString(", ")})")
-      val result = test(info)
-      counts(result.status) += 1
-      result
-    }
-    println(s"==> [$infoSize/$infoSize] (${counts.map { case (s, c) => s"$s: $c" }.mkString(", ")})")
-    IO.write(outputPath, results)
-  }
-
-  def test(info: RegExpInfo): Result = {
-    println(s"==> Test $info")
-
+  def test(info: RegExpInfo, cli: CLIConfig[Extra]): Result = {
     val start = System.nanoTime()
     val threadRef = new AtomicReference[Thread]()
     val future = Future(blocking {
@@ -63,20 +39,16 @@ object Main {
     })
 
     val result =
-      try Await.result(future, timeout)
+      try Await.result(future, cli.timeout)
       catch {
-        case ex: TimeoutException => Result(info, 0, Status.Timeout, None, None, None, None)
+        case _: TimeoutException => Result(info, 0, Status.Timeout, None, None, None, None)
       }
     val time = System.nanoTime() - start
     Option(threadRef.get).foreach(_.interrupt())
 
-    println(s"==> Done in ${time / 1e9} s")
-    println()
-
     System.gc()
     System.runFinalization()
 
-    println(s"==> Result: ${result.status}")
     result.copy(time = time)
   }
 }

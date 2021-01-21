@@ -23,7 +23,8 @@ lazy val common = projectMatrix
     name := "redos-experiment-common",
     libraryDependencies += "io.circe" %% "circe-core" % "0.12.3",
     libraryDependencies += "io.circe" %% "circe-generic" % "0.12.3",
-    libraryDependencies += "io.circe" %% "circe-parser" % "0.12.3"
+    libraryDependencies += "io.circe" %% "circe-parser" % "0.12.3",
+    libraryDependencies += "com.monovore" %% "decline" % "1.3.0"
   )
   .jvmPlatform(scalaVersions = Seq("2.13.4", "2.12.13"))
 
@@ -36,6 +37,7 @@ lazy val redos = project
     name := "redos-experiment-redos",
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.redos.Main"),
     Compile / run / fork := true,
+    Compile / run / baseDirectory := file(".").getAbsoluteFile,
     libraryDependencies += "codes.quine.labo" %% "redos" % "1.2.0",
   )
   .dependsOn(common2_13)
@@ -47,6 +49,7 @@ lazy val `regex-matching-analyzer` = project
     scalaVersion := "2.12.13",
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.regex_matching_analyzer.Main"),
     Compile / run / fork := true,
+    Compile / run / baseDirectory := file(".").getAbsoluteFile,
     libraryDependencies += "default" %% "regex-matching-analyzer" % "0.1.0-SNAPSHOT",
   )
   .dependsOn(common2_12)
@@ -57,9 +60,8 @@ lazy val `regex-static-analysis` = project
     name := "redos-experiment-regex-static-analysis",
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.regex_static_analysis.Main"),
     Compile / run / fork := true,
+    Compile / run / baseDirectory := file(".").getAbsoluteFile,
     libraryDependencies += "nicolaasweideman" % "regex-static-analysis" % "1.0-SNAPSHOT",
-    libraryDependencies += "com.lihaoyi" %% "upickle" % "0.9.5",
-    libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.7.1"
   )
   .dependsOn(common2_13)
 
@@ -69,8 +71,7 @@ lazy val rescue = project
     name := "redos-experiment-rescue",
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.rescue.Main"),
     Compile / run / fork := true,
+    Compile / run / baseDirectory := file(".").getAbsoluteFile,
     libraryDependencies += "cn.edu.nju.moon.ReScue" % "ReScue" % "0.0.1-SNAPSHOT",
-    libraryDependencies += "com.lihaoyi" %% "upickle" % "0.9.5",
-    libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.7.1"
   )
   .dependsOn(common2_13)
