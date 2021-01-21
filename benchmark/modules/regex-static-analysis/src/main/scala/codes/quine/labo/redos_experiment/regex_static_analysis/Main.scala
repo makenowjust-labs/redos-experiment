@@ -2,17 +2,18 @@ package codes.quine.labo.redos_experiment.regex_static_analysis
 
 import java.util.concurrent.atomic.AtomicReference
 
-import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits._
+import scala.concurrent._
 import scala.util.control.NonFatal
 
-import analysis.NFAAnalyserFlattening
-import analysis.AnalysisSettings.PriorityRemovalStrategy
 import analysis.AnalysisSettings.NFAConstruction
-import analysis.NFAAnalyserInterface.{AnalysisResultsType, IdaAnalysisResultsIda}
-import codes.quine.labo.redos_experiment.common.Benchmarker.CLIConfig
+import analysis.AnalysisSettings.PriorityRemovalStrategy
+import analysis.NFAAnalyserFlattening
+import analysis.NFAAnalyserInterface.AnalysisResultsType
+import analysis.NFAAnalyserInterface.IdaAnalysisResultsIda
 import codes.quine.labo.redos_experiment.common._
 import com.monovore.decline.Opts
+import io.circe.Encoder
 import regexcompiler.MyPattern
 
 object Main extends Benchmarker {
@@ -21,10 +22,11 @@ object Main extends Benchmarker {
 
   type Extra = Unit
   override def extraOpts: Opts[Unit] = Opts(())
+  override def encodeExtra: Encoder[Unit] = Encoder.encodeUnit
 
   val analyser = new NFAAnalyserFlattening(PriorityRemovalStrategy.UNPRIORITISE)
 
-  def test(info: RegExpInfo, cli: CLIConfig[Extra]): Result = {
+  def test(info: RegExpInfo, bench: Benchmarker.Config[Extra]): Result = {
     val start = System.nanoTime()
     val threadRef = new AtomicReference[Thread]()
     val future = Future(blocking {
@@ -58,7 +60,7 @@ object Main extends Benchmarker {
     })
 
     val result =
-      try Await.result(future, cli.timeout)
+      try Await.result(future, bench.timeout)
       catch {
         case _: TimeoutException => Result(info, 0, Status.Timeout, None, None, None, None)
       }

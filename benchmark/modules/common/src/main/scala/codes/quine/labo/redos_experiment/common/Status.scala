@@ -1,11 +1,11 @@
 package codes.quine.labo.redos_experiment.common
 
-import io.circe.{Decoder, Encoder}
+import io.circe.Encoder
 
 sealed abstract class Status extends Product with Serializable
 
 object Status {
-  implicit def encode: Encoder[Status] = Encoder.encodeString.contramap(_.toString)
+  implicit def encodeStatus: Encoder[Status] = Encoder.encodeString.contramap(_.toString)
 
   case object Safe extends Status {
     override def toString: String = "safe"

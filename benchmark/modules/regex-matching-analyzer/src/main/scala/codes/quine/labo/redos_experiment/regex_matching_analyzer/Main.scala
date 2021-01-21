@@ -1,8 +1,8 @@
 package codes.quine.labo.redos_experiment.regex_matching_analyzer
 
 import codes.quine.labo.redos_experiment.common._
-import codes.quine.labo.redos_experiment.common.Benchmarker.CLIConfig
 import com.monovore.decline.Opts
+import io.circe.Encoder
 import matching.regexp.RegExp
 import matching.regexp.RegExpParser
 import matching.tool.Analysis
@@ -14,13 +14,14 @@ object Main extends Benchmarker {
 
   type Extra = Unit
   override def extraOpts: Opts[Unit] = Opts(())
+  override def encodeExtra: Encoder[Unit] = Encoder.encodeUnit
 
-  def test(info0: RegExpInfo, cli: CLIConfig[Extra]): Result = {
+  def test(info0: RegExpInfo, bench: Benchmarker.Config[Extra]): Result = {
     // regex-matching-analyzer does not support `g` and `m` flags, so it removes them from the flags.
     val flags = info0.flags.replace("m", "").replace("g", "")
     val info = info0.copy(flags = flags)
     val start = System.nanoTime()
-    val (result, _) = Analysis.runWithLimit(Some(cli.timeout.toSeconds.toInt)) {
+    val (result, _) = Analysis.runWithLimit(Some(bench.timeout.toSeconds.toInt)) {
       val (pattern, opts) = RegExpParser.parsePCRE(s"/${info.source}/$flags")
       val (degree, witness, approximateFlag, _) = RegExp.calcTimeComplexity(pattern, opts, Some(Lookahead))
       val approximate = if (approximateFlag) " (approximate)" else ""
@@ -39,7 +40,7 @@ object Main extends Benchmarker {
     System.runFinalization()
 
     result match {
-      case Analysis.Success(r) => r.copy(time = time)
+      case Analysis.Success(r)       => r.copy(time = time)
       case Analysis.Failure(message) => Result(info, time, Status.Error, None, None, None, Some(message))
       case Analysis.Timeout(message) => Result(info, time, Status.Timeout, None, None, None, Some(message))
     }

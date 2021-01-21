@@ -2,14 +2,15 @@ package codes.quine.labo.redos_experiment.rescue
 
 import java.util.concurrent.atomic.AtomicReference
 
-import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits._
+import scala.concurrent._
 import scala.util.control.NonFatal
+
 import cn.edu.nju.moon.redos.attackers.GeneticAttacker
 import cn.edu.nju.moon.redos.regex.ReScuePattern
-import codes.quine.labo.redos_experiment.common.Benchmarker.CLIConfig
 import codes.quine.labo.redos_experiment.common._
 import com.monovore.decline.Opts
+import io.circe.Encoder
 
 object Main extends Benchmarker {
   override def name: String = "rescue"
@@ -17,8 +18,9 @@ object Main extends Benchmarker {
 
   type Extra = Unit
   override def extraOpts: Opts[Unit] = Opts(())
+  override def encodeExtra: Encoder[Unit] = Encoder.encodeUnit
 
-  def test(info: RegExpInfo, cli: CLIConfig[Extra]): Result = {
+  def test(info: RegExpInfo, bench: Benchmarker.Config[Extra]): Result = {
     val start = System.nanoTime()
     val threadRef = new AtomicReference[Thread]()
     val future = Future(blocking {
@@ -39,7 +41,7 @@ object Main extends Benchmarker {
     })
 
     val result =
-      try Await.result(future, cli.timeout)
+      try Await.result(future, bench.timeout)
       catch {
         case _: TimeoutException => Result(info, 0, Status.Timeout, None, None, None, None)
       }

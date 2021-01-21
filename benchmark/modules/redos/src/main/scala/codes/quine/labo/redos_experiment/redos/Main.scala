@@ -11,12 +11,13 @@ import codes.quine.labo.redos.ReDoS
 import codes.quine.labo.redos.automaton.Complexity._
 import codes.quine.labo.redos.util.Timeout
 import codes.quine.labo.redos_experiment.common._
-import codes.quine.labo.redos_experiment.common.Benchmarker.CLIConfig
 import com.monovore.decline.Opts
+import io.circe.Encoder
+import io.circe.generic.semiauto.deriveEncoder
 
 object Main extends Benchmarker {
-  override protected def name: String = "redos"
-  override protected def version: String = "1.2.0"
+  override def name: String = "redos"
+  override def version: String = "1.2.0"
 
   final case class Extra(
       checker: Checker,
@@ -129,12 +130,31 @@ object Main extends Benchmarker {
       maxPatternSize
     ).mapN(Extra)
   }
+  override def encodeExtra: Encoder[Extra] = deriveEncoder
+  implicit def encodeChecker: Encoder[Checker] = Encoder.encodeString.contramap {
+    case Checker.Hybrid => "hybrid"
+    case Checker.Automaton => "automaton"
+    case Checker.Fuzz => "fuzz"
+  }
 
-  def test(info: RegExpInfo, cli: CLIConfig[Extra]): Result = {
+  def test(info: RegExpInfo, bench: Benchmarker.Config[Extra]): Result = {
     val config = Config(
-      checker = cli.extra.checker,
-      timeout = Timeout.from(cli.timeout),
-      random = new Random(cli.extra.randomSeed)
+      timeout = Timeout.from(bench.timeout),
+      checker = bench.extra.checker,
+      maxAttackSize = bench.extra.maxAttackSize,
+      attackLimit = bench.extra.attackLimit,
+      random = new Random(bench.extra.randomSeed),
+      seedLimit = bench.extra.seedLimit,
+      populationLimit = bench.extra.populationLimit,
+      crossSize = bench.extra.crossSize,
+      mutateSize = bench.extra.mutateSize,
+      maxSeedSize = bench.extra.maxSeedSize,
+      maxGenerationSize = bench.extra.maxGenerationSize,
+      maxIteration = bench.extra.maxIteration,
+      maxDegree = bench.extra.maxDegree,
+      maxRepeatCount = bench.extra.maxRepeatCount,
+      maxNFASize = bench.extra.maxNFASize,
+      maxPatternSize = bench.extra.maxPatternSize
     )
     val start = System.nanoTime()
     val diagnostics = ReDoS.check(info.source, info.flags, config)

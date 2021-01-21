@@ -1,7 +1,9 @@
 package codes.quine.labo.redos_experiment.common
 
-import io.circe.{Decoder, Encoder}
-import io.circe.generic.semiauto.{deriveDecoder, deriveEncoder}
+import io.circe.Decoder
+import io.circe.Encoder
+import io.circe.generic.semiauto.deriveDecoder
+import io.circe.generic.semiauto.deriveEncoder
 
 final case class RegExpInfo(
     `package`: String,
@@ -16,6 +18,6 @@ final case class RegExpInfo(
 }
 
 object RegExpInfo {
-  implicit def decode: Decoder[RegExpInfo] = deriveDecoder[RegExpInfo]
-  implicit def encode: Encoder[RegExpInfo] = deriveEncoder[RegExpInfo]
+  implicit def decodeRegExpInfo: Decoder[RegExpInfo] = deriveDecoder[RegExpInfo]
+  implicit def encodeRegExpInfo: Encoder[RegExpInfo] = deriveEncoder[RegExpInfo]
 }

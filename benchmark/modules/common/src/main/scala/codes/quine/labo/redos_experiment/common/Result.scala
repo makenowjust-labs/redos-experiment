@@ -3,7 +3,7 @@ package codes.quine.labo.redos_experiment.common
 import io.circe.Encoder
 import io.circe.generic.semiauto.deriveEncoder
 
-case class Result(
+final case class Result(
     info: RegExpInfo,
     time: Long,
     status: Status,
@@ -26,5 +26,5 @@ case class Result(
 }
 
 object Result {
-  implicit def encode: Encoder[Result] = deriveEncoder
+  implicit def encodeResult: Encoder[Result] = deriveEncoder
 }

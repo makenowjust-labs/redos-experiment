@@ -1,8 +1,11 @@
 package codes.quine.labo.redos_experiment.common
 
-import java.nio.file.{Files, Path}
+import java.nio.file.Files
+import java.nio.file.Path
 
-import io.circe.{Decoder, Encoder, Printer}
+import io.circe.Decoder
+import io.circe.Encoder
+import io.circe.Printer
 import io.circe.parser
 import io.circe.syntax._
 
