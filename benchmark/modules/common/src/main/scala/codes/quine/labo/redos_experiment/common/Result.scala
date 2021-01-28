@@ -14,7 +14,7 @@ final case class Result(
 ) {
   override def toString: String = {
     val seq = Seq.newBuilder[String]
-    seq += s"Status:         $status"
+    seq += s"Status        : $status"
     seq += s"Execution time: ${time / 1e9} s"
     checker.foreach(s => seq += s"Checker       : $s")
     // Comments out the below line for avoiding a large output.

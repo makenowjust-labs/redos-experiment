@@ -36,7 +36,7 @@ object Main extends Benchmarker {
         analyser.containsEDA(graph) match {
           case AnalysisResultsType.EDA =>
             val attack = analyser.findEDAExploitString(graph).toString
-            Result(info, 0, Status.Vulnerable, None, Some(attack), Some("exponential"), None)
+            Result(info, 0, Status.Vulnerable, None, Option(attack), Some("exponential"), None)
           case AnalysisResultsType.ANALYSIS_FAILED =>
             Result(info, 0, Status.Error, None, None, None, Some("failed on EDA analysis"))
           case AnalysisResultsType.NO_EDA =>
@@ -44,7 +44,7 @@ object Main extends Benchmarker {
               case AnalysisResultsType.IDA =>
                 val results = analyser.getIdaAnalysisResults(graph).asInstanceOf[IdaAnalysisResultsIda]
                 val attack = analyser.findIDAExploitString(graph).toString
-                Result(info, 0, Status.Vulnerable, None, Some(attack), Some(s"${results.getDegree} polynomial"), None)
+                Result(info, 0, Status.Vulnerable, None, Option(attack), Some(s"${results.getDegree} polynomial"), None)
               case AnalysisResultsType.NO_IDA =>
                 Result(info, 0, Status.Safe, None, None, None, None)
               case AnalysisResultsType.ANALYSIS_FAILED =>
@@ -55,7 +55,7 @@ object Main extends Benchmarker {
         }
       } catch {
         case NonFatal(ex) =>
-          Result(info, 0, Status.Error, None, None, None, Some(ex.getMessage))
+          Result(info, 0, Status.Error, None, None, None, Option(ex.getMessage))
       }
     })
 

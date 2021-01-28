@@ -30,13 +30,13 @@ object Main extends Benchmarker {
         val attacker = new GeneticAttacker()
         Option(attacker.attack(pattern)) match {
           case Some(t) if t.attackSuccess() =>
-            Result(info, 0, Status.Vulnerable, None, Some(t.str), None, None)
+            Result(info, 0, Status.Vulnerable, None, Option(t.str), None, None)
           case _ =>
             Result(info, 0, Status.Safe, None, None, None, None)
         }
       } catch {
         case NonFatal(ex) =>
-          Result(info, 0, Status.Error, None, None, None, Some(ex.getMessage))
+          Result(info, 0, Status.Error, None, None, None, Option(ex.getMessage))
       }
     })
 
