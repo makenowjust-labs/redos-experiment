@@ -1,15 +1,14 @@
-package codes.quine.labo.redos_experiment.redos
+package codes.quine.labo.redos_experiment.recheck
 
 import scala.util.Random
 
 import cats.data.Validated
 import cats.syntax.apply._
-import codes.quine.labo.redos.Checker
-import codes.quine.labo.redos.Config
-import codes.quine.labo.redos.Diagnostics._
-import codes.quine.labo.redos.ReDoS
-import codes.quine.labo.redos.automaton.Complexity._
-import codes.quine.labo.redos.util.Timeout
+import codes.quine.labo.recheck.Config
+import codes.quine.labo.recheck.ReDoS
+import codes.quine.labo.recheck.common.Checker
+import codes.quine.labo.recheck.common.Context
+import codes.quine.labo.recheck.diagnostics.Diagnostics
 import codes.quine.labo.redos_experiment.common._
 import com.monovore.decline.Opts
 import io.circe.Encoder
@@ -139,7 +138,7 @@ object Main extends Benchmarker {
 
   def test(info: RegExpInfo, bench: Benchmarker.Config[Extra]): Result = {
     val config = Config(
-      timeout = Timeout.from(bench.timeout),
+      context = Context(timeout = bench.timeout),
       checker = bench.extra.checker,
       maxAttackSize = bench.extra.maxAttackSize,
       attackLimit = bench.extra.attackLimit,
@@ -159,30 +158,19 @@ object Main extends Benchmarker {
     val start = System.nanoTime()
     val diagnostics = ReDoS.check(info.source, info.flags, config)
     val time = System.nanoTime() - start
-    val used = diagnostics.used.map(_.toString.toLowerCase)
 
     System.gc()
     System.runFinalization()
 
     diagnostics match {
-      case Vulnerable(attack, c, _) =>
-        val complexity = c match {
-          case Some(Exponential(_))   => Some("exponential")
-          case Some(Polynomial(d, _)) => Some(s"$d polynomial")
-          case None                   => None
-        }
-        Result(info, time, Status.Vulnerable, used, Some(attack.toString), complexity, None)
-      case Safe(c, _) =>
-        val complexity = c match {
-          case Some(Constant) => Some("constant")
-          case Some(Linear)   => Some("linear")
-          case None           => None
-        }
-        Result(info, time, Status.Safe, used, None, complexity, None)
-      case Unknown(ErrorKind.Timeout, _) =>
-        Result(info, time, Status.Timeout, used, None, None, None)
-      case Unknown(error, _) =>
-        Result(info, time, Status.Error, used, None, None, Some(error.toString))
+      case Diagnostics.Vulnerable(complexity, attack, checker) =>
+        Result(info, time, Status.Vulnerable, Some(checker.toString), Some(attack.toString), Some(complexity.toString), None)
+      case Diagnostics.Safe(complexity, checker) =>
+        Result(info, time, Status.Safe, Some(checker.toString), None, Some(complexity.toString), None)
+      case Diagnostics.Unknown(Diagnostics.ErrorKind.Timeout, checker) =>
+        Result(info, time, Status.Timeout, checker.map(_.toString), None, None, None)
+      case Diagnostics.Unknown(error, checker) =>
+        Result(info, time, Status.Error, checker.map(_.toString), None, None, Some(error.toString))
     }
   }
 }

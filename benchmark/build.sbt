@@ -15,7 +15,7 @@ ThisBuild / resolvers += Resolver.mavenLocal
 lazy val root = project
   .in(file("."))
   .aggregate(common.projectRefs: _*)
-  .aggregate(redos, `regex-matching-analyzer`, `regex-static-analysis`, rescue)
+  .aggregate(recheck, `regex-matching-analyzer`, `regex-static-analysis`, rescue)
 
 lazy val common = projectMatrix
   .in(file("modules/common"))
@@ -31,14 +31,14 @@ lazy val common = projectMatrix
 lazy val common2_13 = common.jvm("2.13.4")
 lazy val common2_12 = common.jvm("2.12.13")
 
-lazy val redos = project
-  .in(file("modules/redos"))
+lazy val recheck = project
+  .in(file("modules/recheck"))
   .settings(
-    name := "redos-experiment-redos",
-    Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.redos.Main"),
+    name := "redos-experiment-recheck",
+    Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.recheck.Main"),
     Compile / run / fork := true,
     Compile / run / baseDirectory := file(".").getAbsoluteFile,
-    libraryDependencies += "codes.quine.labo" %% "redos" % "1.2.0",
+    libraryDependencies += "codes.quine.labo" %% "recheck" % "2.0.0",
   )
   .dependsOn(common2_13)
 
