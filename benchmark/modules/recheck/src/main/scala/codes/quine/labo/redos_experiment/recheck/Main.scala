@@ -15,8 +15,8 @@ import io.circe.Encoder
 import io.circe.generic.semiauto.deriveEncoder
 
 object Main extends Benchmarker {
-  override def name: String = "redos"
-  override def version: String = "1.2.0"
+  override def name: String = "recheck"
+  override def version: String = "3.0.0"
 
   final case class Extra(
       checker: Checker,
@@ -24,13 +24,15 @@ object Main extends Benchmarker {
       attackLimit: Int,
       randomSeed: Long,
       seedLimit: Int,
-      populationLimit: Int,
+      incubationLimit: Int,
       crossSize: Int,
       mutateSize: Int,
       maxSeedSize: Int,
       maxGenerationSize: Int,
       maxIteration: Int,
       maxDegree: Int,
+      heatRate: Double,
+      usesAcceleration: Boolean,
       maxRepeatCount: Int,
       maxNFASize: Int,
       maxPatternSize: Int
@@ -41,13 +43,15 @@ object Main extends Benchmarker {
           |Attack limit       : $attackLimit
           |Random seed        : $randomSeed
           |Seed limit         : $seedLimit
-          |Population limit   : $populationLimit
+          |Incubation limit   : $incubationLimit
           |Cross size         : $crossSize
           |Mutate size        : $mutateSize
           |Max seed size      : $maxSeedSize
           |Max generation size: $maxGenerationSize
           |Max iteration      : $maxIteration
           |Max degree         : $maxDegree
+          |Heat rate          : $heatRate
+          |Uses acceleration  : $usesAcceleration
           |Max repeat count   : $maxRepeatCount
           |Max NFA size       : $maxNFASize
           |Max pattern size   : $maxPatternSize
@@ -81,9 +85,9 @@ object Main extends Benchmarker {
     val seedLimit = Opts
       .option[Int](long = "seed-limit", help = "A limit of VM execution steps on the seeding phase")
       .withDefault(Config.SeedLimit)
-    val populationLimit = Opts
-      .option[Int](long = "population-limit", help = "A limit of VM execution steps on the incubation phase")
-      .withDefault(Config.PopulationLimit)
+    val incubationLimit = Opts
+      .option[Int](long = "incubation-limit", help = "A limit of VM execution steps on the incubation phase")
+      .withDefault(Config.IncubationLimit)
     val crossSize = Opts
       .option[Int](long = "cross-size", help = "The number of crossings on one generation")
       .withDefault(Config.CrossSize)
@@ -102,6 +106,12 @@ object Main extends Benchmarker {
     val maxDegree = Opts
       .option[Int](long = "max-degree", help = "A maximum degree to attempt on building an attack string")
       .withDefault(Config.MaxDegree)
+    val heatRate = Opts
+      .option[Double](long = "heat-rate", help = "A rate of a hotspot steps by the maximum steps.")
+      .withDefault(Config.HeatRate)
+    val noAcceleration = Opts
+      .flag(long = "no-acceleration", help = "Don't use acceleration")
+      .orTrue
     val maxRepeatCount = Opts
       .option[Int](long = "max-repeat-count", help = "A limit of repetition count in the RegExp")
       .withDefault(Config.MaxRepeatCount)
@@ -117,13 +127,15 @@ object Main extends Benchmarker {
       attackLimit,
       randomSeed,
       seedLimit,
-      populationLimit,
+      incubationLimit,
       crossSize,
       mutateSize,
       maxSeedSize,
       maxGenerationSize,
       maxIteration,
       maxDegree,
+      heatRate,
+      noAcceleration,
       maxRepeatCount,
       maxNFASize,
       maxPatternSize
@@ -144,13 +156,15 @@ object Main extends Benchmarker {
       attackLimit = bench.extra.attackLimit,
       random = new Random(bench.extra.randomSeed),
       seedLimit = bench.extra.seedLimit,
-      populationLimit = bench.extra.populationLimit,
+      incubationLimit = bench.extra.incubationLimit,
       crossSize = bench.extra.crossSize,
       mutateSize = bench.extra.mutateSize,
       maxSeedSize = bench.extra.maxSeedSize,
       maxGenerationSize = bench.extra.maxGenerationSize,
       maxIteration = bench.extra.maxIteration,
       maxDegree = bench.extra.maxDegree,
+      heatRate = bench.extra.heatRate,
+      usesAcceleration = bench.extra.usesAcceleration,
       maxRepeatCount = bench.extra.maxRepeatCount,
       maxNFASize = bench.extra.maxNFASize,
       maxPatternSize = bench.extra.maxPatternSize
@@ -163,13 +177,13 @@ object Main extends Benchmarker {
     System.runFinalization()
 
     diagnostics match {
-      case Diagnostics.Vulnerable(complexity, attack, checker) =>
+      case Diagnostics.Vulnerable(_, _, complexity, attack, _, checker) =>
         Result(info, time, Status.Vulnerable, Some(checker.toString), Some(attack.toString), Some(complexity.toString), None)
-      case Diagnostics.Safe(complexity, checker) =>
+      case Diagnostics.Safe(_, _, complexity, checker) =>
         Result(info, time, Status.Safe, Some(checker.toString), None, Some(complexity.toString), None)
-      case Diagnostics.Unknown(Diagnostics.ErrorKind.Timeout, checker) =>
+      case Diagnostics.Unknown(_, _, Diagnostics.ErrorKind.Timeout, checker) =>
         Result(info, time, Status.Timeout, checker.map(_.toString), None, None, None)
-      case Diagnostics.Unknown(error, checker) =>
+      case Diagnostics.Unknown(_, _, error, checker) =>
         Result(info, time, Status.Error, checker.map(_.toString), None, None, Some(error.toString))
     }
   }
