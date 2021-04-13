@@ -143,9 +143,9 @@ object Main extends Benchmarker {
   }
   override def encodeExtra: Encoder[Extra] = deriveEncoder
   implicit def encodeChecker: Encoder[Checker] = Encoder.encodeString.contramap {
-    case Checker.Hybrid => "hybrid"
+    case Checker.Hybrid    => "hybrid"
     case Checker.Automaton => "automaton"
-    case Checker.Fuzz => "fuzz"
+    case Checker.Fuzz      => "fuzz"
   }
 
   def test(info: RegExpInfo, bench: Benchmarker.Config[Extra]): Result = {
@@ -178,7 +178,15 @@ object Main extends Benchmarker {
 
     diagnostics match {
       case Diagnostics.Vulnerable(_, _, complexity, attack, _, checker) =>
-        Result(info, time, Status.Vulnerable, Some(checker.toString), Some(attack.toString), Some(complexity.toString), None)
+        Result(
+          info,
+          time,
+          Status.Vulnerable,
+          Some(checker.toString),
+          Some(attack.toString),
+          Some(complexity.toString),
+          None
+        )
       case Diagnostics.Safe(_, _, complexity, checker) =>
         Result(info, time, Status.Safe, Some(checker.toString), None, Some(complexity.toString), None)
       case Diagnostics.Unknown(_, _, Diagnostics.ErrorKind.Timeout, checker) =>

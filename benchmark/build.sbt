@@ -38,7 +38,7 @@ lazy val recheck = project
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.recheck.Main"),
     Compile / run / fork := true,
     Compile / run / baseDirectory := file(".").getAbsoluteFile,
-    libraryDependencies += "codes.quine.labo" %% "recheck" % "3.0.0",
+    libraryDependencies += "codes.quine.labo" %% "recheck" % "3.0.0"
   )
   .dependsOn(common2_13)
 
@@ -50,7 +50,7 @@ lazy val `regex-matching-analyzer` = project
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.regex_matching_analyzer.Main"),
     Compile / run / fork := true,
     Compile / run / baseDirectory := file(".").getAbsoluteFile,
-    libraryDependencies += "default" %% "regex-matching-analyzer" % "0.1.0-SNAPSHOT",
+    libraryDependencies += "default" %% "regex-matching-analyzer" % "0.1.0-SNAPSHOT"
   )
   .dependsOn(common2_12)
 
@@ -61,7 +61,7 @@ lazy val `regex-static-analysis` = project
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.regex_static_analysis.Main"),
     Compile / run / fork := true,
     Compile / run / baseDirectory := file(".").getAbsoluteFile,
-    libraryDependencies += "nicolaasweideman" % "regex-static-analysis" % "1.0-SNAPSHOT",
+    libraryDependencies += "nicolaasweideman" % "regex-static-analysis" % "1.0-SNAPSHOT"
   )
   .dependsOn(common2_13)
 
@@ -72,6 +72,6 @@ lazy val rescue = project
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.rescue.Main"),
     Compile / run / fork := true,
     Compile / run / baseDirectory := file(".").getAbsoluteFile,
-    libraryDependencies += "cn.edu.nju.moon.ReScue" % "ReScue" % "0.0.1-SNAPSHOT",
+    libraryDependencies += "cn.edu.nju.moon.ReScue" % "ReScue" % "0.0.1-SNAPSHOT"
   )
   .dependsOn(common2_13)
