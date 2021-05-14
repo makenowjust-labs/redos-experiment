@@ -16,7 +16,7 @@ import io.circe.generic.semiauto.deriveEncoder
 
 object Main extends Benchmarker {
   override def name: String = "recheck"
-  override def version: String = "3.0.0"
+  override def version: String = "3.1.0"
 
   final case class Extra(
       checker: Checker,
