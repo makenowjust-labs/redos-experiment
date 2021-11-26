@@ -11,8 +11,17 @@ import io.circe.syntax._
 
 object IO {
   def read[A: Decoder](filename: String): A =
-    parser.decode(Files.readString(Path.of(filename))).toTry.get
+    parser.decode(readRaw(filename)).toTry.get
 
   def write[A: Encoder](filename: String, value: A): Unit =
-    Files.writeString(Path.of(filename), Printer.noSpaces.copy(dropNullValues = true).print(value.asJson))
+    writeRaw(filename, Printer.noSpaces.copy(dropNullValues = true).print(value.asJson))
+
+  def writeRaw(filename: String, content: String): Unit =
+    Files.writeString(Path.of(filename), content)
+
+  def readRaw(filename: String): String =
+    Files.readString(Path.of(filename))
+
+  def delete(filename: String): Unit =
+    Files.deleteIfExists(Path.of(filename))
 }

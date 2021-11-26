@@ -75,3 +75,14 @@ lazy val rescue = project
     libraryDependencies += "cn.edu.nju.moon.ReScue" % "ReScue" % "0.0.1-SNAPSHOT"
   )
   .dependsOn(common2_13)
+
+lazy val redoshunter = project
+  .in(file("modules/redoshunter"))
+  .settings(
+    name := "redos-experiment-redoshunter",
+    Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.redoshunter.Main"),
+    Compile / run / fork := true,
+    Compile / run / baseDirectory := file(".").getAbsoluteFile,
+    libraryDependencies += "cn.ac.ios" % "ReDoSHunter" % "1.0.0"
+  )
+  .dependsOn(common2_13)

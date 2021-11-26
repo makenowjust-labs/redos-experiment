@@ -7,3 +7,6 @@
 [submodule "dep/RegexStaticAnalysis"]
 	path = dep/RegexStaticAnalysis
 	url = https://github.com/NicolaasWeideman/RegexStaticAnalysis
+[submodule "dep/ReDoSHunter"]
+	path = dep/ReDoSHunter
+	url = https://github.com/yetingli/ReDoSHunter
