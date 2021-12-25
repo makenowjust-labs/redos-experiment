@@ -2,7 +2,7 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 
 ThisBuild / organization := "codes.quine.labo"
 
-ThisBuild / scalaVersion := "2.13.5"
+ThisBuild / scalaVersion := "2.13.4"
 ThisBuild / scalacOptions ++= Seq(
   "-encoding",
   "UTF-8",
@@ -38,7 +38,8 @@ lazy val recheck = project
     Compile / run / mainClass := Some("codes.quine.labo.redos_experiment.recheck.Main"),
     Compile / run / fork := true,
     Compile / run / baseDirectory := file(".").getAbsoluteFile,
-    libraryDependencies += "codes.quine.labo" %% "recheck" % "3.1.0"
+    libraryDependencies += "codes.quine.labo" %% "recheck-core" % "4.1.1+106-3972dfc8-SNAPSHOT",
+    libraryDependencies += "codes.quine.labo" %% "recheck-codec" % "4.1.1+106-3972dfc8-SNAPSHOT"
   )
   .dependsOn(common2_13)
 
