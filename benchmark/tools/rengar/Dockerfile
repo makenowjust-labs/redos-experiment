@@ -8,6 +8,10 @@ RUN gunzip -c /scala-cli.gz > /usr/local/bin/scala-cli && chmod +x /usr/local/bi
 ARG SOURCE
 ADD ${SOURCE} /source
 WORKDIR /source
+# The validator takes the type name `SLQ` to validate an attack string by a search, but `SLQPattern` is named `POLS`,
+# so it validated every attack string by a match of the whole input.
+RUN sed -i 's/type.contains("SLQ")/type.contains("POLS")/' src/main/java/rengar/dynamic/validator/Validator.java \
+    && grep -q 'type.contains("POLS")' src/main/java/rengar/dynamic/validator/Validator.java
 RUN mvn -B -q package -DskipTests dependency:copy-dependencies \
     && mkdir /tool && cp -r target/classes /tool/classes && cp -r target/dependency /tool/dependency
 
