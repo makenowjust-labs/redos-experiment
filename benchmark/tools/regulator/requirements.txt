@@ -1,0 +1,13 @@
+# The versions are the ones of `requirements.txt` of the artifact of the paper (10.5281/zenodo.5669243).
+colored==1.4.2 \
+    --hash=sha256:056fac09d9e39b34296e7618897ed1b8c274f98423770c2980d829fd670955ed
+joblib==1.1.0 \
+    --hash=sha256:f21f109b3c7ff9d95f8387f752d0d9c34a02aa2f7060c2135f465da0e5160ff6
+numpy==1.21.2 \
+    --hash=sha256:7fdc7689daf3b845934d67cb221ba8d250fdca20ac0334fea32f7091b93f00d3
+scikit-learn==1.0 \
+    --hash=sha256:f8aecb3edc443e5625725ae1ef8f500fa78ce7cb0e864115864bb9f234d18290
+scipy==1.7.1 \
+    --hash=sha256:90c07ba5f34f33299a428b0d4fa24c30d2ceba44d63f8385b2b05be460819fcb
+threadpoolctl==3.0.0 \
+    --hash=sha256:4fade5b3b48ae4b1c30f200b28f39180371104fccc642e039e0f2435ec8cc211

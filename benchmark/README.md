@@ -25,6 +25,7 @@ The images are built for `linux/amd64`.
 | `regex-matching-analyzer` | [minamide-group/regex-matching-analyzer](https://github.com/minamide-group/regex-matching-analyzer) |
 | `regex-static-analysis`   | [NicolaasWeideman/RegexStaticAnalysis](https://github.com/NicolaasWeideman/RegexStaticAnalysis)     |
 | `regexploit`              | [doyensec/regexploit](https://github.com/doyensec/regexploit)                                       |
+| `regulator`               | [ucsb-seclab/regulator-dynamic](https://github.com/ucsb-seclab/regulator-dynamic)                   |
 | `rengar`                  | [wangx1nyi/Rengar](https://github.com/wangx1nyi/Rengar)                                             |
 | `rescue`                  | [2bdenny/ReScue](https://github.com/2bdenny/ReScue)                                                 |
 | `revealer`                | [cuhk-seclab/Revealer](https://github.com/cuhk-seclab/Revealer)                                     |
@@ -104,6 +105,11 @@ Running the runner again with the same conditions continues from the patterns th
 | `recheck`        | `RECHECK_PARAMETERS`     | The parameters of the checks in JSON.                                             |
 | `redos-detector` | `REDOS_DETECTOR_OPTIONS` | The options of `isSafePattern` in JSON.                                           |
 | `redoshunter`    | `REDOSHUNTER_LANGUAGE`   | The language whose engine validates the attack strings: `js` (default) or `java`. |
+| `regulator`      | `REGULATOR_FTIME`        | The time of the fuzzing in milliseconds (the default of the driver: 240000).      |
+| `regulator`      | `REGULATOR_PTIME`        | The time of the pumping in milliseconds (the default of the driver: 240000).      |
+| `regulator`      | `REGULATOR_LENGTH`       | The length of the strings of the fuzzing (the default of the driver: 200).        |
+| `regulator`      | `REGULATOR_WIDTH`        | The width of the characters of the fuzzing in bytes (the default of the driver: 1). |
+| `regulator`      | `REGULATOR_BINARY_SEARCH` | `false` stops the search of the length of 10 seconds after the measurement that decides the result. |
 | `scslre`         | `SCSLRE_OPTIONS`         | The options of `analyse` in JSON.                                                 |
 | JVM tools        | `JAVA_TOOL_OPTIONS`      | The options of the JVM.                                                           |
 
@@ -158,6 +164,7 @@ The result of a pattern has the following fields.
 - `rat`: it reports exponential patterns only. The pattern is given as `/source/flags` with the flags `g`, `i`, `m` and `s` only, as its parser reads other flags as a part of the pattern. Its command reports a pattern as safe when it finds no attack string of printable characters, and `.` matches line terminators. The wrapper runs its command for each pattern.
 - `regex-static-analysis`: the flags are not used. The degree of the analysis is the degree of ambiguity, so the result has it plus one.
 - `regexploit`: it is called in the way of `regexploit --flavour js`, so the flags are not used and only the results of cubic or more are reported. Its starriness over 10 is recorded as exponential.
+- `regulator`: it runs the driver of the repository with `driver.patch`, which fixes two exceptions of the driver. It builds its fuzzer with Node.js 15.0.0-pre (V8 8.3), and measures the attack strings on Node.js of the image. A pattern is vulnerable when an attack string of at most 1,000,000 characters takes 10 seconds. A pattern that V8 does not compile with irregexp (a plain string, or a flag other than `gimsuy`) is recorded as `error`, and a pattern that is slow on the seed of the fuzzer, a string of `a`, as `timeout`. The fuzzing is bounded by time, so results differ between runs, and the degree is a rounded exponent of a regression. With the default times of the driver, a pattern takes 4 to 8 minutes, so the time limit of the runner has to be longer.
 - `rengar`: the flags are not used. It runs on Java 17 with the preview features, and a hit of its own time limit of 15 seconds is recorded as `timeout`. Its validator takes the type name `SLQ` to validate an attack string by a search, while `SLQPattern` is named `POLS`, so the tool as published validates every attack string by a match of the whole input and reports most patterns that are polynomial only in a search as safe. The Dockerfile fixes this name in the validator, and this is the only change to the tool.
 - `rescue`: the flags are not used. Its genetic algorithm takes random numbers without a seed, so results differ between runs.
 - `revealer`: the flags are not used. It reports a pattern only when an attack string of at most 128 characters takes 100000 steps on its regex engine, so most polynomial patterns are reported as safe. Its analysis depends on the iteration order of hash sets of objects, so results differ between runs.
