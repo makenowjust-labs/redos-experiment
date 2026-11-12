@@ -17,14 +17,17 @@ The images are built for `linux/amd64`.
 | Tool                      | Source                                                                                              |
 | ------------------------- | --------------------------------------------------------------------------------------------------- |
 | `lara`                    | The artifact of the paper at [10.5281/zenodo.21485406](https://doi.org/10.5281/zenodo.21485406)     |
+| `rat`                     | [phreppo/rat](https://github.com/phreppo/rat)                                                       |
 | `recheck`                 | A release of [makenowjust-labs/recheck](https://github.com/makenowjust-labs/recheck)                |
 | `redos-detector`          | The npm package [redos-detector](https://www.npmjs.com/package/redos-detector)                      |
 | `redoshunter`             | [yetingli/ReDoSHunter](https://github.com/yetingli/ReDoSHunter)                                     |
 | `regex-matching-analyzer` | [minamide-group/regex-matching-analyzer](https://github.com/minamide-group/regex-matching-analyzer) |
 | `regex-static-analysis`   | [NicolaasWeideman/RegexStaticAnalysis](https://github.com/NicolaasWeideman/RegexStaticAnalysis)     |
+| `regexploit`              | [doyensec/regexploit](https://github.com/doyensec/regexploit)                                       |
 | `rengar`                  | [wangx1nyi/Rengar](https://github.com/wangx1nyi/Rengar)                                             |
 | `rescue`                  | [2bdenny/ReScue](https://github.com/2bdenny/ReScue)                                                 |
 | `revealer`                | [cuhk-seclab/Revealer](https://github.com/cuhk-seclab/Revealer)                                     |
+| `rxxr2`                   | The archive of the authors, from [davisjam/redos-detector-backup](https://github.com/davisjam/redos-detector-backup) |
 | `safe-regex`              | The npm package [safe-regex](https://www.npmjs.com/package/safe-regex)                              |
 | `scslre`                  | The npm package [scslre](https://www.npmjs.com/package/scslre)                                      |
 
@@ -86,6 +89,7 @@ Running the runner again with the same conditions continues from the patterns th
 | Tool             | Variable                 | Description                                                                       |
 | ---------------- | ------------------------ | --------------------------------------------------------------------------------- |
 | `lara`           | `LARA_MODE`              | The mode of the detection: `both` (default), `polynomial` or `exponential`.       |
+| `rat`            | `RAT_SEMANTICS`          | The semantics of the analysis: `match` (default) or `fullmatch`.                  |
 | `recheck`        | `RECHECK_PARAMETERS`     | The parameters of the checks in JSON.                                             |
 | `redos-detector` | `REDOS_DETECTOR_OPTIONS` | The options of `isSafePattern` in JSON.                                           |
 | `redoshunter`    | `REDOSHUNTER_LANGUAGE`   | The language whose engine validates the attack strings: `js` (default) or `java`. |
@@ -116,7 +120,9 @@ A tool may add its own fields.
 ## Notes on the tools
 
 - `lara`: the flags are not used. It analyses a pattern as a match of the whole input, so it does not report a pattern that is slow only in a search. It reports a prefix and a pump without a suffix and without a degree. The wrapper runs its command for each pattern.
+- `rat`: it reports exponential patterns only. The pattern is given as `/source/flags` with the flags `g`, `i`, `m` and `s` only, as its parser reads other flags as a part of the pattern. Its command reports a pattern as safe when it finds no attack string of printable characters, and `.` matches line terminators. The wrapper runs its command for each pattern.
 - `regex-static-analysis`: the flags are not used. The degree of the analysis is the degree of ambiguity, so the result has it plus one.
+- `regexploit`: it is called in the way of `regexploit --flavour js`, so the flags are not used and only the results of cubic or more are reported. Its starriness over 10 is recorded as exponential.
 - `rengar`: the flags are not used. It runs on Java 17 with the preview features, and a hit of its own time limit of 15 seconds is recorded as `timeout`. Its validator takes the type name `SLQ` to validate an attack string by a search, while `SLQPattern` is named `POLS`, so the tool as published validates every attack string by a match of the whole input and reports most patterns that are polynomial only in a search as safe. The Dockerfile fixes this name in the validator, and this is the only change to the tool.
 - `rescue`: the flags are not used. Its genetic algorithm takes random numbers without a seed, so results differ between runs.
 - `revealer`: the flags are not used. It reports a pattern only when an attack string of at most 128 characters takes 100000 steps on its regex engine, so most polynomial patterns are reported as safe. Its analysis depends on the iteration order of hash sets of objects, so results differ between runs.
@@ -124,6 +130,7 @@ A tool may add its own fields.
 - `redoshunter`: the jar of its Maven build has the classes of a dependency (`dk.brics.automaton`) over its own modified classes, so the image puts the classes of the tool first on the class path.
 - `recheck`: a timeout by its own `timeout` parameter is also recorded as `timeout`.
 - `redos-detector`: it reports a pattern as not safe when the check hits one of its limits. `reason` of the result is the limit, and a hit of its own time limit is recorded as `timeout`.
+- `rxxr2`: it reports exponential patterns only. It is the original archive of the authors, built into bytecode by its `build.sh`. The flags `i`, `m` and `s` are given and the others are removed, as its parser does not accept them. A non-ASCII character is an error, and `.` matches line terminators. The wrapper runs its command for each pattern.
 - `safe-regex`: it reports an invalid pattern as not safe, so the wrapper compiles the pattern first and records the failure as `error`.
 - `scslre`: it reports no attack string. `reports` of the result has the type, the character and the positions of the quantifiers of each report.
 
