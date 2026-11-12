@@ -11,10 +11,15 @@ import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
 const sources: Record<string, string> = {
+  rat: "dep/rat",
   redoshunter: "dep/ReDoSHunter",
   "regex-matching-analyzer": "dep/regex-matching-analyzer",
   "regex-static-analysis": "dep/RegexStaticAnalysis",
+  regexploit: "dep/regexploit",
+  regulator: "dep/regulator-dynamic",
+  rengar: "dep/Rengar",
   rescue: "dep/ReScue",
+  revealer: "dep/Revealer",
 };
 
 const [target, ...options] = process.argv.slice(2);
