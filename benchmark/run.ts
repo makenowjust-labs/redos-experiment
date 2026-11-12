@@ -11,6 +11,7 @@
 //   --parallel <n>       the number of the tool processes (default: 1)
 //   --memory <size>      the memory limit of a tool process (default: 4g)
 //   --env <KEY=VALUE>    an environment variable of the tool, repeatable
+//   --batch <n>          the number of the patterns of a request, for a tool that takes batches
 //   --limit <n>          the number of the patterns to run from the head of the dataset
 
 import { type ChildProcess, execFileSync, spawn } from "node:child_process";
@@ -32,6 +33,7 @@ const { positionals, values } = parseArgs({
     parallel: { type: "string", default: "1" },
     memory: { type: "string", default: "4g" },
     env: { type: "string", multiple: true, default: [] },
+    batch: { type: "string" },
     limit: { type: "string" },
   },
 });
@@ -43,6 +45,7 @@ if (datasetPath === undefined || outputPath === undefined || (values.image === u
 const image = values.image!;
 const timeout = Number(values.timeout) * 1000;
 const parallel = Number(values.parallel);
+const batch = values.batch === undefined ? undefined : Number(values.batch);
 
 const datasetText = readFileSync(datasetPath, "utf8");
 const dataset: Item[] = datasetPath.endsWith(".jsonl")
@@ -67,6 +70,7 @@ const conditions = {
   timeout: values.timeout,
   memory: values.memory,
   env: values.env,
+  batch: values.batch,
 };
 
 const done = new Set<number>();
@@ -179,7 +183,9 @@ class Worker {
     return this.lines.shift();
   }
 
-  async check(item: Item): Promise<object> {
+  // Checks the patterns by a request: a tool of batches takes them all in a request, and another tool takes one.
+  // The time of a pattern of a batch is the time of the batch over the number of its patterns.
+  async check(items: Item[]): Promise<object[]> {
     if (this.child === null) {
       this.start();
       const ready = await this.line(StartTimeout);
@@ -187,17 +193,23 @@ class Worker {
         this.stop();
         throw new Error(`the tool does not start: ${this.stderr}`);
       }
+      if ((JSON.parse(ready).batch === true) !== (batch !== undefined)) {
+        this.stop();
+        throw new Error("--batch is for a tool of batches, and such a tool needs it");
+      }
     }
+    const patterns = items.map((item) => ({ source: item.source, flags: item.flags ?? "" }));
     const start = performance.now();
-    this.child!.stdin!.write(JSON.stringify({ source: item.source, flags: item.flags ?? "" }) + "\n");
-    const line = await this.line(timeout);
-    const time = performance.now() - start;
+    this.child!.stdin!.write(JSON.stringify(batch !== undefined ? { patterns } : patterns[0]) + "\n");
+    const line = await this.line(timeout * items.length);
+    const time = (performance.now() - start) / items.length;
     if (line === undefined) {
       this.stop();
-      return { status: "timeout", time };
+      return items.map(() => ({ status: "timeout", time }));
     }
-    if (line === null) return { status: "crash", time, message: this.stderr };
-    return { ...JSON.parse(line), time };
+    if (line === null) return items.map(() => ({ status: "crash", time, message: this.stderr }));
+    const results: object[] = batch !== undefined ? JSON.parse(line).results : [JSON.parse(line)];
+    return results.map((result) => ({ ...result, time }));
   }
 }
 
@@ -217,14 +229,20 @@ process.on("SIGINT", () => {
 try {
   await Promise.all(
     workers.map(async (worker) => {
-      while (next < size) {
-        const index = next++;
-        if (done.has(index)) continue;
-        const result = (await worker.check(dataset[index])) as { status: string };
-        appendFileSync(outputPath, JSON.stringify({ index, ...result }) + "\n");
-        done.add(index);
-        counts[result.status] = (counts[result.status] ?? 0) + 1;
-        if (++finished % 100 === 0) report();
+      for (;;) {
+        const indices: number[] = [];
+        while (indices.length < (batch ?? 1) && next < size) {
+          const index = next++;
+          if (!done.has(index)) indices.push(index);
+        }
+        if (indices.length === 0) break;
+        const results = (await worker.check(indices.map((index) => dataset[index]))) as { status: string }[];
+        for (const [i, result] of results.entries()) {
+          appendFileSync(outputPath, JSON.stringify({ index: indices[i], ...result }) + "\n");
+          done.add(indices[i]);
+          counts[result.status] = (counts[result.status] ?? 0) + 1;
+          if (++finished % 100 === 0) report();
+        }
       }
     }),
   );
