@@ -22,6 +22,11 @@ const sources: Record<string, string> = {
   revealer: "dep/Revealer",
 };
 
+// The versions of the tools that their Dockerfiles download.
+const versions: Record<string, string> = {
+  lara: "zenodo.21485406",
+};
+
 const [target, ...options] = process.argv.slice(2);
 if (target === undefined) {
   console.error("Usage: node build.ts <tool>[:<tag>] [<docker build options>...]");
@@ -49,6 +54,9 @@ if (source !== undefined) {
   const version: string = JSON.parse(readFileSync(path.join(directory, "package.json"), "utf8")).dependencies[tool];
   tag ??= version;
   args.push(...label("tool-version", version));
+} else if (versions[tool] !== undefined) {
+  tag ??= versions[tool];
+  args.push(...label("tool-version", versions[tool]));
 } else if (tool === "recheck" && tag !== undefined) {
   args.push("--build-arg", `VERSION=${tag}`, ...label("tool-version", tag));
 }

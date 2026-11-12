@@ -16,6 +16,7 @@ The images are built for `linux/amd64`.
 
 | Tool                      | Source                                                                                              |
 | ------------------------- | --------------------------------------------------------------------------------------------------- |
+| `lara`                    | The artifact of the paper at [10.5281/zenodo.21485406](https://doi.org/10.5281/zenodo.21485406)     |
 | `recheck`                 | A release of [makenowjust-labs/recheck](https://github.com/makenowjust-labs/recheck)                |
 | `redos-detector`          | The npm package [redos-detector](https://www.npmjs.com/package/redos-detector)                      |
 | `redoshunter`             | [yetingli/ReDoSHunter](https://github.com/yetingli/ReDoSHunter)                                     |
@@ -28,6 +29,7 @@ The images are built for `linux/amd64`.
 The commit of a tool with a repository is the commit of its submodule in `dep`.
 An image is built from this commit of the upstream repository, not from the files of the working tree.
 The version of a tool of an npm package is the one of `package.json` and `package-lock.json` in its directory.
+The Dockerfile of another tool downloads its sources and checks them by SHA-256.
 The base images are pinned by their digests.
 
 ## Usage
@@ -78,13 +80,14 @@ Running the runner again with the same conditions continues from the patterns th
 
 ### Environment variables of the tools
 
-| Tool          | Variable               | Description                                                                        |
-| ------------- | ---------------------- | ---------------------------------------------------------------------------------- |
-| `recheck`     | `RECHECK_PARAMETERS`   | The parameters of the checks in JSON.                                              |
-| `redos-detector` | `REDOS_DETECTOR_OPTIONS` | The options of `isSafePattern` in JSON.                                       |
-| `redoshunter` | `REDOSHUNTER_LANGUAGE` | The language whose engine validates the attack strings: `js` (default) or `java`.  |
-| `scslre`      | `SCSLRE_OPTIONS`       | The options of `analyse` in JSON.                                                  |
-| JVM tools     | `JAVA_TOOL_OPTIONS`    | The options of the JVM.                                                            |
+| Tool             | Variable                 | Description                                                                       |
+| ---------------- | ------------------------ | --------------------------------------------------------------------------------- |
+| `lara`           | `LARA_MODE`              | The mode of the detection: `both` (default), `polynomial` or `exponential`.       |
+| `recheck`        | `RECHECK_PARAMETERS`     | The parameters of the checks in JSON.                                             |
+| `redos-detector` | `REDOS_DETECTOR_OPTIONS` | The options of `isSafePattern` in JSON.                                           |
+| `redoshunter`    | `REDOSHUNTER_LANGUAGE`   | The language whose engine validates the attack strings: `js` (default) or `java`. |
+| `scslre`         | `SCSLRE_OPTIONS`         | The options of `analyse` in JSON.                                                 |
+| JVM tools        | `JAVA_TOOL_OPTIONS`      | The options of the JVM.                                                           |
 
 ## Dataset
 
@@ -109,6 +112,7 @@ A tool may add its own fields.
 
 ## Notes on the tools
 
+- `lara`: the flags are not used. It analyses a pattern as a match of the whole input, so it does not report a pattern that is slow only in a search. It reports a prefix and a pump without a suffix and without a degree. The wrapper runs its command for each pattern.
 - `regex-static-analysis`: the flags are not used. The degree of the analysis is the degree of ambiguity, so the result has it plus one.
 - `rescue`: the flags are not used. Its genetic algorithm takes random numbers without a seed, so results differ between runs.
 - `regex-matching-analyzer`: the flags `g` and `m` are removed, as its parser does not accept them. The sources of the tool are compiled together with the wrapper instead of running its sbt build.
