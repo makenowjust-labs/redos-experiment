@@ -23,6 +23,13 @@ const request = async (method, params) => {
 
 const resultOf = ({ result, error }) => {
   if (error !== undefined) return { status: "error", message: JSON.stringify(error) };
+  // The runtime-attack verification, when the parameters enable it, runs the attack strings on the engine of the image:
+  // `runtimeAttack` is the run of the reported one, and `refuted` is the number of the ones that it refuted.
+  const fields = {
+    checker: result.checker ?? undefined,
+    runtimeAttack: result.runtimeAttack ?? undefined,
+    refuted: result.refutedAttacks?.length || undefined,
+  };
   switch (result.status) {
     case "vulnerable":
       return {
@@ -32,16 +39,16 @@ const resultOf = ({ result, error }) => {
           pumps: result.attack.pumps.map(({ prefix, pump }) => ({ prefix, pump })),
           suffix: result.attack.suffix,
         },
-        checker: result.checker,
+        ...fields,
       };
     case "safe":
-      return { status: "safe", complexity: { type: result.complexity.type }, checker: result.checker };
+      return { status: "safe", complexity: { type: result.complexity.type }, ...fields };
     default:
       // The timeout here is the one of the parameters, while the runner has its own one.
       return {
         status: result.error.kind === "timeout" ? "timeout" : "error",
         message: result.error.message ?? result.error.kind,
-        checker: result.checker ?? undefined,
+        ...fields,
       };
   }
 };
