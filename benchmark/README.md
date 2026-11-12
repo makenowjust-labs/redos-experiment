@@ -16,6 +16,7 @@ The images are built for `linux/amd64`.
 
 | Tool                      | Source                                                                                              |
 | ------------------------- | --------------------------------------------------------------------------------------------------- |
+| `codeql`                  | The CodeQL bundle of [github/codeql-action](https://github.com/github/codeql-action/releases)       |
 | `lara`                    | The artifact of the paper at [10.5281/zenodo.21485406](https://doi.org/10.5281/zenodo.21485406)     |
 | `rat`                     | [phreppo/rat](https://github.com/phreppo/rat)                                                       |
 | `recheck`                 | A release of [makenowjust-labs/recheck](https://github.com/makenowjust-labs/recheck)                |
@@ -119,6 +120,7 @@ A tool may add its own fields.
 
 ## Notes on the tools
 
+- `codeql`: it takes batches, and each pattern is written as a regular expression literal in its own file. The result is the findings of `js/redos` and of the terms under `js/polynomial-redos` without the data flow, so it has no degree and no suffix. The parser of its extractor reports errors on some valid patterns and analyses them anyway, so `errors` of the result has them. The prefix and the pump of a pattern can differ with the other patterns of the batch. The terms of CodeQL do not let the CLI be distributed, so the image must not be published.
 - `lara`: the flags are not used. It analyses a pattern as a match of the whole input, so it does not report a pattern that is slow only in a search. It reports a prefix and a pump without a suffix and without a degree. The wrapper runs its command for each pattern.
 - `rat`: it reports exponential patterns only. The pattern is given as `/source/flags` with the flags `g`, `i`, `m` and `s` only, as its parser reads other flags as a part of the pattern. Its command reports a pattern as safe when it finds no attack string of printable characters, and `.` matches line terminators. The wrapper runs its command for each pattern.
 - `regex-static-analysis`: the flags are not used. The degree of the analysis is the degree of ambiguity, so the result has it plus one.

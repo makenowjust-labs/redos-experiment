@@ -24,6 +24,7 @@ const sources: Record<string, string> = {
 
 // The versions of the tools that their Dockerfiles download.
 const versions: Record<string, string> = {
+  codeql: "2.27.4",
   lara: "zenodo.21485406",
   // RXXR2 has no version, so it is the head of the SHA-256 of its archive.
   rxxr2: "b43bedb17b8d",
