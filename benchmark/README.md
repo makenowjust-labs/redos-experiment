@@ -22,7 +22,9 @@ The images are built for `linux/amd64`.
 | `redoshunter`             | [yetingli/ReDoSHunter](https://github.com/yetingli/ReDoSHunter)                                     |
 | `regex-matching-analyzer` | [minamide-group/regex-matching-analyzer](https://github.com/minamide-group/regex-matching-analyzer) |
 | `regex-static-analysis`   | [NicolaasWeideman/RegexStaticAnalysis](https://github.com/NicolaasWeideman/RegexStaticAnalysis)     |
+| `rengar`                  | [wangx1nyi/Rengar](https://github.com/wangx1nyi/Rengar)                                             |
 | `rescue`                  | [2bdenny/ReScue](https://github.com/2bdenny/ReScue)                                                 |
+| `revealer`                | [cuhk-seclab/Revealer](https://github.com/cuhk-seclab/Revealer)                                     |
 | `safe-regex`              | The npm package [safe-regex](https://www.npmjs.com/package/safe-regex)                              |
 | `scslre`                  | The npm package [scslre](https://www.npmjs.com/package/scslre)                                      |
 
@@ -73,6 +75,7 @@ $ node summary.ts ../result/regex-static-analysis.jsonl ../result/recheck.jsonl
 | `--parallel <n>`      | The number of the tool processes.                                | `1`     |
 | `--memory <size>`     | The memory limit of a tool process.                              | `4g`    |
 | `--env <KEY=VALUE>`   | An environment variable of the tool. It can be given many times. |         |
+| `--batch <n>`         | The number of the patterns of a request, for a tool of batches.  |         |
 | `--limit <n>`         | The number of the patterns to run from the head of the dataset.  |         |
 
 A tool process runs with one CPU and without the network.
@@ -114,7 +117,9 @@ A tool may add its own fields.
 
 - `lara`: the flags are not used. It analyses a pattern as a match of the whole input, so it does not report a pattern that is slow only in a search. It reports a prefix and a pump without a suffix and without a degree. The wrapper runs its command for each pattern.
 - `regex-static-analysis`: the flags are not used. The degree of the analysis is the degree of ambiguity, so the result has it plus one.
+- `rengar`: the flags are not used. It runs on Java 17 with the preview features, and a hit of its own time limit of 15 seconds is recorded as `timeout`. Its validator checks the type name `SLQ` while the type is named `POLS`, so every attack string is validated by a match of the whole input, and most patterns that are polynomial only in a search are reported as safe. The image runs the tool as it is.
 - `rescue`: the flags are not used. Its genetic algorithm takes random numbers without a seed, so results differ between runs.
+- `revealer`: the flags are not used. It reports a pattern only when an attack string of at most 128 characters takes 100000 steps on its regex engine, so most polynomial patterns are reported as safe. Its analysis depends on the iteration order of hash sets of objects, so results differ between runs.
 - `regex-matching-analyzer`: the flags `g` and `m` are removed, as its parser does not accept them. The sources of the tool are compiled together with the wrapper instead of running its sbt build.
 - `redoshunter`: the jar of its Maven build has the classes of a dependency (`dk.brics.automaton`) over its own modified classes, so the image puts the classes of the tool first on the class path.
 - `recheck`: a timeout by its own `timeout` parameter is also recorded as `timeout`.
@@ -127,3 +132,7 @@ A tool may add its own fields.
 Add `tools/<tool>/Dockerfile`.
 The entry point of the image writes `{"ready": true}` on a line of the standard output, and then, for each line `{"source": ..., "flags": ...}` of the standard input, writes the result on a line.
 A tool on the JVM can extend `tools/wrapper/Wrapper.scala`, and a tool on Node.js can use `tools/wrapper/wrapper.mjs`.
+
+A tool with a large cost for each run can take batches instead.
+It writes `{"ready": true, "batch": true}`, and then, for each line `{"patterns": [{"source": ..., "flags": ...}, ...]}`, writes `{"results": [...]}` with the results in the same order.
+The time limit of a batch is the time limit of a pattern times the number of its patterns, and the time of each pattern is the time of the batch over this number.
