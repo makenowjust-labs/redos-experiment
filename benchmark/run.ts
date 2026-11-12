@@ -4,6 +4,9 @@
 // The first line of the output has the conditions of the run.
 // Running it again with the same conditions continues from the patterns that the output already has.
 //
+// With `--attacks`, it runs an engine instead: the patterns are the ones that the given result has an attack string of,
+// and each request has `attack` of the result with the pattern.
+//
 // Options:
 //   --image <ref>        the image of the tool
 //   --command <command>  a command to run instead of an image, for development
@@ -12,6 +15,7 @@
 //   --memory <size>      the memory limit of a tool process (default: 4g)
 //   --env <KEY=VALUE>    an environment variable of the tool, repeatable
 //   --batch <n>          the number of the patterns of a request, for a tool that takes batches
+//   --attacks <result>   the result of a tool whose attack strings an engine takes
 //   --limit <n>          the number of the patterns to run from the head of the dataset
 
 import { type ChildProcess, execFileSync, spawn } from "node:child_process";
@@ -34,6 +38,7 @@ const { positionals, values } = parseArgs({
     memory: { type: "string", default: "4g" },
     env: { type: "string", multiple: true, default: [] },
     batch: { type: "string" },
+    attacks: { type: "string" },
     limit: { type: "string" },
   },
 });
@@ -53,6 +58,22 @@ const dataset: Item[] = datasetPath.endsWith(".jsonl")
   : JSON.parse(datasetText);
 const size = values.limit === undefined ? dataset.length : Math.min(Number(values.limit), dataset.length);
 
+// The requests by the indices of their patterns.
+const requests = new Map<number, object>();
+const attacksText = values.attacks === undefined ? undefined : readFileSync(values.attacks, "utf8");
+if (attacksText === undefined) {
+  for (let index = 0; index < size; index++) {
+    requests.set(index, { source: dataset[index].source, flags: dataset[index].flags ?? "" });
+  }
+} else {
+  const [, ...lines] = attacksText.split("\n").filter((line) => line !== "");
+  for (const line of lines) {
+    const { index, attack } = JSON.parse(line);
+    if (index >= size || attack === undefined || attack === null) continue;
+    requests.set(index, { source: dataset[index].source, flags: dataset[index].flags ?? "", attack });
+  }
+}
+
 const docker = (...args: string[]): string => execFileSync("docker", args, { encoding: "utf8" }).trim();
 
 const labels = (): Record<string, string> => {
@@ -71,6 +92,7 @@ const conditions = {
   memory: values.memory,
   env: values.env,
   batch: values.batch,
+  attacks: attacksText === undefined ? undefined : { sha256: createHash("sha256").update(attacksText).digest("hex") },
 };
 
 const done = new Set<number>();
@@ -185,7 +207,7 @@ class Worker {
 
   // Checks the patterns by a request: a tool of batches takes them all in a request, and another tool takes one.
   // The time of a pattern of a batch is the time of the batch over the number of its patterns.
-  async check(items: Item[]): Promise<object[]> {
+  async check(items: object[]): Promise<object[]> {
     if (this.child === null) {
       this.start();
       const ready = await this.line(StartTimeout);
@@ -198,9 +220,8 @@ class Worker {
         throw new Error("--batch is for a tool of batches, and such a tool needs it");
       }
     }
-    const patterns = items.map((item) => ({ source: item.source, flags: item.flags ?? "" }));
     const start = performance.now();
-    this.child!.stdin!.write(JSON.stringify(batch !== undefined ? { patterns } : patterns[0]) + "\n");
+    this.child!.stdin!.write(JSON.stringify(batch !== undefined ? { patterns: items } : items[0]) + "\n");
     const line = await this.line(timeout * items.length);
     const time = (performance.now() - start) / items.length;
     if (line === undefined) {
@@ -215,11 +236,12 @@ class Worker {
 
 const counts: Record<string, number> = {};
 const started = Date.now();
+const pending = [...requests.keys()].filter((index) => !done.has(index));
 let next = 0;
 let finished = 0;
 const report = (): void => {
   const seconds = Math.round((Date.now() - started) / 1000);
-  console.error(`${done.size}/${size} ${seconds}s ${JSON.stringify(counts)}`);
+  console.error(`${requests.size - pending.length + finished}/${requests.size} ${seconds}s ${JSON.stringify(counts)}`);
 };
 const workers = Array.from({ length: parallel }, (_, id) => new Worker(id));
 process.on("SIGINT", () => {
@@ -230,16 +252,12 @@ try {
   await Promise.all(
     workers.map(async (worker) => {
       for (;;) {
-        const indices: number[] = [];
-        while (indices.length < (batch ?? 1) && next < size) {
-          const index = next++;
-          if (!done.has(index)) indices.push(index);
-        }
+        const indices = pending.slice(next, next + (batch ?? 1));
+        next += indices.length;
         if (indices.length === 0) break;
-        const results = (await worker.check(indices.map((index) => dataset[index]))) as { status: string }[];
+        const results = (await worker.check(indices.map((index) => requests.get(index)!))) as { status: string }[];
         for (const [i, result] of results.entries()) {
           appendFileSync(outputPath, JSON.stringify({ index: indices[i], ...result }) + "\n");
-          done.add(indices[i]);
           counts[result.status] = (counts[result.status] ?? 0) + 1;
           if (++finished % 100 === 0) report();
         }

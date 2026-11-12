@@ -18,7 +18,7 @@ if (results.length === 0) {
   process.exit(1);
 }
 
-const statuses = ["vulnerable", "safe", "timeout", "error", "crash"];
+const statuses = [...new Set(results.flatMap(({ records }) => records.map((record) => record.status)))].sort();
 const seconds = (ms: number): string => (ms / 1000).toFixed(3);
 
 console.table(

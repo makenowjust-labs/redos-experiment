@@ -69,6 +69,15 @@ Print the summary of results.
 $ node summary.ts ../result/regex-static-analysis.jsonl ../result/recheck.jsonl
 ```
 
+Measure the attack strings of a result on an engine.
+
+```console
+$ node build.ts node
+redos-experiment/node:26.13.0
+$ node run.ts ../data/redos-regexp.json ../result/recheck.attack.jsonl \
+    --image redos-experiment/node:26.13.0 --attacks ../result/recheck.jsonl --timeout 120 --parallel 8
+```
+
 ### Options of the runner
 
 | Option                | Description                                                      | Default |
@@ -80,6 +89,7 @@ $ node summary.ts ../result/regex-static-analysis.jsonl ../result/recheck.jsonl
 | `--memory <size>`     | The memory limit of a tool process.                              | `4g`    |
 | `--env <KEY=VALUE>`   | An environment variable of the tool. It can be given many times. |         |
 | `--batch <n>`         | The number of the patterns of a request, for a tool of batches.  |         |
+| `--attacks <result>`  | The result of a tool whose attack strings an engine takes.       |         |
 | `--limit <n>`         | The number of the patterns to run from the head of the dataset.  |         |
 
 A tool process runs with one CPU and without the network.
@@ -117,6 +127,29 @@ Each of the other lines is the result of a pattern.
 | `message`    | The message of an error.                                                                                        |
 
 A tool may add its own fields.
+
+## Engines
+
+The tools do not agree on what a vulnerable pattern is, so an engine measures what their attack strings do on a real implementation.
+With `--attacks`, the runner gives an engine each pattern that the result has an attack string of, with the attack string.
+
+The engine `node` matches the pattern by `RegExp.prototype.exec` on V8, each match in its own process.
+The attack string of the repeat count `n` is the prefixes and `n` times the pumps in their order, and the suffix.
+The repeat count is doubled from 1 until the string is longer than the maximum length or a match is slow.
+For an attack string without a suffix, it tries no suffix, `\0` and a line feed in this order.
+
+| Variable               | Description                                              | Default  |
+| ---------------------- | -------------------------------------------------------- | -------- |
+| `ATTACK_MAX_LENGTH`    | The maximum length of an attack string in characters.    | `100000` |
+| `ATTACK_SLOW_TIME`     | The time of a slow match in milliseconds.                | `1000`   |
+| `ATTACK_MATCH_TIMEOUT` | The time to stop a match in milliseconds.                | `10000`  |
+
+The result of a pattern has the following fields.
+
+| Field    | Description                                                                                                     |
+| -------- | --------------------------------------------------------------------------------------------------------------- |
+| `status` | `slow` when a match was slow or was stopped, `fast` otherwise, or `error` when V8 does not compile the pattern. |
+| `series` | For each suffix that was tried, `suffix` and `sizes`: `repeat`, `length` and `time` of each match in milliseconds, where the time of a stopped match is `null`. |
 
 ## Notes on the tools
 

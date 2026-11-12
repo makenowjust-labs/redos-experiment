@@ -1,6 +1,7 @@
 // Usage: node build.ts <tool>[:<tag>] [<docker build options>...]
 //
-// Builds the image `redos-experiment/<tool>:<tag>` from `tools/<tool>/Dockerfile`.
+// Builds the image `redos-experiment/<tool>:<tag>` from `tools/<tool>/Dockerfile`, or from `engines/<tool>/Dockerfile`
+// for an engine.
 // A tool with a submodule is built from the commit of the submodule that `HEAD` has, and the tag is this commit
 // unless it is given.
 // The tag of a tool with `package.json` is the version of the package unless it is given.
@@ -26,6 +27,7 @@ const sources: Record<string, string> = {
 const versions: Record<string, string> = {
   codeql: "2.27.4",
   lara: "zenodo.21485406",
+  node: "26.13.0",
   // RXXR2 has no version, so it is the head of the SHA-256 of its archive.
   rxxr2: "b43bedb17b8d",
 };
@@ -38,7 +40,13 @@ if (target === undefined) {
 const [tool, givenTag] = target.split(":");
 
 const root = path.resolve(import.meta.dirname, "..");
-const directory = path.join(root, "benchmark/tools", tool);
+const directory = ["tools", "engines"]
+  .map((kind) => path.join(root, "benchmark", kind, tool))
+  .find((candidate) => existsSync(candidate));
+if (directory === undefined) {
+  console.error(`${tool} is neither a tool nor an engine`);
+  process.exit(1);
+}
 const git = (...args: string[]): string => execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();
 
 // The runner records the labels of this prefix in the results.
