@@ -1,0 +1,27 @@
+The driver of the pinned commit fails with an exception at two places.
+`PathLengthSampler.kill` fails when the last measurement was a time-out, as the time-out leaves no process.
+`get_pump_report` takes five values from a profile of four values, so it fails for every pattern whose pumping ends
+without a time-out and without a class that stops it early.
+`pump_all.py` of the artifact of the paper (10.5281/zenodo.5669243) takes four values there.
+
+--- a/driver/pump.py
++++ b/driver/pump.py
+@@ -108,7 +108,8 @@
+         return loop.run_until_complete(future)
+     
+     def kill(self):
+-        self.sampler.kill()
++        if self.sampler is not None:
++            self.sampler.kill()
+ 
+ def pump_witness(witness, pump_pos, pump_len, width, times) -> bytes:
+     assert pump_len <= len(witness) // width
+@@ -296,7 +297,7 @@
+             _, slowest_pump_pos, slowest_pump_len, pts = pump_timeout
+             klass = ('EXPONENTIAL(pump_timeout)',)
+         else:
+-            for newklass, _, pump_pos, pump_len, pts in profiles:
++            for newklass, pump_pos, pump_len, pts in profiles:
+                 assert newklass[0] != 'EXPONENTIAL', 'should have done fastbreak'
+                 if newklass[0] == 'POLYNOMIAL':
+                     should_replace = (

@@ -10,3 +10,18 @@
 [submodule "dep/ReDoSHunter"]
 	path = dep/ReDoSHunter
 	url = https://github.com/yetingli/ReDoSHunter
+[submodule "dep/Revealer"]
+	path = dep/Revealer
+	url = https://github.com/cuhk-seclab/Revealer
+[submodule "dep/Rengar"]
+	path = dep/Rengar
+	url = https://github.com/wangx1nyi/Rengar
+[submodule "dep/rat"]
+	path = dep/rat
+	url = https://github.com/phreppo/rat
+[submodule "dep/regulator-dynamic"]
+	path = dep/regulator-dynamic
+	url = https://github.com/ucsb-seclab/regulator-dynamic
+[submodule "dep/regexploit"]
+	path = dep/regexploit
+	url = https://github.com/doyensec/regexploit

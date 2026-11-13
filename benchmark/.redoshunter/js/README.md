@@ -1,1 +1,0 @@
-This directory's contents are copied from `dep/ReDoSHunter/js`.

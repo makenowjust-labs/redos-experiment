@@ -1,0 +1,7 @@
+name: redos-experiment/codeql
+version: 0.0.0
+library: false
+extractor: javascript
+dependencies:
+  codeql/javascript-all: "*"
+  codeql/regex: "*"
